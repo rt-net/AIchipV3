@@ -6,6 +6,11 @@
 ## circuit  
 AIチップの回路図です.
 
+### ファイル内容
+
+ * AIchipV3-MainBoard    メイン基板の回路図      
+ * AIchipV3-MotorDriver  モータドライバモジュールの回路図
+
 ## Processing  
 
 ### 概要
