@@ -1,0 +1,9 @@
+<map id="CMSIS CM3 Core Register" name="CMSIS CM3 Core Register">
+<area shape="rect" id="node1" href="$group___c_m_s_i_s___c_m3___s_c_b.html" title="CMSIS CM3 SCB" alt="" coords="449,5,574,32"/>
+<area shape="rect" id="node2" href="$group___c_m_s_i_s___c_m3___sys_tick.html" title="CMSIS CM3 SysTick" alt="" coords="439,56,584,83"/>
+<area shape="rect" id="node3" href="$group___c_m_s_i_s___c_m3___i_t_m.html" title="CMSIS CM3 ITM" alt="" coords="452,107,571,133"/>
+<area shape="rect" id="node4" href="$group___c_m_s_i_s___c_m3___n_v_i_c.html" title="CMSIS CM3 NVIC" alt="" coords="447,157,575,184"/>
+<area shape="rect" id="node7" href="$group___c_m_s_i_s___c_m3___core_debug.html" title="CMSIS CM3 Core Debug" alt="" coords="428,208,595,235"/>
+<area shape="rect" id="node8" href="$group___c_m_s_i_s___c_m3___interrupt_type.html" title="CMSIS CM3 Interrupt Type" alt="" coords="423,259,600,285"/>
+<area shape="rect" id="node6" href="$group___c_m_s_i_s___c_m3__core__definitions.html" title="CM3 Core Definitions" alt="" coords="5,132,149,159"/>
+</map>

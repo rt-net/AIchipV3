@@ -1,0 +1,4 @@
+<map id="USB_SetStallEP" name="USB_SetStallEP">
+<area shape="rect" id="node2" href="$usbcore_8c.html#aa84567109d1fe52a9d18d5562040971d" title="USB_ReqSetClrFeature" alt="" coords="173,5,332,32"/>
+<area shape="rect" id="node3" href="$usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="380,31,496,57"/>
+</map>

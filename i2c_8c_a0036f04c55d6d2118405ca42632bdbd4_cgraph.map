@@ -1,0 +1,4 @@
+<map id="I2CEngine" name="I2CEngine">
+<area shape="rect" id="node2" href="$i2c_8c.html#a7c87427cfa767315491db0a0c005ec59" title="I2CStart" alt="" coords="135,5,204,32"/>
+<area shape="rect" id="node3" href="$i2c_8c.html#a7b1d12f3a83330eda885db24a701e1b5" title="I2CStop" alt="" coords="135,56,203,83"/>
+</map>

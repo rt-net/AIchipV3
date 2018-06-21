@@ -1,0 +1,8 @@
+<map id="USB_ReadEP" name="USB_ReadEP">
+<area shape="rect" id="node2" href="$cdcuser_8c.html#a1baecbd0f77524c5d1cf2faf27f932d8" title="CDC_BulkOut" alt="" coords="181,5,283,32"/>
+<area shape="rect" id="node4" href="$usbcore_8c.html#ac0076a5289eba0843bf484db9a6b44c3" title="USB_SetupStage" alt="" coords="170,56,294,83"/>
+<area shape="rect" id="node6" href="$usbcore_8c.html#a147ac40813dde8a168086e312a8aeff7" title="USB_DataOutStage" alt="" coords="163,107,301,133"/>
+<area shape="rect" id="node7" href="$usbcore_8c.html#a860cd794341aff47dd390c4cadcec3e7" title="USB_StatusOutStage" alt="" coords="157,157,307,184"/>
+<area shape="rect" id="node3" href="$usbuser_8c.html#a207eec28301f78ada1134d266958e807" title="USB_EndPoint3" alt="" coords="355,5,471,32"/>
+<area shape="rect" id="node5" href="$usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="355,107,471,133"/>
+</map>

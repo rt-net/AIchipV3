@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3: inc/AICHIP/AICHIPFunction.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_66732bebd6e8d906bf079d84012861f0.html">AICHIP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">AICHIPFunction.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h__dep__incl.png" border="0" usemap="#inc_2_a_i_c_h_i_p_2_a_i_c_h_i_p_function_8hdep" alt=""/></div>
+<map name="inc_2_a_i_c_h_i_p_2_a_i_c_h_i_p_function_8hdep" id="inc_2_a_i_c_h_i_p_2_a_i_c_h_i_p_function_8hdep">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html" title="モーターの回転, 機体データの送信, コマンドの受信 &#160;&#160;10msec毎に割り込み関数で処理を実行 ..." alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="223,80,352,107"/>
+<area shape="rect" id="node4" href="mode___bluetooth_setting_8c.html" title="Bluetoothモジュールのボーレート等を設定する. &#160;//設定項目// &#160;Bluetoothデバイス名:RT&#45;AICHIP &#160;&#160;ボーレー�..." alt="" coords="376,80,609,107"/>
+<area shape="rect" id="node5" href="mode__control_run_8c.html" title="コースの状況に応じてモーターのdutyを変えながら走るモード &#160;&#160;////操作//// &#160;右SW: スタート,ストップの切り替え &#160;左SW: 長押しでモード選択へ遷移 &#160;" alt="" coords="633,80,832,107"/>
+<area shape="rect" id="node6" href="mode__debug_8c.html" title="デバッグ用モード. データを出力し続ける &#160;&#160;////操作//// &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="856,80,1028,107"/>
+<area shape="rect" id="node7" href="mode__duty_max_8c.html" title="src/MODE/mode_dutyMax.c" alt="" coords="1053,80,1239,107"/>
+<area shape="rect" id="node8" href="mode__select_duty_8c.html" title="dutyを選択して走るモード &#160;&#160;////操作//// &#160;右SW: dutyの変更 &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="1264,80,1463,107"/>
+</map>
+</div>
+</div>
+<p><a href="_a_i_c_h_i_p_function_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a6adc919a1cdcc648f73433f657d2272f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a6adc919a1cdcc648f73433f657d2272f">initAICHIP</a> (void)</td></tr>
+<tr class="separator:a6adc919a1cdcc648f73433f657d2272f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ff919bbe2bc33306db409cd474705f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a74ff919bbe2bc33306db409cd474705f">setSendDataEnable</a> (<a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> en)</td></tr>
+<tr class="separator:a74ff919bbe2bc33306db409cd474705f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a8ac093266a9997a930691fccfc9bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a16a8ac093266a9997a930691fccfc9bd">setDutyMotor</a> (float pwm_duty)</td></tr>
+<tr class="separator:a16a8ac093266a9997a930691fccfc9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b8de93cea8fa939e37425aeba9b359"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a10b8de93cea8fa939e37425aeba9b359">getDutyMotor</a> (void)</td></tr>
+<tr class="separator:a10b8de93cea8fa939e37425aeba9b359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac844c4c657c5ae28f3b55029d6617e83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#ac844c4c657c5ae28f3b55029d6617e83">setDutyRate</a> (float targetDuty, float dutyRate)</td></tr>
+<tr class="separator:ac844c4c657c5ae28f3b55029d6617e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5950f91900fdb042d2c1117d08fc896f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a5950f91900fdb042d2c1117d08fc896f">getDegree</a> (void)</td></tr>
+<tr class="separator:a5950f91900fdb042d2c1117d08fc896f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc78eb7c8d94b18eed7fc31c4459dbc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#afc78eb7c8d94b18eed7fc31c4459dbc1">setDegree</a> (float deg)</td></tr>
+<tr class="separator:afc78eb7c8d94b18eed7fc31c4459dbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad035ccd72a2ed5a3b9f0e74ac990de0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#ad035ccd72a2ed5a3b9f0e74ac990de0a">isStop</a> (void)</td></tr>
+<tr class="separator:ad035ccd72a2ed5a3b9f0e74ac990de0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7afd5477ecdbb4c1f8dc0ed7176895de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a7afd5477ecdbb4c1f8dc0ed7176895de">isCurve</a> (void)</td></tr>
+<tr class="separator:a7afd5477ecdbb4c1f8dc0ed7176895de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ac35fcddba4622c818c39a65d7b5a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a11ac35fcddba4622c818c39a65d7b5a3">isSlope</a> (void)</td></tr>
+<tr class="separator:a11ac35fcddba4622c818c39a65d7b5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e601c6cbe042f244a4715d8922e071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_a_i_c_h_i_p_function_8h.html#a98e601c6cbe042f244a4715d8922e071">debugAICHIP</a> (void)</td></tr>
+<tr class="separator:a98e601c6cbe042f244a4715d8922e071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a98e601c6cbe042f244a4715d8922e071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98e601c6cbe042f244a4715d8922e071">&#9670;&nbsp;</a></span>debugAICHIP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void debugAICHIP </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>デバッグ用関数</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_cgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_cgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_cgraph" id="_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_cgraph">
+<area shape="rect" id="node2" href="debug_8h.html#acb52286c12863b103cc835c3d8310773" title="myPrintfUART" alt="" coords="152,5,256,32"/>
+<area shape="rect" id="node4" href="_a_i_c_h_i_p_function_8c.html#a10b8de93cea8fa939e37425aeba9b359" title="getDutyMotor" alt="" coords="154,56,254,83"/>
+<area shape="rect" id="node5" href="_a_i_c_h_i_p_function_8c.html#a5950f91900fdb042d2c1117d08fc896f" title="getDegree" alt="" coords="163,107,245,133"/>
+<area shape="rect" id="node6" href="_a_i_c_h_i_p_function_8c.html#ad035ccd72a2ed5a3b9f0e74ac990de0a" title="isStop" alt="" coords="175,157,233,184"/>
+<area shape="rect" id="node7" href="_a_i_c_h_i_p_function_8c.html#a7afd5477ecdbb4c1f8dc0ed7176895de" title="isCurve" alt="" coords="172,208,236,235"/>
+<area shape="rect" id="node8" href="_a_i_c_h_i_p_function_8c.html#a11ac35fcddba4622c818c39a65d7b5a3" title="isSlope" alt="" coords="171,259,237,285"/>
+<area shape="rect" id="node3" href="uart_8h.html#ae8554b16d7597ea89092ecf98071508e" title="UARTSend" alt="" coords="304,5,391,32"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_icgraph" id="_a_i_c_h_i_p_function_8h_a98e601c6cbe042f244a4715d8922e071_icgraph">
+<area shape="rect" id="node2" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="152,5,248,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5950f91900fdb042d2c1117d08fc896f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5950f91900fdb042d2c1117d08fc896f">&#9670;&nbsp;</a></span>getDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float getDegree </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>現在の角度を返す</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a5950f91900fdb042d2c1117d08fc896f_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a5950f91900fdb042d2c1117d08fc896f_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a5950f91900fdb042d2c1117d08fc896f_icgraph" id="_a_i_c_h_i_p_function_8h_a5950f91900fdb042d2c1117d08fc896f_icgraph">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html#a2671eabb816d9bfed21d20b6e811d3fb" title="debugAICHIP" alt="" coords="135,5,233,32"/>
+<area shape="rect" id="node3" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="281,5,377,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a10b8de93cea8fa939e37425aeba9b359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10b8de93cea8fa939e37425aeba9b359">&#9670;&nbsp;</a></span>getDutyMotor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float getDutyMotor </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>motorに設定した現在のdutyを返す</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>現在のduty -1.0から1.0 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a10b8de93cea8fa939e37425aeba9b359_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a10b8de93cea8fa939e37425aeba9b359_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a10b8de93cea8fa939e37425aeba9b359_icgraph" id="_a_i_c_h_i_p_function_8h_a10b8de93cea8fa939e37425aeba9b359_icgraph">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html#a2671eabb816d9bfed21d20b6e811d3fb" title="debugAICHIP" alt="" coords="153,5,252,32"/>
+<area shape="rect" id="node3" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="300,5,396,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6adc919a1cdcc648f73433f657d2272f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6adc919a1cdcc648f73433f657d2272f">&#9670;&nbsp;</a></span>initAICHIP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initAICHIP </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>AICHIPFunction.c内の関数を使用できるようにする</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_cgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_cgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_cgraph" id="_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_cgraph">
+<area shape="rect" id="node2" href="timer_8h.html#a824037b66943b82834b0a5b889727bec" title="startTimer32_1" alt="" coords="135,5,243,32"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_icgraph" id="_a_i_c_h_i_p_function_8h_a6adc919a1cdcc648f73433f657d2272f_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="135,5,173,32"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="221,5,272,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7afd5477ecdbb4c1f8dc0ed7176895de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7afd5477ecdbb4c1f8dc0ed7176895de">&#9670;&nbsp;</a></span>isCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> isCurve </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>カーブしているかどうかを返す</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a7afd5477ecdbb4c1f8dc0ed7176895de_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a7afd5477ecdbb4c1f8dc0ed7176895de_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a7afd5477ecdbb4c1f8dc0ed7176895de_icgraph" id="_a_i_c_h_i_p_function_8h_a7afd5477ecdbb4c1f8dc0ed7176895de_icgraph">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html#a2671eabb816d9bfed21d20b6e811d3fb" title="debugAICHIP" alt="" coords="117,5,216,32"/>
+<area shape="rect" id="node3" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="264,5,360,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a11ac35fcddba4622c818c39a65d7b5a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11ac35fcddba4622c818c39a65d7b5a3">&#9670;&nbsp;</a></span>isSlope()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> isSlope </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>斜面にいるかどうかを返す</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a11ac35fcddba4622c818c39a65d7b5a3_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a11ac35fcddba4622c818c39a65d7b5a3_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a11ac35fcddba4622c818c39a65d7b5a3_icgraph" id="_a_i_c_h_i_p_function_8h_a11ac35fcddba4622c818c39a65d7b5a3_icgraph">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html#a2671eabb816d9bfed21d20b6e811d3fb" title="debugAICHIP" alt="" coords="119,5,217,32"/>
+<area shape="rect" id="node3" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="265,5,361,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad035ccd72a2ed5a3b9f0e74ac990de0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad035ccd72a2ed5a3b9f0e74ac990de0a">&#9670;&nbsp;</a></span>isStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> isStop </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>静止状態かどうかを返す</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_ad035ccd72a2ed5a3b9f0e74ac990de0a_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_ad035ccd72a2ed5a3b9f0e74ac990de0a_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_ad035ccd72a2ed5a3b9f0e74ac990de0a_icgraph" id="_a_i_c_h_i_p_function_8h_ad035ccd72a2ed5a3b9f0e74ac990de0a_icgraph">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html#a2671eabb816d9bfed21d20b6e811d3fb" title="debugAICHIP" alt="" coords="112,5,211,32"/>
+<area shape="rect" id="node3" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="259,5,355,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afc78eb7c8d94b18eed7fc31c4459dbc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc78eb7c8d94b18eed7fc31c4459dbc1">&#9670;&nbsp;</a></span>setDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDegree </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>角度をセットする</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deg</td><td>[radian] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_afc78eb7c8d94b18eed7fc31c4459dbc1_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_afc78eb7c8d94b18eed7fc31c4459dbc1_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_afc78eb7c8d94b18eed7fc31c4459dbc1_icgraph" id="_a_i_c_h_i_p_function_8h_afc78eb7c8d94b18eed7fc31c4459dbc1_icgraph">
+<area shape="rect" id="node2" href="mode__control_run_8c.html#a29f463c22bc67d42c62f5bac44fad178" title="mode_controlRun" alt="" coords="135,5,257,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a16a8ac093266a9997a930691fccfc9bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16a8ac093266a9997a930691fccfc9bd">&#9670;&nbsp;</a></span>setDutyMotor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDutyMotor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pwm_duty</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>モータを指定したdutyで回転させる</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pwm_duty</td><td>-1.0 to 1.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a16a8ac093266a9997a930691fccfc9bd_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a16a8ac093266a9997a930691fccfc9bd_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a16a8ac093266a9997a930691fccfc9bd_icgraph" id="_a_i_c_h_i_p_function_8h_a16a8ac093266a9997a930691fccfc9bd_icgraph">
+<area shape="rect" id="node2" href="mode___bluetooth_setting_8c.html#a3dcf830b1ad4a49cef522f95b7553c48" title="mode_BluetoothSetting" alt="" coords="153,5,311,32"/>
+<area shape="rect" id="node3" href="mode__control_run_8c.html#a29f463c22bc67d42c62f5bac44fad178" title="mode_controlRun" alt="" coords="171,56,293,83"/>
+<area shape="rect" id="node4" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="184,107,280,133"/>
+<area shape="rect" id="node5" href="mode__duty_max_8c.html#aac72eb218f372e7f1078b4a47c445df0" title="mode_dutyMax" alt="" coords="177,157,287,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac844c4c657c5ae28f3b55029d6617e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac844c4c657c5ae28f3b55029d6617e83">&#9670;&nbsp;</a></span>setDutyRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDutyRate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>targetDuty</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dutyRate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74ff919bbe2bc33306db409cd474705f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74ff919bbe2bc33306db409cd474705f">&#9670;&nbsp;</a></span>setSendDataEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setSendDataEnable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>en</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>機体データの送信をするかどうかを選択</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">en</td><td>1:送信 0:送信じ禁止 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_i_c_h_i_p_function_8h_a74ff919bbe2bc33306db409cd474705f_icgraph.png" border="0" usemap="#_a_i_c_h_i_p_function_8h_a74ff919bbe2bc33306db409cd474705f_icgraph" alt=""/></div>
+<map name="_a_i_c_h_i_p_function_8h_a74ff919bbe2bc33306db409cd474705f_icgraph" id="_a_i_c_h_i_p_function_8h_a74ff919bbe2bc33306db409cd474705f_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="213,5,264,32"/>
+<area shape="rect" id="node3" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="205,56,273,83"/>
+<area shape="rect" id="node4" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="191,107,287,133"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

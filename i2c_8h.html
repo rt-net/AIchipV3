@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3: inc/PERIPHERAL/i2c.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_465fd8e6a32cf7967e860f7de28a8bae.html">PERIPHERAL</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">i2c.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_8h__dep__incl.png" border="0" usemap="#inc_2_p_e_r_i_p_h_e_r_a_l_2i2c_8hdep" alt=""/></div>
+<map name="inc_2_p_e_r_i_p_h_e_r_a_l_2i2c_8hdep" id="inc_2_p_e_r_i_p_h_e_r_a_l_2i2c_8hdep">
+<area shape="rect" id="node2" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html" title="src/AICHIP/EEPROM_24LC16\lBT_I.c" alt="" coords="5,80,204,121"/>
+<area shape="rect" id="node3" href="main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="228,87,357,114"/>
+<area shape="rect" id="node4" href="mpu9250_8c.html" title="MPU9250を使えるようにするための関数群 &#160;&#160;注1)mpu9150とmpu9250では地磁気センサの出力分解能が異なる &#160;&#160;本..." alt="" coords="382,87,537,114"/>
+<area shape="rect" id="node5" href="i2c_8c.html" title="src/PERIPHERAL/i2c.c" alt="" coords="561,87,720,114"/>
+</map>
+</div>
+</div>
+<p><a href="i2c_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:abd255987ca0a4f7448393ba41a01d15f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#abd255987ca0a4f7448393ba41a01d15f">FAST_MODE_PLUS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:abd255987ca0a4f7448393ba41a01d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca034f67218340ecb2261a22c2f3dcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#aeca034f67218340ecb2261a22c2f3dcd">BUFSIZE</a>&#160;&#160;&#160;0x80</td></tr>
+<tr class="separator:aeca034f67218340ecb2261a22c2f3dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fda3522e69a1bf85f7dcd97b6023a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a85fda3522e69a1bf85f7dcd97b6023a1">MAX_TIMEOUT</a>&#160;&#160;&#160;0x00FFFFFF</td></tr>
+<tr class="separator:a85fda3522e69a1bf85f7dcd97b6023a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51aa0cdaa9eb8333c3e8b3e19ff40fe8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a51aa0cdaa9eb8333c3e8b3e19ff40fe8">I2CMASTER</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a51aa0cdaa9eb8333c3e8b3e19ff40fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d041e3065a25b5c16b8d62be1b129c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a8d041e3065a25b5c16b8d62be1b129c6">I2CSLAVE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a8d041e3065a25b5c16b8d62be1b129c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a331826b29abf912c345eb357d8e96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a19a331826b29abf912c345eb357d8e96">MPU6050_W</a>&#160;&#160;&#160;0xd0</td></tr>
+<tr class="separator:a19a331826b29abf912c345eb357d8e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb8370c8028ea2bc2bd200b01890ab8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a3eb8370c8028ea2bc2bd200b01890ab8">MPU6050_R</a>&#160;&#160;&#160;0xd1</td></tr>
+<tr class="separator:a3eb8370c8028ea2bc2bd200b01890ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fca55dfd1cf66688e3006233a94b6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a72fca55dfd1cf66688e3006233a94b6b">AK8975_W</a>&#160;&#160;&#160;0x18</td></tr>
+<tr class="separator:a72fca55dfd1cf66688e3006233a94b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a29eeeed3146f020893a332c448c64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a95a29eeeed3146f020893a332c448c64">AK8975_R</a>&#160;&#160;&#160;0x19</td></tr>
+<tr class="separator:a95a29eeeed3146f020893a332c448c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba6ae55840e1344ff7c91c22c300fa7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#aaba6ae55840e1344ff7c91c22c300fa7">PCF8594_ADDR</a>&#160;&#160;&#160;0xA0</td></tr>
+<tr class="separator:aaba6ae55840e1344ff7c91c22c300fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c4f48aea422f196a7757a38a81e7e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#af8c4f48aea422f196a7757a38a81e7e2">READ_WRITE</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:af8c4f48aea422f196a7757a38a81e7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2900d9cffda05067142c41966ac845"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a1c2900d9cffda05067142c41966ac845">RD_BIT</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a1c2900d9cffda05067142c41966ac845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fad2fbb677672fc4e969be5586753ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a9fad2fbb677672fc4e969be5586753ba">I2C_IDLE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a9fad2fbb677672fc4e969be5586753ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc40ee12da4e4773dae17310e2833c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a7bc40ee12da4e4773dae17310e2833c9">I2C_STARTED</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a7bc40ee12da4e4773dae17310e2833c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a146500a91d30443f7fa81bf5d970d7ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a146500a91d30443f7fa81bf5d970d7ef">I2C_RESTARTED</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a146500a91d30443f7fa81bf5d970d7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9e575e9af23ae9be286cb3c575d66e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a0b9e575e9af23ae9be286cb3c575d66e">I2C_REPEATED_START</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:a0b9e575e9af23ae9be286cb3c575d66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e3ba307cd7095fb53792ab5244165a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a87e3ba307cd7095fb53792ab5244165a">DATA_ACK</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a87e3ba307cd7095fb53792ab5244165a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41fefc2ef9cb237077bfe4b85066c8ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a41fefc2ef9cb237077bfe4b85066c8ea">DATA_NACK</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:a41fefc2ef9cb237077bfe4b85066c8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65d42539f78e66378a25b70b27bf70c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#ab65d42539f78e66378a25b70b27bf70c">I2CONSET_I2EN</a>&#160;&#160;&#160;0x00000040  /* I2C Control Set Register */</td></tr>
+<tr class="separator:ab65d42539f78e66378a25b70b27bf70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f4b8b6dd04dbe8ee9bec44269cd03e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a06f4b8b6dd04dbe8ee9bec44269cd03e">I2CONSET_AA</a>&#160;&#160;&#160;0x00000004</td></tr>
+<tr class="separator:a06f4b8b6dd04dbe8ee9bec44269cd03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddc4004c3d1a76baa6e5ef713b01cb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a2ddc4004c3d1a76baa6e5ef713b01cb7">I2CONSET_SI</a>&#160;&#160;&#160;0x00000008</td></tr>
+<tr class="separator:a2ddc4004c3d1a76baa6e5ef713b01cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fbb1a92e7105afa47e80bd157c40233"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a2fbb1a92e7105afa47e80bd157c40233">I2CONSET_STO</a>&#160;&#160;&#160;0x00000010</td></tr>
+<tr class="separator:a2fbb1a92e7105afa47e80bd157c40233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3609c64f3eae3dc0a8689b488c016871"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a3609c64f3eae3dc0a8689b488c016871">I2CONSET_STA</a>&#160;&#160;&#160;0x00000020</td></tr>
+<tr class="separator:a3609c64f3eae3dc0a8689b488c016871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab89a3182475e34c9477441377f3dacb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#aab89a3182475e34c9477441377f3dacb">I2CONCLR_AAC</a>&#160;&#160;&#160;0x00000004  /* I2C Control clear Register */</td></tr>
+<tr class="separator:aab89a3182475e34c9477441377f3dacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4351d00326d0270d6b44b58713b08139"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a4351d00326d0270d6b44b58713b08139">I2CONCLR_SIC</a>&#160;&#160;&#160;0x00000008</td></tr>
+<tr class="separator:a4351d00326d0270d6b44b58713b08139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43351ada1d6b27cd151bb022bfd528b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#ad43351ada1d6b27cd151bb022bfd528b">I2CONCLR_STAC</a>&#160;&#160;&#160;0x00000020</td></tr>
+<tr class="separator:ad43351ada1d6b27cd151bb022bfd528b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8001ea531e939688ff7e21547fece38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#aa8001ea531e939688ff7e21547fece38">I2CONCLR_I2ENC</a>&#160;&#160;&#160;0x00000040</td></tr>
+<tr class="separator:aa8001ea531e939688ff7e21547fece38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67931a4810477737c2d74cf4197a75f5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a67931a4810477737c2d74cf4197a75f5">I2DAT_I2C</a>&#160;&#160;&#160;0x00000000  /* I2C Data Reg */</td></tr>
+<tr class="separator:a67931a4810477737c2d74cf4197a75f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a238c6639775047d6c3b38c7ac14cb10d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a238c6639775047d6c3b38c7ac14cb10d">I2ADR_I2C</a>&#160;&#160;&#160;0x00000000  /* I2C Slave Address Reg */</td></tr>
+<tr class="separator:a238c6639775047d6c3b38c7ac14cb10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45102df877a75a0e0fc89f7709351682"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a45102df877a75a0e0fc89f7709351682">I2SCLH_SCLH</a>&#160;&#160;&#160;0x00000180  /* I2C SCL Duty Cycle High Reg */</td></tr>
+<tr class="separator:a45102df877a75a0e0fc89f7709351682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa413b07ab8583ff112b12bb48240dd76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#aa413b07ab8583ff112b12bb48240dd76">I2SCLL_SCLL</a>&#160;&#160;&#160;0x00000180  /* I2C SCL Duty Cycle Low Reg */</td></tr>
+<tr class="separator:aa413b07ab8583ff112b12bb48240dd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b191146d6479346314e02f4998bd447"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a2b191146d6479346314e02f4998bd447">I2SCLH_HS_SCLH</a>&#160;&#160;&#160;0x00000020  /* Fast Plus I2C SCL Duty Cycle High Reg */</td></tr>
+<tr class="separator:a2b191146d6479346314e02f4998bd447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d87759c58824c5326c37ae58ad845f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a49d87759c58824c5326c37ae58ad845f">I2SCLL_HS_SCLL</a>&#160;&#160;&#160;0x00000020  /* Fast Plus I2C SCL Duty Cycle Low Reg */</td></tr>
+<tr class="separator:a49d87759c58824c5326c37ae58ad845f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a420d56f594345b56efdac63fdabf71c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a420d56f594345b56efdac63fdabf71c2">I2C_IRQHandler</a> (void)</td></tr>
+<tr class="separator:a420d56f594345b56efdac63fdabf71c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279d004d45293dff5260643be80c1319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a279d004d45293dff5260643be80c1319">I2CInit</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> I2cMode)</td></tr>
+<tr class="separator:a279d004d45293dff5260643be80c1319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c87427cfa767315491db0a0c005ec59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a7c87427cfa767315491db0a0c005ec59">I2CStart</a> (void)</td></tr>
+<tr class="separator:a7c87427cfa767315491db0a0c005ec59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1d12f3a83330eda885db24a701e1b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a7b1d12f3a83330eda885db24a701e1b5">I2CStop</a> (void)</td></tr>
+<tr class="separator:a7b1d12f3a83330eda885db24a701e1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0036f04c55d6d2118405ca42632bdbd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i2c_8h.html#a0036f04c55d6d2118405ca42632bdbd4">I2CEngine</a> (void)</td></tr>
+<tr class="separator:a0036f04c55d6d2118405ca42632bdbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="a95a29eeeed3146f020893a332c448c64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95a29eeeed3146f020893a332c448c64">&#9670;&nbsp;</a></span>AK8975_R</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AK8975_R&#160;&#160;&#160;0x19</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72fca55dfd1cf66688e3006233a94b6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72fca55dfd1cf66688e3006233a94b6b">&#9670;&nbsp;</a></span>AK8975_W</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AK8975_W&#160;&#160;&#160;0x18</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeca034f67218340ecb2261a22c2f3dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca034f67218340ecb2261a22c2f3dcd">&#9670;&nbsp;</a></span>BUFSIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BUFSIZE&#160;&#160;&#160;0x80</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87e3ba307cd7095fb53792ab5244165a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e3ba307cd7095fb53792ab5244165a">&#9670;&nbsp;</a></span>DATA_ACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DATA_ACK&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41fefc2ef9cb237077bfe4b85066c8ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41fefc2ef9cb237077bfe4b85066c8ea">&#9670;&nbsp;</a></span>DATA_NACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DATA_NACK&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd255987ca0a4f7448393ba41a01d15f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd255987ca0a4f7448393ba41a01d15f">&#9670;&nbsp;</a></span>FAST_MODE_PLUS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FAST_MODE_PLUS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a238c6639775047d6c3b38c7ac14cb10d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a238c6639775047d6c3b38c7ac14cb10d">&#9670;&nbsp;</a></span>I2ADR_I2C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2ADR_I2C&#160;&#160;&#160;0x00000000  /* I2C Slave Address Reg */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fad2fbb677672fc4e969be5586753ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fad2fbb677672fc4e969be5586753ba">&#9670;&nbsp;</a></span>I2C_IDLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C_IDLE&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b9e575e9af23ae9be286cb3c575d66e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b9e575e9af23ae9be286cb3c575d66e">&#9670;&nbsp;</a></span>I2C_REPEATED_START</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C_REPEATED_START&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a146500a91d30443f7fa81bf5d970d7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a146500a91d30443f7fa81bf5d970d7ef">&#9670;&nbsp;</a></span>I2C_RESTARTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C_RESTARTED&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7bc40ee12da4e4773dae17310e2833c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc40ee12da4e4773dae17310e2833c9">&#9670;&nbsp;</a></span>I2C_STARTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2C_STARTED&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51aa0cdaa9eb8333c3e8b3e19ff40fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51aa0cdaa9eb8333c3e8b3e19ff40fe8">&#9670;&nbsp;</a></span>I2CMASTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CMASTER&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab89a3182475e34c9477441377f3dacb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab89a3182475e34c9477441377f3dacb">&#9670;&nbsp;</a></span>I2CONCLR_AAC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONCLR_AAC&#160;&#160;&#160;0x00000004  /* I2C Control clear Register */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8001ea531e939688ff7e21547fece38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8001ea531e939688ff7e21547fece38">&#9670;&nbsp;</a></span>I2CONCLR_I2ENC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONCLR_I2ENC&#160;&#160;&#160;0x00000040</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4351d00326d0270d6b44b58713b08139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4351d00326d0270d6b44b58713b08139">&#9670;&nbsp;</a></span>I2CONCLR_SIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONCLR_SIC&#160;&#160;&#160;0x00000008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad43351ada1d6b27cd151bb022bfd528b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad43351ada1d6b27cd151bb022bfd528b">&#9670;&nbsp;</a></span>I2CONCLR_STAC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONCLR_STAC&#160;&#160;&#160;0x00000020</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06f4b8b6dd04dbe8ee9bec44269cd03e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f4b8b6dd04dbe8ee9bec44269cd03e">&#9670;&nbsp;</a></span>I2CONSET_AA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONSET_AA&#160;&#160;&#160;0x00000004</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab65d42539f78e66378a25b70b27bf70c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65d42539f78e66378a25b70b27bf70c">&#9670;&nbsp;</a></span>I2CONSET_I2EN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONSET_I2EN&#160;&#160;&#160;0x00000040  /* I2C Control Set Register */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ddc4004c3d1a76baa6e5ef713b01cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ddc4004c3d1a76baa6e5ef713b01cb7">&#9670;&nbsp;</a></span>I2CONSET_SI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONSET_SI&#160;&#160;&#160;0x00000008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3609c64f3eae3dc0a8689b488c016871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3609c64f3eae3dc0a8689b488c016871">&#9670;&nbsp;</a></span>I2CONSET_STA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONSET_STA&#160;&#160;&#160;0x00000020</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fbb1a92e7105afa47e80bd157c40233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fbb1a92e7105afa47e80bd157c40233">&#9670;&nbsp;</a></span>I2CONSET_STO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CONSET_STO&#160;&#160;&#160;0x00000010</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d041e3065a25b5c16b8d62be1b129c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d041e3065a25b5c16b8d62be1b129c6">&#9670;&nbsp;</a></span>I2CSLAVE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2CSLAVE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67931a4810477737c2d74cf4197a75f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67931a4810477737c2d74cf4197a75f5">&#9670;&nbsp;</a></span>I2DAT_I2C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2DAT_I2C&#160;&#160;&#160;0x00000000  /* I2C Data Reg */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b191146d6479346314e02f4998bd447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b191146d6479346314e02f4998bd447">&#9670;&nbsp;</a></span>I2SCLH_HS_SCLH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2SCLH_HS_SCLH&#160;&#160;&#160;0x00000020  /* Fast Plus I2C SCL Duty Cycle High Reg */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45102df877a75a0e0fc89f7709351682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45102df877a75a0e0fc89f7709351682">&#9670;&nbsp;</a></span>I2SCLH_SCLH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2SCLH_SCLH&#160;&#160;&#160;0x00000180  /* I2C SCL Duty Cycle High Reg */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49d87759c58824c5326c37ae58ad845f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49d87759c58824c5326c37ae58ad845f">&#9670;&nbsp;</a></span>I2SCLL_HS_SCLL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2SCLL_HS_SCLL&#160;&#160;&#160;0x00000020  /* Fast Plus I2C SCL Duty Cycle Low Reg */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa413b07ab8583ff112b12bb48240dd76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa413b07ab8583ff112b12bb48240dd76">&#9670;&nbsp;</a></span>I2SCLL_SCLL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define I2SCLL_SCLL&#160;&#160;&#160;0x00000180  /* I2C SCL Duty Cycle Low Reg */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85fda3522e69a1bf85f7dcd97b6023a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85fda3522e69a1bf85f7dcd97b6023a1">&#9670;&nbsp;</a></span>MAX_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_TIMEOUT&#160;&#160;&#160;0x00FFFFFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3eb8370c8028ea2bc2bd200b01890ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb8370c8028ea2bc2bd200b01890ab8">&#9670;&nbsp;</a></span>MPU6050_R</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MPU6050_R&#160;&#160;&#160;0xd1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19a331826b29abf912c345eb357d8e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a331826b29abf912c345eb357d8e96">&#9670;&nbsp;</a></span>MPU6050_W</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MPU6050_W&#160;&#160;&#160;0xd0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaba6ae55840e1344ff7c91c22c300fa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba6ae55840e1344ff7c91c22c300fa7">&#9670;&nbsp;</a></span>PCF8594_ADDR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PCF8594_ADDR&#160;&#160;&#160;0xA0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c2900d9cffda05067142c41966ac845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2900d9cffda05067142c41966ac845">&#9670;&nbsp;</a></span>RD_BIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RD_BIT&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8c4f48aea422f196a7757a38a81e7e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8c4f48aea422f196a7757a38a81e7e2">&#9670;&nbsp;</a></span>READ_WRITE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ_WRITE&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a420d56f594345b56efdac63fdabf71c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a420d56f594345b56efdac63fdabf71c2">&#9670;&nbsp;</a></span>I2C_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void I2C_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0036f04c55d6d2118405ca42632bdbd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0036f04c55d6d2118405ca42632bdbd4">&#9670;&nbsp;</a></span>I2CEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> I2CEngine </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_cgraph.png" border="0" usemap="#i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_cgraph" alt=""/></div>
+<map name="i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_cgraph" id="i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_cgraph">
+<area shape="rect" id="node2" href="i2c_8c.html#a7c87427cfa767315491db0a0c005ec59" title="I2CStart" alt="" coords="135,5,204,32"/>
+<area shape="rect" id="node3" href="i2c_8c.html#a7b1d12f3a83330eda885db24a701e1b5" title="I2CStop" alt="" coords="135,56,203,83"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_icgraph.png" border="0" usemap="#i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_icgraph" alt=""/></div>
+<map name="i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_icgraph" id="i2c_8h_a0036f04c55d6d2118405ca42632bdbd4_icgraph">
+<area shape="rect" id="node2" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a90dd5d92bd34934014799f84126177ac" title="write1byteEEPROM" alt="" coords="138,113,277,140"/>
+<area shape="rect" id="node7" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a27109ef829f3dd77b5209510da07edec" title="read1byteEEPROM" alt="" coords="139,201,275,228"/>
+<area shape="rect" id="node10" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a8f274db09e37c0ff0a18edb70c4c9f2d" title="readNbyteEEPROM" alt="" coords="138,271,277,297"/>
+<area shape="rect" id="node17" href="mpu9250_8c.html#af5ba140727514d78380957728fb85858" title="initMPU9250" alt="" coords="377,347,473,373"/>
+<area shape="rect" id="node18" href="mpu9250_8c.html#a92d3fbffdf08a1e1f34704118cd70ad5" title="initAK8963" alt="" coords="626,397,711,424"/>
+<area shape="rect" id="node19" href="mpu9250_8c.html#a386e4bbff734d4a43941b35205942cfe" title="updateMPU9250Data" alt="" coords="135,448,280,475"/>
+<area shape="rect" id="node20" href="mpu9250_8c.html#a862a4101d94d72d8b132ec0a0862eae9" title="updateAK8963Data" alt="" coords="140,499,275,525"/>
+<area shape="rect" id="node21" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="173,549,241,576"/>
+<area shape="rect" id="node3" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af7ecf1a6eb9052c1f2b97606c42ce6a1" title="writeNbyteEEPROM" alt="" coords="355,68,495,95"/>
+<area shape="rect" id="node4" href="mpu9250_8c.html#ae614aca57612ac1158164a1ab6f73ca3" title="writeEEPROMOffsetAccInt" alt="" coords="580,5,757,32"/>
+<area shape="rect" id="node5" href="mpu9250_8c.html#aba705c4f603e68a4b0a6763050f384a0" title="writeEEPROMOffsetOmegaInt" alt="" coords="571,56,767,83"/>
+<area shape="rect" id="node6" href="mpu9250_8c.html#af1ca931e223bcce03fb992224fc18596" title="writeEEPROMOffsetMagInt" alt="" coords="579,107,758,133"/>
+<area shape="rect" id="node8" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="372,144,479,171"/>
+<area shape="rect" id="node9" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="624,157,713,184"/>
+<area shape="rect" id="node11" href="mpu9250_8c.html#a0210711108d4042649f4fd338acac85e" title="readEEPROMOffsetAccInt" alt="" coords="338,195,513,221"/>
+<area shape="rect" id="node15" href="mpu9250_8c.html#ab4139a9d25ca39d26e60d6d7d7c744a4" title="readEEPROMOffsetOmegaInt" alt="" coords="328,245,523,272"/>
+<area shape="rect" id="node16" href="mpu9250_8c.html#a9cdfa564e571990552ebacf18f76416e" title="readEEPROMOffsetMagInt" alt="" coords="337,296,514,323"/>
+<area shape="rect" id="node12" href="mpu9250_8c.html#a497db0f06ddaa6cb49582485abfbb05b" title="initOffsetByEEPROM" alt="" coords="595,259,742,285"/>
+<area shape="rect" id="node13" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="815,347,853,373"/>
+<area shape="rect" id="node14" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="901,347,952,373"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a279d004d45293dff5260643be80c1319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279d004d45293dff5260643be80c1319">&#9670;&nbsp;</a></span>I2CInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> I2CInit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>I2cMode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_8h_a279d004d45293dff5260643be80c1319_icgraph.png" border="0" usemap="#i2c_8h_a279d004d45293dff5260643be80c1319_icgraph" alt=""/></div>
+<map name="i2c_8h_a279d004d45293dff5260643be80c1319_icgraph" id="i2c_8h_a279d004d45293dff5260643be80c1319_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="112,5,151,32"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="199,5,249,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7c87427cfa767315491db0a0c005ec59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c87427cfa767315491db0a0c005ec59">&#9670;&nbsp;</a></span>I2CStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> I2CStart </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_8h_a7c87427cfa767315491db0a0c005ec59_icgraph.png" border="0" usemap="#i2c_8h_a7c87427cfa767315491db0a0c005ec59_icgraph" alt=""/></div>
+<map name="i2c_8h_a7c87427cfa767315491db0a0c005ec59_icgraph" id="i2c_8h_a7c87427cfa767315491db0a0c005ec59_icgraph">
+<area shape="rect" id="node2" href="i2c_8c.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="123,372,204,399"/>
+<area shape="rect" id="node3" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a90dd5d92bd34934014799f84126177ac" title="write1byteEEPROM" alt="" coords="255,113,394,140"/>
+<area shape="rect" id="node8" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a27109ef829f3dd77b5209510da07edec" title="read1byteEEPROM" alt="" coords="257,201,393,228"/>
+<area shape="rect" id="node11" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a8f274db09e37c0ff0a18edb70c4c9f2d" title="readNbyteEEPROM" alt="" coords="255,271,394,297"/>
+<area shape="rect" id="node18" href="mpu9250_8c.html#af5ba140727514d78380957728fb85858" title="initMPU9250" alt="" coords="495,347,591,373"/>
+<area shape="rect" id="node19" href="mpu9250_8c.html#a92d3fbffdf08a1e1f34704118cd70ad5" title="initAK8963" alt="" coords="743,397,829,424"/>
+<area shape="rect" id="node20" href="mpu9250_8c.html#a386e4bbff734d4a43941b35205942cfe" title="updateMPU9250Data" alt="" coords="252,448,397,475"/>
+<area shape="rect" id="node21" href="mpu9250_8c.html#a862a4101d94d72d8b132ec0a0862eae9" title="updateAK8963Data" alt="" coords="257,499,392,525"/>
+<area shape="rect" id="node22" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="291,549,359,576"/>
+<area shape="rect" id="node4" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af7ecf1a6eb9052c1f2b97606c42ce6a1" title="writeNbyteEEPROM" alt="" coords="473,68,613,95"/>
+<area shape="rect" id="node5" href="mpu9250_8c.html#ae614aca57612ac1158164a1ab6f73ca3" title="writeEEPROMOffsetAccInt" alt="" coords="697,5,875,32"/>
+<area shape="rect" id="node6" href="mpu9250_8c.html#aba705c4f603e68a4b0a6763050f384a0" title="writeEEPROMOffsetOmegaInt" alt="" coords="688,56,884,83"/>
+<area shape="rect" id="node7" href="mpu9250_8c.html#af1ca931e223bcce03fb992224fc18596" title="writeEEPROMOffsetMagInt" alt="" coords="697,107,875,133"/>
+<area shape="rect" id="node9" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="489,144,596,171"/>
+<area shape="rect" id="node10" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="741,157,831,184"/>
+<area shape="rect" id="node12" href="mpu9250_8c.html#a0210711108d4042649f4fd338acac85e" title="readEEPROMOffsetAccInt" alt="" coords="455,195,630,221"/>
+<area shape="rect" id="node16" href="mpu9250_8c.html#ab4139a9d25ca39d26e60d6d7d7c744a4" title="readEEPROMOffsetOmegaInt" alt="" coords="445,245,640,272"/>
+<area shape="rect" id="node17" href="mpu9250_8c.html#a9cdfa564e571990552ebacf18f76416e" title="readEEPROMOffsetMagInt" alt="" coords="454,296,631,323"/>
+<area shape="rect" id="node13" href="mpu9250_8c.html#a497db0f06ddaa6cb49582485abfbb05b" title="initOffsetByEEPROM" alt="" coords="713,259,859,285"/>
+<area shape="rect" id="node14" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="932,347,971,373"/>
+<area shape="rect" id="node15" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="1019,347,1069,373"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7b1d12f3a83330eda885db24a701e1b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b1d12f3a83330eda885db24a701e1b5">&#9670;&nbsp;</a></span>I2CStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> I2CStop </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_8h_a7b1d12f3a83330eda885db24a701e1b5_icgraph.png" border="0" usemap="#i2c_8h_a7b1d12f3a83330eda885db24a701e1b5_icgraph" alt=""/></div>
+<map name="i2c_8h_a7b1d12f3a83330eda885db24a701e1b5_icgraph" id="i2c_8h_a7b1d12f3a83330eda885db24a701e1b5_icgraph">
+<area shape="rect" id="node2" href="i2c_8c.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="121,372,203,399"/>
+<area shape="rect" id="node3" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a90dd5d92bd34934014799f84126177ac" title="write1byteEEPROM" alt="" coords="254,113,393,140"/>
+<area shape="rect" id="node8" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a27109ef829f3dd77b5209510da07edec" title="read1byteEEPROM" alt="" coords="255,201,391,228"/>
+<area shape="rect" id="node11" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a8f274db09e37c0ff0a18edb70c4c9f2d" title="readNbyteEEPROM" alt="" coords="254,271,393,297"/>
+<area shape="rect" id="node18" href="mpu9250_8c.html#af5ba140727514d78380957728fb85858" title="initMPU9250" alt="" coords="493,347,589,373"/>
+<area shape="rect" id="node19" href="mpu9250_8c.html#a92d3fbffdf08a1e1f34704118cd70ad5" title="initAK8963" alt="" coords="742,397,827,424"/>
+<area shape="rect" id="node20" href="mpu9250_8c.html#a386e4bbff734d4a43941b35205942cfe" title="updateMPU9250Data" alt="" coords="251,448,396,475"/>
+<area shape="rect" id="node21" href="mpu9250_8c.html#a862a4101d94d72d8b132ec0a0862eae9" title="updateAK8963Data" alt="" coords="256,499,391,525"/>
+<area shape="rect" id="node22" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="289,549,357,576"/>
+<area shape="rect" id="node4" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af7ecf1a6eb9052c1f2b97606c42ce6a1" title="writeNbyteEEPROM" alt="" coords="471,68,611,95"/>
+<area shape="rect" id="node5" href="mpu9250_8c.html#ae614aca57612ac1158164a1ab6f73ca3" title="writeEEPROMOffsetAccInt" alt="" coords="696,5,873,32"/>
+<area shape="rect" id="node6" href="mpu9250_8c.html#aba705c4f603e68a4b0a6763050f384a0" title="writeEEPROMOffsetOmegaInt" alt="" coords="687,56,883,83"/>
+<area shape="rect" id="node7" href="mpu9250_8c.html#af1ca931e223bcce03fb992224fc18596" title="writeEEPROMOffsetMagInt" alt="" coords="695,107,874,133"/>
+<area shape="rect" id="node9" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="488,144,595,171"/>
+<area shape="rect" id="node10" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="740,157,829,184"/>
+<area shape="rect" id="node12" href="mpu9250_8c.html#a0210711108d4042649f4fd338acac85e" title="readEEPROMOffsetAccInt" alt="" coords="454,195,629,221"/>
+<area shape="rect" id="node16" href="mpu9250_8c.html#ab4139a9d25ca39d26e60d6d7d7c744a4" title="readEEPROMOffsetOmegaInt" alt="" coords="444,245,639,272"/>
+<area shape="rect" id="node17" href="mpu9250_8c.html#a9cdfa564e571990552ebacf18f76416e" title="readEEPROMOffsetMagInt" alt="" coords="453,296,630,323"/>
+<area shape="rect" id="node13" href="mpu9250_8c.html#a497db0f06ddaa6cb49582485abfbb05b" title="initOffsetByEEPROM" alt="" coords="711,259,858,285"/>
+<area shape="rect" id="node14" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="931,347,969,373"/>
+<area shape="rect" id="node15" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="1017,347,1068,373"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

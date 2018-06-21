@@ -1,0 +1,5 @@
+<map id="USB_SetStallEP" name="USB_SetStallEP">
+<area shape="rect" id="node2" href="$usbhw_8c.html#ae88115ba5c676e7d806a8062f981525a" title="WrCmdDat" alt="" coords="173,5,260,32"/>
+<area shape="rect" id="node4" href="$usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="187,56,247,83"/>
+<area shape="rect" id="node3" href="$usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="308,5,375,32"/>
+</map>

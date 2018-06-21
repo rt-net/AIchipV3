@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3: src/PERIPHERAL/ssp.c ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_8eb6a8da60e90f3e532350c42093659e.html">PERIPHERAL</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数</a> &#124;
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle">
+<div class="title">ssp.c ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;LPC13xx.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="ssp_8h_source.html">ssp.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+ssp.c の依存先関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="ssp_8c__incl.png" border="0" usemap="#src_2_p_e_r_i_p_h_e_r_a_l_2ssp_8c" alt=""/></div>
+<map name="src_2_p_e_r_i_p_h_e_r_a_l_2ssp_8c" id="src_2_p_e_r_i_p_h_e_r_a_l_2ssp_8c">
+<area shape="rect" id="node3" href="ssp_8h.html" title="ssp.h" alt="" coords="116,80,171,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:ac1cdd6ce3a27312adcabe0e4600dd105"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#ac1cdd6ce3a27312adcabe0e4600dd105">SSP_IRQHandler</a> (void)</td></tr>
+<tr class="separator:ac1cdd6ce3a27312adcabe0e4600dd105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d2af949eb3443b5bda06df509b15a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#ac4d2af949eb3443b5bda06df509b15a2">SSPInit</a> (void)</td></tr>
+<tr class="separator:ac4d2af949eb3443b5bda06df509b15a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0201238bc275fa771daef98a142b05a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a0201238bc275fa771daef98a142b05a6">SSPSend</a> (<a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *buf, <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Length)</td></tr>
+<tr class="separator:a0201238bc275fa771daef98a142b05a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8830caf8a7efcd3be2c8a0b963099e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a3c8830caf8a7efcd3be2c8a0b963099e">SSPReceive</a> (<a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *buf, <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Length)</td></tr>
+<tr class="separator:a3c8830caf8a7efcd3be2c8a0b963099e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:ae8f3d1ac3821460a40b1e8cd7b256f87"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#ae8f3d1ac3821460a40b1e8cd7b256f87">interruptRxStat</a> = 0</td></tr>
+<tr class="separator:ae8f3d1ac3821460a40b1e8cd7b256f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e57e104c2de89d035c33fa5a457602"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a87e57e104c2de89d035c33fa5a457602">interruptOverRunStat</a> = 0</td></tr>
+<tr class="separator:a87e57e104c2de89d035c33fa5a457602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7292dfcd029b0fb3b8e496f2bd83f31d"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8c.html#a7292dfcd029b0fb3b8e496f2bd83f31d">interruptRxTimeoutStat</a> = 0</td></tr>
+<tr class="separator:a7292dfcd029b0fb3b8e496f2bd83f31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数詳解</h2>
+<a id="ac1cdd6ce3a27312adcabe0e4600dd105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1cdd6ce3a27312adcabe0e4600dd105">&#9670;&nbsp;</a></span>SSP_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSP_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4d2af949eb3443b5bda06df509b15a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d2af949eb3443b5bda06df509b15a2">&#9670;&nbsp;</a></span>SSPInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSPInit </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c8830caf8a7efcd3be2c8a0b963099e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8830caf8a7efcd3be2c8a0b963099e">&#9670;&nbsp;</a></span>SSPReceive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSPReceive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0201238bc275fa771daef98a142b05a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0201238bc275fa771daef98a142b05a6">&#9670;&nbsp;</a></span>SSPSend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSPSend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">変数詳解</h2>
+<a id="a87e57e104c2de89d035c33fa5a457602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e57e104c2de89d035c33fa5a457602">&#9670;&nbsp;</a></span>interruptOverRunStat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> interruptOverRunStat = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8f3d1ac3821460a40b1e8cd7b256f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8f3d1ac3821460a40b1e8cd7b256f87">&#9670;&nbsp;</a></span>interruptRxStat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> interruptRxStat = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7292dfcd029b0fb3b8e496f2bd83f31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7292dfcd029b0fb3b8e496f2bd83f31d">&#9670;&nbsp;</a></span>interruptRxTimeoutStat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> interruptRxTimeoutStat = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

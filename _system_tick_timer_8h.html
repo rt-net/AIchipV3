@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3: inc/PERIPHERAL/SystemTickTimer.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_465fd8e6a32cf7967e860f7de28a8bae.html">PERIPHERAL</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">SystemTickTimer.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_system_tick_timer_8h__dep__incl.png" border="0" usemap="#inc_2_p_e_r_i_p_h_e_r_a_l_2_system_tick_timer_8hdep" alt=""/></div>
+<map name="inc_2_p_e_r_i_p_h_e_r_a_l_2_system_tick_timer_8hdep" id="inc_2_p_e_r_i_p_h_e_r_a_l_2_system_tick_timer_8hdep">
+<area shape="rect" id="node2" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html" title="src/AICHIP/EEPROM_24LC16\lBT_I.c" alt="" coords="5,95,204,136"/>
+<area shape="rect" id="node3" href="main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="228,102,357,129"/>
+<area shape="rect" id="node4" href="mpu9250_8c.html" title="MPU9250を使えるようにするための関数群 &#160;&#160;注1)mpu9150とmpu9250では地磁気センサの出力分解能が異なる &#160;&#160;本..." alt="" coords="382,102,537,129"/>
+<area shape="rect" id="node5" href="mode___bluetooth_setting_8c.html" title="Bluetoothモジュールのボーレート等を設定する. &#160;//設定項目// &#160;Bluetoothデバイス名:RT&#45;AICHIP &#160;&#160;ボーレー�..." alt="" coords="561,102,795,129"/>
+<area shape="rect" id="node6" href="mode__control_run_8c.html" title="コースの状況に応じてモーターのdutyを変えながら走るモード &#160;&#160;////操作//// &#160;右SW: スタート,ストップの切り替え &#160;左SW: 長押しでモード選択へ遷移 &#160;" alt="" coords="819,102,1017,129"/>
+<area shape="rect" id="node7" href="mode__debug_8c.html" title="デバッグ用モード. データを出力し続ける &#160;&#160;////操作//// &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="1041,102,1213,129"/>
+<area shape="rect" id="node8" href="mode__duty_max_8c.html" title="src/MODE/mode_dutyMax.c" alt="" coords="1238,102,1425,129"/>
+<area shape="rect" id="node9" href="mode__select_duty_8c.html" title="dutyを選択して走るモード &#160;&#160;////操作//// &#160;右SW: dutyの変更 &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="1449,102,1648,129"/>
+<area shape="rect" id="node10" href="mode_select_8c.html" title="src/MODE/modeSelect.c" alt="" coords="1672,102,1839,129"/>
+<area shape="rect" id="node11" href="_system_tick_timer_8c.html" title="src/PERIPHERAL/SystemTick\lTimer.c" alt="" coords="1863,95,2061,136"/>
+<area shape="rect" id="node12" href="usb_transmission_8c.html" title="src/PERIPHERAL/usbTransmission.c" alt="" coords="2085,102,2324,129"/>
+</map>
+</div>
+</div>
+<p><a href="_system_tick_timer_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:ab8ca2df87c07c7d9b89ea78bb1f240a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_tick_timer_8h.html#ab8ca2df87c07c7d9b89ea78bb1f240a9">STSTEMTICKTIMER_H</a></td></tr>
+<tr class="separator:ab8ca2df87c07c7d9b89ea78bb1f240a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a4c0b76146789e1b5c90418596dd38895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_tick_timer_8h.html#a4c0b76146789e1b5c90418596dd38895">wait1usec</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> wait_count)</td></tr>
+<tr class="separator:a4c0b76146789e1b5c90418596dd38895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18af7476504a76def67727301e3968fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_tick_timer_8h.html#a18af7476504a76def67727301e3968fb">wait1msec</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> wait_count)</td></tr>
+<tr class="separator:a18af7476504a76def67727301e3968fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a988cffc2f7143bafe418f6af919cd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_tick_timer_8h.html#a9a988cffc2f7143bafe418f6af919cd9">time_count_start</a> (void)</td></tr>
+<tr class="separator:a9a988cffc2f7143bafe418f6af919cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4cfc595f13e763f4ed2c3d10d95916"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_tick_timer_8h.html#a2e4cfc595f13e763f4ed2c3d10d95916">time_count_end</a> (void)</td></tr>
+<tr class="separator:a2e4cfc595f13e763f4ed2c3d10d95916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="ab8ca2df87c07c7d9b89ea78bb1f240a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ca2df87c07c7d9b89ea78bb1f240a9">&#9670;&nbsp;</a></span>STSTEMTICKTIMER_H</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STSTEMTICKTIMER_H</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a2e4cfc595f13e763f4ed2c3d10d95916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4cfc595f13e763f4ed2c3d10d95916">&#9670;&nbsp;</a></span>time_count_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> time_count_end </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a988cffc2f7143bafe418f6af919cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a988cffc2f7143bafe418f6af919cd9">&#9670;&nbsp;</a></span>time_count_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void time_count_start </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18af7476504a76def67727301e3968fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18af7476504a76def67727301e3968fb">&#9670;&nbsp;</a></span>wait1msec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wait1msec </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>wait_count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="_system_tick_timer_8h_a18af7476504a76def67727301e3968fb_icgraph.png" border="0" usemap="#_system_tick_timer_8h_a18af7476504a76def67727301e3968fb_icgraph" alt=""/></div>
+<map name="_system_tick_timer_8h_a18af7476504a76def67727301e3968fb_icgraph" id="_system_tick_timer_8h_a18af7476504a76def67727301e3968fb_icgraph">
+<area shape="rect" id="node2" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a90dd5d92bd34934014799f84126177ac" title="write1byteEEPROM" alt="" coords="147,56,285,83"/>
+<area shape="rect" id="node7" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="163,107,269,133"/>
+<area shape="rect" id="node9" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="603,183,654,209"/>
+<area shape="rect" id="node10" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="393,233,432,260"/>
+<area shape="rect" id="node11" href="mpu9250_8c.html#af5ba140727514d78380957728fb85858" title="initMPU9250" alt="" coords="168,259,264,285"/>
+<area shape="rect" id="node12" href="mpu9250_8c.html#a92d3fbffdf08a1e1f34704118cd70ad5" title="initAK8963" alt="" coords="173,309,259,336"/>
+<area shape="rect" id="node13" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="182,360,250,387"/>
+<area shape="rect" id="node14" href="mpu9250_8c.html#a2c74a170b91fa6bef07054c2037490c5" title="debugMPU9250" alt="" coords="159,411,273,437"/>
+<area shape="rect" id="node15" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="365,436,461,463"/>
+<area shape="rect" id="node16" href="mode___bluetooth_setting_8c.html#a3dcf830b1ad4a49cef522f95b7553c48" title="mode_BluetoothSetting" alt="" coords="137,512,295,539"/>
+<area shape="rect" id="node17" href="mode__control_run_8c.html#a29f463c22bc67d42c62f5bac44fad178" title="mode_controlRun" alt="" coords="155,563,277,589"/>
+<area shape="rect" id="node18" href="mode__duty_max_8c.html#aac72eb218f372e7f1078b4a47c445df0" title="mode_dutyMax" alt="" coords="161,613,271,640"/>
+<area shape="rect" id="node19" href="usb_transmission_8c.html#a00ae3d2d42d3c1d67f8779c026b36ec9" title="tryUSBConnect" alt="" coords="160,664,272,691"/>
+<area shape="rect" id="node3" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af7ecf1a6eb9052c1f2b97606c42ce6a1" title="writeNbyteEEPROM" alt="" coords="343,56,483,83"/>
+<area shape="rect" id="node4" href="mpu9250_8c.html#ae614aca57612ac1158164a1ab6f73ca3" title="writeEEPROMOffsetAccInt" alt="" coords="540,5,717,32"/>
+<area shape="rect" id="node5" href="mpu9250_8c.html#aba705c4f603e68a4b0a6763050f384a0" title="writeEEPROMOffsetOmegaInt" alt="" coords="531,56,727,83"/>
+<area shape="rect" id="node6" href="mpu9250_8c.html#af1ca931e223bcce03fb992224fc18596" title="writeEEPROMOffsetMagInt" alt="" coords="539,107,718,133"/>
+<area shape="rect" id="node8" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="368,107,457,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4c0b76146789e1b5c90418596dd38895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0b76146789e1b5c90418596dd38895">&#9670;&nbsp;</a></span>wait1usec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wait1usec </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>wait_count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,701 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3: inc/USB/usbuser.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_0e65500aa9b43f3237cf0b54a8f18b51.html">USB</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#func-members">関数</a> &#124;
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle">
+<div class="title">usbuser.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h__dep__incl.png" border="0" usemap="#inc_2_u_s_b_2usbuser_8hdep" alt=""/></div>
+<map name="inc_2_u_s_b_2usbuser_8hdep" id="inc_2_u_s_b_2usbuser_8hdep">
+<area shape="rect" id="node2" href="usbcore_8c.html" title="src/USB/usbcore.c" alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node3" href="usbhw_8c.html" title="src/USB/usbhw.c" alt="" coords="162,80,285,107"/>
+<area shape="rect" id="node4" href="usbuser_8c.html" title="src/USB/usbuser.c" alt="" coords="309,80,441,107"/>
+</map>
+</div>
+</div>
+<p><a href="usbuser_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:a0dd490d0af4c7851990f5d684677624c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a0dd490d0af4c7851990f5d684677624c">USB_EVT_SETUP</a>&#160;&#160;&#160;1   /* Setup Packet */</td></tr>
+<tr class="separator:a0dd490d0af4c7851990f5d684677624c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01491d0798fb37df5ba79e1a9381203"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#ae01491d0798fb37df5ba79e1a9381203">USB_EVT_OUT</a>&#160;&#160;&#160;2   /* OUT Packet */</td></tr>
+<tr class="separator:ae01491d0798fb37df5ba79e1a9381203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1878b7ac90c901b986cc590e48fe366e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a1878b7ac90c901b986cc590e48fe366e">USB_EVT_IN</a>&#160;&#160;&#160;3   /*  IN Packet */</td></tr>
+<tr class="separator:a1878b7ac90c901b986cc590e48fe366e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d092d48e8bd9a0ccc65e2db3c9ddc77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a5d092d48e8bd9a0ccc65e2db3c9ddc77">USB_EVT_OUT_NAK</a>&#160;&#160;&#160;4   /* OUT Packet - Not Acknowledged */</td></tr>
+<tr class="separator:a5d092d48e8bd9a0ccc65e2db3c9ddc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb31df5818c4bf9f119d5d36b7594824"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#abb31df5818c4bf9f119d5d36b7594824">USB_EVT_IN_NAK</a>&#160;&#160;&#160;5   /*  IN Packet - Not Acknowledged */</td></tr>
+<tr class="separator:abb31df5818c4bf9f119d5d36b7594824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb31835d7f2d39554842e435e3ea8af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#abbb31835d7f2d39554842e435e3ea8af">USB_EVT_OUT_STALL</a>&#160;&#160;&#160;6   /* OUT Packet - Stalled */</td></tr>
+<tr class="separator:abbb31835d7f2d39554842e435e3ea8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f7e3ab8011aaedc394907c136f933a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a92f7e3ab8011aaedc394907c136f933a">USB_EVT_IN_STALL</a>&#160;&#160;&#160;7   /*  IN Packet - Stalled */</td></tr>
+<tr class="separator:a92f7e3ab8011aaedc394907c136f933a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:ab07662af2ec7631b5e69e7f9fc73e7f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#ab07662af2ec7631b5e69e7f9fc73e7f4">USB_Power_Event</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> power)</td></tr>
+<tr class="separator:ab07662af2ec7631b5e69e7f9fc73e7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81153c365777cdfe7d9e148c372c45b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a81153c365777cdfe7d9e148c372c45b1">USB_Reset_Event</a> (void)</td></tr>
+<tr class="separator:a81153c365777cdfe7d9e148c372c45b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfd6340b5852fa5ff4d00487c6371e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#aebfd6340b5852fa5ff4d00487c6371e2">USB_Suspend_Event</a> (void)</td></tr>
+<tr class="separator:aebfd6340b5852fa5ff4d00487c6371e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1845c45a3015590b54446857bb30805d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a1845c45a3015590b54446857bb30805d">USB_Resume_Event</a> (void)</td></tr>
+<tr class="separator:a1845c45a3015590b54446857bb30805d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88ce72caa322efb74dcbd2740aa1488"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#ab88ce72caa322efb74dcbd2740aa1488">USB_WakeUp_Event</a> (void)</td></tr>
+<tr class="separator:ab88ce72caa322efb74dcbd2740aa1488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ab0480e52c19825f3f4fac2bee5e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a43ab0480e52c19825f3f4fac2bee5e95">USB_SOF_Event</a> (void)</td></tr>
+<tr class="separator:a43ab0480e52c19825f3f4fac2bee5e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3b19492f699baee67df339367515f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#adb3b19492f699baee67df339367515f8">USB_Error_Event</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> error)</td></tr>
+<tr class="separator:adb3b19492f699baee67df339367515f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4112b0375b0336fa4c3d873627c1697"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#ab4112b0375b0336fa4c3d873627c1697">USB_EndPoint0</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td></tr>
+<tr class="separator:ab4112b0375b0336fa4c3d873627c1697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910d243e4f1701b825b7e9c6e7fa2bed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a910d243e4f1701b825b7e9c6e7fa2bed">USB_EndPoint1</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td></tr>
+<tr class="separator:a910d243e4f1701b825b7e9c6e7fa2bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4ca3ca081958a06052022191dddf70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a8d4ca3ca081958a06052022191dddf70">USB_EndPoint2</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td></tr>
+<tr class="separator:a8d4ca3ca081958a06052022191dddf70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207eec28301f78ada1134d266958e807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a207eec28301f78ada1134d266958e807">USB_EndPoint3</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td></tr>
+<tr class="separator:a207eec28301f78ada1134d266958e807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65295826a2620ed663a60b28f8e5d715"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a65295826a2620ed663a60b28f8e5d715">USB_EndPoint4</a> (<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td></tr>
+<tr class="separator:a65295826a2620ed663a60b28f8e5d715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166f9155d9fa13d6cf4ecf0e79813fb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a166f9155d9fa13d6cf4ecf0e79813fb8">USB_Configure_Event</a> (void)</td></tr>
+<tr class="separator:a166f9155d9fa13d6cf4ecf0e79813fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a1df89d38c371d71aa8a88da18a40f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a57a1df89d38c371d71aa8a88da18a40f">USB_Interface_Event</a> (void)</td></tr>
+<tr class="separator:a57a1df89d38c371d71aa8a88da18a40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f3231c9a90bd734fb79502f424b574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a30f3231c9a90bd734fb79502f424b574">USB_Feature_Event</a> (void)</td></tr>
+<tr class="separator:a30f3231c9a90bd734fb79502f424b574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:a7cc0b217067a48255b8ab9e25afc539f"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbuser_8h.html#a7cc0b217067a48255b8ab9e25afc539f">USB_P_EP</a> [<a class="el" href="usbcfg_8h.html#abd35b3301baa5c32b424b5ec7221e1f0">USB_LOGIC_EP_NUM</a>])(<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td></tr>
+<tr class="separator:a7cc0b217067a48255b8ab9e25afc539f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="a1878b7ac90c901b986cc590e48fe366e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1878b7ac90c901b986cc590e48fe366e">&#9670;&nbsp;</a></span>USB_EVT_IN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_IN&#160;&#160;&#160;3   /*  IN Packet */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb31df5818c4bf9f119d5d36b7594824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb31df5818c4bf9f119d5d36b7594824">&#9670;&nbsp;</a></span>USB_EVT_IN_NAK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_IN_NAK&#160;&#160;&#160;5   /*  IN Packet - Not Acknowledged */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92f7e3ab8011aaedc394907c136f933a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f7e3ab8011aaedc394907c136f933a">&#9670;&nbsp;</a></span>USB_EVT_IN_STALL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_IN_STALL&#160;&#160;&#160;7   /*  IN Packet - Stalled */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae01491d0798fb37df5ba79e1a9381203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01491d0798fb37df5ba79e1a9381203">&#9670;&nbsp;</a></span>USB_EVT_OUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_OUT&#160;&#160;&#160;2   /* OUT Packet */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d092d48e8bd9a0ccc65e2db3c9ddc77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d092d48e8bd9a0ccc65e2db3c9ddc77">&#9670;&nbsp;</a></span>USB_EVT_OUT_NAK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_OUT_NAK&#160;&#160;&#160;4   /* OUT Packet - Not Acknowledged */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbb31835d7f2d39554842e435e3ea8af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbb31835d7f2d39554842e435e3ea8af">&#9670;&nbsp;</a></span>USB_EVT_OUT_STALL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_OUT_STALL&#160;&#160;&#160;6   /* OUT Packet - Stalled */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0dd490d0af4c7851990f5d684677624c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd490d0af4c7851990f5d684677624c">&#9670;&nbsp;</a></span>USB_EVT_SETUP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USB_EVT_SETUP&#160;&#160;&#160;1   /* Setup Packet */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a166f9155d9fa13d6cf4ecf0e79813fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166f9155d9fa13d6cf4ecf0e79813fb8">&#9670;&nbsp;</a></span>USB_Configure_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Configure_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a166f9155d9fa13d6cf4ecf0e79813fb8_icgraph.png" border="0" usemap="#usbuser_8h_a166f9155d9fa13d6cf4ecf0e79813fb8_icgraph" alt=""/></div>
+<map name="usbuser_8h_a166f9155d9fa13d6cf4ecf0e79813fb8_icgraph" id="usbuser_8h_a166f9155d9fa13d6cf4ecf0e79813fb8_icgraph">
+<area shape="rect" id="node2" href="usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="203,5,319,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab4112b0375b0336fa4c3d873627c1697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4112b0375b0336fa4c3d873627c1697">&#9670;&nbsp;</a></span>USB_EndPoint0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_EndPoint0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_ab4112b0375b0336fa4c3d873627c1697_cgraph.png" border="0" usemap="#usbuser_8h_ab4112b0375b0336fa4c3d873627c1697_cgraph" alt=""/></div>
+<map name="usbuser_8h_ab4112b0375b0336fa4c3d873627c1697_cgraph" id="usbuser_8h_ab4112b0375b0336fa4c3d873627c1697_cgraph">
+<area shape="rect" id="node2" href="usbcore_8c.html#ac0076a5289eba0843bf484db9a6b44c3" title="USB_SetupStage" alt="" coords="219,5,343,32"/>
+<area shape="rect" id="node8" href="usbhw_8h.html#a40574e013f7a24918ec441ed3fa2a2f0" title="USB_DirCtrlEP" alt="" coords="226,563,337,589"/>
+<area shape="rect" id="node9" href="usbcore_8c.html#aa817bfc2ba281a1df8250ef1dab4d0d5" title="USB_ReqGetStatus" alt="" coords="212,613,351,640"/>
+<area shape="rect" id="node10" href="usbcore_8c.html#af77737c9a9cf487c2d21bdb77904d5b4" title="USB_DataInStage" alt="" coords="218,157,345,184"/>
+<area shape="rect" id="node12" href="usbcore_8c.html#aa84567109d1fe52a9d18d5562040971d" title="USB_ReqSetClrFeature" alt="" coords="202,259,361,285"/>
+<area shape="rect" id="node14" href="usbhw_8h.html#a5f634777bb45210732ae255dfd757cbb" title="USB_SetStallEP" alt="" coords="444,259,564,285"/>
+<area shape="rect" id="node16" href="usbhw_8h.html#abd72097df3fc6d6e487fa2e855d8af6c" title="USB_ClrStallEP" alt="" coords="446,309,562,336"/>
+<area shape="rect" id="node17" href="usbcore_8c.html#abd896ba7757ca7b9b9ae8a8d5bdabda5" title="USB_StatusInStage" alt="" coords="212,208,351,235"/>
+<area shape="rect" id="node18" href="usbuser_8h.html#a30f3231c9a90bd734fb79502f424b574" title="USB_Feature_Event" alt="" coords="212,664,351,691"/>
+<area shape="rect" id="node19" href="usbcore_8c.html#a8ac8a7d9eb098f255a1221f6c4d97f91" title="USB_ReqSetAddress" alt="" coords="208,715,355,741"/>
+<area shape="rect" id="node20" href="usbcore_8c.html#ab17a3ac8d0962c7fa5a284c04d931da4" title="USB_ReqGetDescriptor" alt="" coords="202,765,361,792"/>
+<area shape="rect" id="node21" href="usbcore_8c.html#af0a2bc8a786ec3356daf01ef7dbce34e" title="USB_ReqGetConfiguration" alt="" coords="194,816,369,843"/>
+<area shape="rect" id="node22" href="usbcore_8c.html#a96ece75f573a7a04bccf13a0487e56e7" title="USB_ReqSetConfiguration" alt="" coords="194,411,369,437"/>
+<area shape="rect" id="node29" href="usbuser_8h.html#a166f9155d9fa13d6cf4ecf0e79813fb8" title="USB_Configure_Event" alt="" coords="207,867,356,893"/>
+<area shape="rect" id="node30" href="usbcore_8c.html#a77896ec3b207ae318446fd55ebc4f984" title="USB_ReqGetInterface" alt="" coords="207,917,356,944"/>
+<area shape="rect" id="node31" href="usbcore_8c.html#a44eddaae107ee8ba7631f4ef4f3faef2" title="USB_ReqSetInterface" alt="" coords="207,461,355,488"/>
+<area shape="rect" id="node32" href="usbuser_8h.html#a57a1df89d38c371d71aa8a88da18a40f" title="USB_Interface_Event" alt="" coords="209,968,353,995"/>
+<area shape="rect" id="node33" href="cdcuser_8h.html#ae6d04dbc4eb90317c71b83bd04fe72a3" title="CDC_GetEncapsulatedResponse" alt="" coords="174,1019,389,1045"/>
+<area shape="rect" id="node34" href="cdcuser_8h.html#a53edb79bd140efab4916c8e643848c0e" title="CDC_GetCommFeature" alt="" coords="202,1069,361,1096"/>
+<area shape="rect" id="node35" href="cdcuser_8h.html#a85936b29004cf55383e17a6f52b4b109" title="CDC_ClearCommFeature" alt="" coords="197,1120,365,1147"/>
+<area shape="rect" id="node36" href="cdcuser_8h.html#afa50b93440e76df702e30f48d24d87ba" title="CDC_GetLineCoding" alt="" coords="211,1171,352,1197"/>
+<area shape="rect" id="node37" href="cdcuser_8h.html#ab8237d3bb656d5ac5e9f5fff46f60583" title="CDC_SetControlLineState" alt="" coords="195,1221,367,1248"/>
+<area shape="rect" id="node38" href="cdcuser_8h.html#a807f83110aef7c982f1156b482973298" title="CDC_SendBreak" alt="" coords="221,1272,341,1299"/>
+<area shape="rect" id="node39" href="usbcore_8c.html#a147ac40813dde8a168086e312a8aeff7" title="USB_DataOutStage" alt="" coords="212,56,351,83"/>
+<area shape="rect" id="node40" href="cdcuser_8h.html#af6860f3f086dca6c99d95e49ec95cdc7" title="CDC_SendEncapsulatedCommand" alt="" coords="169,1323,393,1349"/>
+<area shape="rect" id="node41" href="cdcuser_8h.html#ac707e8fa160667c090261a9fa84dcd42" title="CDC_SetCommFeature" alt="" coords="202,1373,361,1400"/>
+<area shape="rect" id="node42" href="cdcuser_8h.html#a00d35ca612863870e7a463d33e812cb0" title="CDC_SetLineCoding" alt="" coords="211,1424,351,1451"/>
+<area shape="rect" id="node46" href="usbcore_8c.html#a860cd794341aff47dd390c4cadcec3e7" title="USB_StatusOutStage" alt="" coords="207,107,356,133"/>
+<area shape="rect" id="node47" href="usbhw_8h.html#ae0b5ab428469821dab3912e9a9540f38" title="USB_SetAddress" alt="" coords="442,664,566,691"/>
+<area shape="rect" id="node3" href="usbhw_8h.html#a99dc9c682a2fa25302005ee91a86a7e0" title="USB_ReadEP" alt="" coords="452,107,556,133"/>
+<area shape="rect" id="node4" href="usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="631,120,685,147"/>
+<area shape="rect" id="node5" href="usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="616,183,700,209"/>
+<area shape="rect" id="node6" href="usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="749,228,816,255"/>
+<area shape="rect" id="node7" href="usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="753,367,813,393"/>
+<area shape="rect" id="node11" href="usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="451,157,557,184"/>
+<area shape="rect" id="node13" href="usbhw_8h.html#a54c351f13ebe958dba0174e60d76d091" title="USB_WakeUpCfg" alt="" coords="441,208,567,235"/>
+<area shape="rect" id="node15" href="usbhw_8c.html#ae88115ba5c676e7d806a8062f981525a" title="WrCmdDat" alt="" coords="615,360,701,387"/>
+<area shape="rect" id="node23" href="usbhw_8h.html#a0f1afa965109023ca62d20bd4f06939b" title="USB_DisableEP" alt="" coords="445,411,563,437"/>
+<area shape="rect" id="node24" href="usbhw_8h.html#a81076c3d311332233df6add5da3f96a3" title="USB_Configure" alt="" coords="449,360,559,387"/>
+<area shape="rect" id="node25" href="usbcore_8c.html#ab1a973fc701769d90fc7a8db406320be" title="UsbAddPtr" alt="" coords="461,563,547,589"/>
+<area shape="rect" id="node26" href="usbhw_8h.html#a54a2914070c64801b8d8942b787fffad" title="USB_ConfigEP" alt="" coords="449,613,559,640"/>
+<area shape="rect" id="node27" href="usbhw_8h.html#a1b6c972b5b73b220f4d7e73100710eb4" title="USB_EnableEP" alt="" coords="447,461,561,488"/>
+<area shape="rect" id="node28" href="usbhw_8h.html#a828653e11c72bafde7e5db8baad167d4" title="USB_ResetEP" alt="" coords="450,512,558,539"/>
+<area shape="rect" id="node43" href="serial_8h.html#a1fd4614e99c4b4e87970429c69b3867d" title="ser_ClosePort" alt="" coords="452,1373,556,1400"/>
+<area shape="rect" id="node44" href="serial_8h.html#a6d4d3e6db68a3737215755a4a800b128" title="ser_OpenPort" alt="" coords="453,1424,555,1451"/>
+<area shape="rect" id="node45" href="serial_8h.html#af120d75c37bd44edc6eb6c163bb8e91d" title="ser_InitPort" alt="" coords="460,1475,548,1501"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a910d243e4f1701b825b7e9c6e7fa2bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910d243e4f1701b825b7e9c6e7fa2bed">&#9670;&nbsp;</a></span>USB_EndPoint1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_EndPoint1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a910d243e4f1701b825b7e9c6e7fa2bed_cgraph.png" border="0" usemap="#usbuser_8h_a910d243e4f1701b825b7e9c6e7fa2bed_cgraph" alt=""/></div>
+<map name="usbuser_8h_a910d243e4f1701b825b7e9c6e7fa2bed_cgraph" id="usbuser_8h_a910d243e4f1701b825b7e9c6e7fa2bed_cgraph">
+<area shape="rect" id="node2" href="cdcuser_8h.html#a7ce873af21ad9bad0f156b742d60e7db" title="CDC_GetSerialState" alt="" coords="169,5,311,32"/>
+<area shape="rect" id="node4" href="cdcuser_8h.html#a514c6123d586172d406abff1940a0591" title="CDC_NotificationIn" alt="" coords="175,56,305,83"/>
+<area shape="rect" id="node3" href="serial_8h.html#a622ef81b7c41187c4a56acf8ad01a512" title="ser_LineState" alt="" coords="360,5,463,32"/>
+<area shape="rect" id="node5" href="usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="359,56,464,83"/>
+<area shape="rect" id="node6" href="usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="527,31,581,57"/>
+<area shape="rect" id="node7" href="usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="512,81,596,108"/>
+<area shape="rect" id="node8" href="usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="644,56,711,83"/>
+<area shape="rect" id="node9" href="usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="647,107,707,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8d4ca3ca081958a06052022191dddf70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4ca3ca081958a06052022191dddf70">&#9670;&nbsp;</a></span>USB_EndPoint2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_EndPoint2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a207eec28301f78ada1134d266958e807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a207eec28301f78ada1134d266958e807">&#9670;&nbsp;</a></span>USB_EndPoint3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_EndPoint3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a207eec28301f78ada1134d266958e807_cgraph.png" border="0" usemap="#usbuser_8h_a207eec28301f78ada1134d266958e807_cgraph" alt=""/></div>
+<map name="usbuser_8h_a207eec28301f78ada1134d266958e807_cgraph" id="usbuser_8h_a207eec28301f78ada1134d266958e807_cgraph">
+<area shape="rect" id="node2" href="cdcuser_8h.html#a1baecbd0f77524c5d1cf2faf27f932d8" title="CDC_BulkOut" alt="" coords="169,157,272,184"/>
+<area shape="rect" id="node9" href="cdcuser_8h.html#a4751ad13996ceeb9438a86340d41f206" title="CDC_BulkIn" alt="" coords="175,81,267,108"/>
+<area shape="rect" id="node3" href="usbhw_8h.html#a99dc9c682a2fa25302005ee91a86a7e0" title="USB_ReadEP" alt="" coords="325,157,429,184"/>
+<area shape="rect" id="node8" href="cdcuser_8c.html#a9ba79da723a86042fcae121fb3b522af" title="CDC_WrOutBuf" alt="" coords="320,208,433,235"/>
+<area shape="rect" id="node4" href="usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="497,107,550,133"/>
+<area shape="rect" id="node5" href="usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="481,157,565,184"/>
+<area shape="rect" id="node6" href="usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="613,132,680,159"/>
+<area shape="rect" id="node7" href="usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="617,183,677,209"/>
+<area shape="rect" id="node10" href="serial_8h.html#af28f88f5d6724ff343f1cb3ec8d9d2bb" title="ser_AvailChar" alt="" coords="326,5,427,32"/>
+<area shape="rect" id="node11" href="serial_8h.html#ac25fc22a82ed4c79a43af56c73c22f8f" title="ser_Read" alt="" coords="338,56,415,83"/>
+<area shape="rect" id="node12" href="usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="324,107,429,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a65295826a2620ed663a60b28f8e5d715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65295826a2620ed663a60b28f8e5d715">&#9670;&nbsp;</a></span>USB_EndPoint4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_EndPoint4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb3b19492f699baee67df339367515f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3b19492f699baee67df339367515f8">&#9670;&nbsp;</a></span>USB_Error_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Error_Event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_adb3b19492f699baee67df339367515f8_icgraph.png" border="0" usemap="#usbuser_8h_adb3b19492f699baee67df339367515f8_icgraph" alt=""/></div>
+<map name="usbuser_8h_adb3b19492f699baee67df339367515f8_icgraph" id="usbuser_8h_adb3b19492f699baee67df339367515f8_icgraph">
+<area shape="rect" id="node2" href="usbhw_8c.html#a0fbd54f7ff4b48c5b9a900421adf3702" title="USB_IRQHandler" alt="" coords="176,5,299,32"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ac796cda2c5fc1657686594fc1e543ed8" title="USB_IRQ" alt="" coords="198,56,277,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a30f3231c9a90bd734fb79502f424b574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f3231c9a90bd734fb79502f424b574">&#9670;&nbsp;</a></span>USB_Feature_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Feature_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a30f3231c9a90bd734fb79502f424b574_icgraph.png" border="0" usemap="#usbuser_8h_a30f3231c9a90bd734fb79502f424b574_icgraph" alt=""/></div>
+<map name="usbuser_8h_a30f3231c9a90bd734fb79502f424b574_icgraph" id="usbuser_8h_a30f3231c9a90bd734fb79502f424b574_icgraph">
+<area shape="rect" id="node2" href="usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="192,5,308,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a57a1df89d38c371d71aa8a88da18a40f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a1df89d38c371d71aa8a88da18a40f">&#9670;&nbsp;</a></span>USB_Interface_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Interface_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a57a1df89d38c371d71aa8a88da18a40f_icgraph.png" border="0" usemap="#usbuser_8h_a57a1df89d38c371d71aa8a88da18a40f_icgraph" alt=""/></div>
+<map name="usbuser_8h_a57a1df89d38c371d71aa8a88da18a40f_icgraph" id="usbuser_8h_a57a1df89d38c371d71aa8a88da18a40f_icgraph">
+<area shape="rect" id="node2" href="usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="197,5,313,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab07662af2ec7631b5e69e7f9fc73e7f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07662af2ec7631b5e69e7f9fc73e7f4">&#9670;&nbsp;</a></span>USB_Power_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Power_Event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>power</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_ab07662af2ec7631b5e69e7f9fc73e7f4_icgraph.png" border="0" usemap="#usbuser_8h_ab07662af2ec7631b5e69e7f9fc73e7f4_icgraph" alt=""/></div>
+<map name="usbuser_8h_ab07662af2ec7631b5e69e7f9fc73e7f4_icgraph" id="usbuser_8h_ab07662af2ec7631b5e69e7f9fc73e7f4_icgraph">
+<area shape="rect" id="node2" href="usbhw_8c.html#a0fbd54f7ff4b48c5b9a900421adf3702" title="USB_IRQHandler" alt="" coords="184,5,307,32"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ac796cda2c5fc1657686594fc1e543ed8" title="USB_IRQ" alt="" coords="206,56,285,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a81153c365777cdfe7d9e148c372c45b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81153c365777cdfe7d9e148c372c45b1">&#9670;&nbsp;</a></span>USB_Reset_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Reset_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a81153c365777cdfe7d9e148c372c45b1_icgraph.png" border="0" usemap="#usbuser_8h_a81153c365777cdfe7d9e148c372c45b1_icgraph" alt=""/></div>
+<map name="usbuser_8h_a81153c365777cdfe7d9e148c372c45b1_icgraph" id="usbuser_8h_a81153c365777cdfe7d9e148c372c45b1_icgraph">
+<area shape="rect" id="node2" href="usbhw_8c.html#a0fbd54f7ff4b48c5b9a900421adf3702" title="USB_IRQHandler" alt="" coords="183,5,305,32"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ac796cda2c5fc1657686594fc1e543ed8" title="USB_IRQ" alt="" coords="205,56,283,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1845c45a3015590b54446857bb30805d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1845c45a3015590b54446857bb30805d">&#9670;&nbsp;</a></span>USB_Resume_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Resume_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a1845c45a3015590b54446857bb30805d_icgraph.png" border="0" usemap="#usbuser_8h_a1845c45a3015590b54446857bb30805d_icgraph" alt=""/></div>
+<map name="usbuser_8h_a1845c45a3015590b54446857bb30805d_icgraph" id="usbuser_8h_a1845c45a3015590b54446857bb30805d_icgraph">
+<area shape="rect" id="node2" href="usbhw_8c.html#a0fbd54f7ff4b48c5b9a900421adf3702" title="USB_IRQHandler" alt="" coords="196,5,319,32"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ac796cda2c5fc1657686594fc1e543ed8" title="USB_IRQ" alt="" coords="218,56,297,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a43ab0480e52c19825f3f4fac2bee5e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ab0480e52c19825f3f4fac2bee5e95">&#9670;&nbsp;</a></span>USB_SOF_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_SOF_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_a43ab0480e52c19825f3f4fac2bee5e95_icgraph.png" border="0" usemap="#usbuser_8h_a43ab0480e52c19825f3f4fac2bee5e95_icgraph" alt=""/></div>
+<map name="usbuser_8h_a43ab0480e52c19825f3f4fac2bee5e95_icgraph" id="usbuser_8h_a43ab0480e52c19825f3f4fac2bee5e95_icgraph">
+<area shape="rect" id="node2" href="usbhw_8c.html#a0fbd54f7ff4b48c5b9a900421adf3702" title="USB_IRQHandler" alt="" coords="176,5,299,32"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ac796cda2c5fc1657686594fc1e543ed8" title="USB_IRQ" alt="" coords="198,56,277,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aebfd6340b5852fa5ff4d00487c6371e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfd6340b5852fa5ff4d00487c6371e2">&#9670;&nbsp;</a></span>USB_Suspend_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_Suspend_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbuser_8h_aebfd6340b5852fa5ff4d00487c6371e2_icgraph.png" border="0" usemap="#usbuser_8h_aebfd6340b5852fa5ff4d00487c6371e2_icgraph" alt=""/></div>
+<map name="usbuser_8h_aebfd6340b5852fa5ff4d00487c6371e2_icgraph" id="usbuser_8h_aebfd6340b5852fa5ff4d00487c6371e2_icgraph">
+<area shape="rect" id="node2" href="usbhw_8c.html#a0fbd54f7ff4b48c5b9a900421adf3702" title="USB_IRQHandler" alt="" coords="200,5,323,32"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ac796cda2c5fc1657686594fc1e543ed8" title="USB_IRQ" alt="" coords="222,56,301,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab88ce72caa322efb74dcbd2740aa1488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88ce72caa322efb74dcbd2740aa1488">&#9670;&nbsp;</a></span>USB_WakeUp_Event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void USB_WakeUp_Event </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">変数詳解</h2>
+<a id="a7cc0b217067a48255b8ab9e25afc539f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc0b217067a48255b8ab9e25afc539f">&#9670;&nbsp;</a></span>USB_P_EP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* const USB_P_EP[<a class="el" href="usbcfg_8h.html#abd35b3301baa5c32b424b5ec7221e1f0">USB_LOGIC_EP_NUM</a>])(<a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> event)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

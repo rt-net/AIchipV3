@@ -1,0 +1,6 @@
+<map id="inc/PERIPHERAL/i2c.h" name="inc/PERIPHERAL/i2c.h">
+<area shape="rect" id="node2" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html" title="src/AICHIP/EEPROM_24LC16\lBT_I.c" alt="" coords="5,80,204,121"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="228,87,357,114"/>
+<area shape="rect" id="node4" href="$mpu9250_8c.html" title="MPU9250を使えるようにするための関数群 &#160;&#160;注1)mpu9150とmpu9250では地磁気センサの出力分解能が異なる &#160;&#160;本..." alt="" coords="382,87,537,114"/>
+<area shape="rect" id="node5" href="$i2c_8c.html" title="src/PERIPHERAL/i2c.c" alt="" coords="561,87,720,114"/>
+</map>

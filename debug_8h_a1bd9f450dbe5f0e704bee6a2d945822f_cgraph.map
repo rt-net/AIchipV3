@@ -1,0 +1,12 @@
+<map id="myPrintfUSB" name="myPrintfUSB">
+<area shape="rect" id="node2" href="$usb_transmission_8h.html#a2d6d7c05d91576af25410bb856740976" title="VCOM_SendData" alt="" coords="156,5,281,32"/>
+<area shape="rect" id="node8" href="$usb_transmission_8h.html#a4a2bacd9a23fff588cb7f5b6538e7b25" title="VCOM_CheckState" alt="" coords="151,56,287,83"/>
+<area shape="rect" id="node3" href="$usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="524,31,629,57"/>
+<area shape="rect" id="node4" href="$usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="693,5,746,32"/>
+<area shape="rect" id="node5" href="$usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="677,56,761,83"/>
+<area shape="rect" id="node6" href="$usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="809,31,876,57"/>
+<area shape="rect" id="node7" href="$usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="813,81,873,108"/>
+<area shape="rect" id="node9" href="$cdcuser_8h.html#a7ce873af21ad9bad0f156b742d60e7db" title="CDC_GetSerialState" alt="" coords="335,107,476,133"/>
+<area shape="rect" id="node11" href="$cdcuser_8h.html#a514c6123d586172d406abff1940a0591" title="CDC_NotificationIn" alt="" coords="340,56,471,83"/>
+<area shape="rect" id="node10" href="$serial_8h.html#a622ef81b7c41187c4a56acf8ad01a512" title="ser_LineState" alt="" coords="525,107,628,133"/>
+</map>

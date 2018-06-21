@@ -1,0 +1,1943 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3: inc/USB/cdc.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_0e65500aa9b43f3237cf0b54a8f18b51.html">USB</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">クラス</a> &#124;
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#typedef-members">型定義</a> &#124;
+<a href="#func-members">関数</a> &#124;
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle">
+<div class="title">cdc.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="cdc_8h__dep__incl.png" border="0" usemap="#inc_2_u_s_b_2cdc_8hdep" alt=""/></div>
+<map name="inc_2_u_s_b_2cdc_8hdep" id="inc_2_u_s_b_2cdc_8hdep">
+<area shape="rect" id="node2" href="main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="usb_transmission_8c.html" title="src/PERIPHERAL/usbTransmission.c" alt="" coords="159,80,397,107"/>
+<area shape="rect" id="node4" href="cdcuser_8c.html" title="src/USB/cdcuser.c" alt="" coords="421,80,553,107"/>
+<area shape="rect" id="node5" href="usbdesc_8c.html" title="src/USB/usbdesc.c" alt="" coords="577,80,712,107"/>
+</map>
+</div>
+</div>
+<p><a href="cdc_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___c_d_c___h_e_a_d_e_r___d_e_s_c_r_i_p_t_o_r.html">_CDC_HEADER_DESCRIPTOR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___c_d_c___c_a_l_l___m_a_n_a_g_e_m_e_n_t___d_e_s_c_r_i_p_t_o_r.html">_CDC_CALL_MANAGEMENT_DESCRIPTOR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___c_d_c___a_b_s_t_r_a_c_t___c_o_n_t_r_o_l___m_a_n_a_g_e_m_e_n_t___d_e_s_c_r_i_p_t_o_r.html">_CDC_ABSTRACT_CONTROL_MANAGEMENT_DESCRIPTOR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___c_d_c___u_n_i_o_n___d_e_s_c_r_i_p_t_o_r.html">_CDC_UNION_DESCRIPTOR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___c_d_c___u_n_i_o_n__1_s_l_a_v_e___d_e_s_c_r_i_p_t_o_r.html">_CDC_UNION_1SLAVE_DESCRIPTOR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___c_d_c___l_i_n_e___c_o_d_i_n_g.html">_CDC_LINE_CODING</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:a8e40069024a8bbca6a4c9475f16a390b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a8e40069024a8bbca6a4c9475f16a390b">CDC_V1_10</a>&#160;&#160;&#160;0x0110</td></tr>
+<tr class="separator:a8e40069024a8bbca6a4c9475f16a390b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ba271255934c53442a1b5c3f84bcdd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a15ba271255934c53442a1b5c3f84bcdd">CDC_COMMUNICATION_INTERFACE_CLASS</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a15ba271255934c53442a1b5c3f84bcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b22f62a3e073de17e7c5fa1c44fce3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aa4b22f62a3e073de17e7c5fa1c44fce3">CDC_DIRECT_LINE_CONTROL_MODEL</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:aa4b22f62a3e073de17e7c5fa1c44fce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c103c50f65018dc180c9b2bebf7efd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a45c103c50f65018dc180c9b2bebf7efd">CDC_ABSTRACT_CONTROL_MODEL</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a45c103c50f65018dc180c9b2bebf7efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7952047aa14ed96652c4ca32184b5fbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a7952047aa14ed96652c4ca32184b5fbe">CDC_TELEPHONE_CONTROL_MODEL</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:a7952047aa14ed96652c4ca32184b5fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09432e81675e3420e2417c48dacc1446"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a09432e81675e3420e2417c48dacc1446">CDC_MULTI_CHANNEL_CONTROL_MODEL</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a09432e81675e3420e2417c48dacc1446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4e3243ed0fcc9f1f7ac66bbe2170b02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af4e3243ed0fcc9f1f7ac66bbe2170b02">CDC_CAPI_CONTROL_MODEL</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:af4e3243ed0fcc9f1f7ac66bbe2170b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4582f88e4c5e7c6dfdd6b4f20793b5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af4582f88e4c5e7c6dfdd6b4f20793b5b">CDC_ETHERNET_NETWORKING_CONTROL_MODEL</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="separator:af4582f88e4c5e7c6dfdd6b4f20793b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3eb9a2cf5b62f9dae77f1b25397c75a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ae3eb9a2cf5b62f9dae77f1b25397c75a">CDC_ATM_NETWORKING_CONTROL_MODEL</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:ae3eb9a2cf5b62f9dae77f1b25397c75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21d037be044406870a96728eab22eb04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a21d037be044406870a96728eab22eb04">CDC_PROTOCOL_COMMON_AT_COMMANDS</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a21d037be044406870a96728eab22eb04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81d6e2f13ca36ac1099de2cabd56b84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af81d6e2f13ca36ac1099de2cabd56b84">CDC_DATA_INTERFACE_CLASS</a>&#160;&#160;&#160;0x0A</td></tr>
+<tr class="separator:af81d6e2f13ca36ac1099de2cabd56b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78dc55c4e5f94f3d8f582601fe7ea898"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a78dc55c4e5f94f3d8f582601fe7ea898">CDC_PROTOCOL_ISDN_BRI</a>&#160;&#160;&#160;0x30</td></tr>
+<tr class="separator:a78dc55c4e5f94f3d8f582601fe7ea898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4adc6afe3a8d15272d6063942fe1b1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af4adc6afe3a8d15272d6063942fe1b1d">CDC_PROTOCOL_HDLC</a>&#160;&#160;&#160;0x31</td></tr>
+<tr class="separator:af4adc6afe3a8d15272d6063942fe1b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19110d83ed2e6ca0346e49b49522062"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab19110d83ed2e6ca0346e49b49522062">CDC_PROTOCOL_TRANSPARENT</a>&#160;&#160;&#160;0x32</td></tr>
+<tr class="separator:ab19110d83ed2e6ca0346e49b49522062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3e2fe679be1a4dd412907e48752106"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#afd3e2fe679be1a4dd412907e48752106">CDC_PROTOCOL_Q921_MANAGEMENT</a>&#160;&#160;&#160;0x50</td></tr>
+<tr class="separator:afd3e2fe679be1a4dd412907e48752106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb6cf3a9d44e8cd5fe500b7b54d375c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#abfb6cf3a9d44e8cd5fe500b7b54d375c">CDC_PROTOCOL_Q921_DATA_LINK</a>&#160;&#160;&#160;0x51</td></tr>
+<tr class="separator:abfb6cf3a9d44e8cd5fe500b7b54d375c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d6e149c2214d9dbd8534dda168daacf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a3d6e149c2214d9dbd8534dda168daacf">CDC_PROTOCOL_Q921_MULTIPLEXOR</a>&#160;&#160;&#160;0x52</td></tr>
+<tr class="separator:a3d6e149c2214d9dbd8534dda168daacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24f4fed1ae2a53e78953d714effc033"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ad24f4fed1ae2a53e78953d714effc033">CDC_PROTOCOL_V42</a>&#160;&#160;&#160;0x90</td></tr>
+<tr class="separator:ad24f4fed1ae2a53e78953d714effc033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad89bfc1833e0b0d016eb76d79eb9c91b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ad89bfc1833e0b0d016eb76d79eb9c91b">CDC_PROTOCOL_EURO_ISDN</a>&#160;&#160;&#160;0x91</td></tr>
+<tr class="separator:ad89bfc1833e0b0d016eb76d79eb9c91b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170942a6e275b4e9d651b7f0f079e131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a170942a6e275b4e9d651b7f0f079e131">CDC_PROTOCOL_V24_RATE_ADAPTATION</a>&#160;&#160;&#160;0x92</td></tr>
+<tr class="separator:a170942a6e275b4e9d651b7f0f079e131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b9f5ccbaea5aa9468c352bd6670673"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab4b9f5ccbaea5aa9468c352bd6670673">CDC_PROTOCOL_CAPI</a>&#160;&#160;&#160;0x93</td></tr>
+<tr class="separator:ab4b9f5ccbaea5aa9468c352bd6670673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c92cdf947b11c57a0367f2176dcb1c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a9c92cdf947b11c57a0367f2176dcb1c7">CDC_PROTOCOL_HOST_BASED_DRIVER</a>&#160;&#160;&#160;0xFD</td></tr>
+<tr class="separator:a9c92cdf947b11c57a0367f2176dcb1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92a998daaf7ced3b53d01f6e02bf272"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ae92a998daaf7ced3b53d01f6e02bf272">CDC_PROTOCOL_DESCRIBED_IN_PUFD</a>&#160;&#160;&#160;0xFE</td></tr>
+<tr class="separator:ae92a998daaf7ced3b53d01f6e02bf272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0ca40b5aacc5c750f952af952583d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#afe0ca40b5aacc5c750f952af952583d2">CDC_CS_INTERFACE</a>&#160;&#160;&#160;0x24</td></tr>
+<tr class="separator:afe0ca40b5aacc5c750f952af952583d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07e10978a48ff63df33c3aeedf84c3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ae07e10978a48ff63df33c3aeedf84c3a">CDC_CS_ENDPOINT</a>&#160;&#160;&#160;0x25</td></tr>
+<tr class="separator:ae07e10978a48ff63df33c3aeedf84c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed9b4832a62cea26549cb48d1d60b3cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aed9b4832a62cea26549cb48d1d60b3cd">CDC_HEADER</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:aed9b4832a62cea26549cb48d1d60b3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9917cd2343a8736133247b9c3fe77d07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a9917cd2343a8736133247b9c3fe77d07">CDC_CALL_MANAGEMENT</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a9917cd2343a8736133247b9c3fe77d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25239a0a435bd921892cadadb9e253e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af25239a0a435bd921892cadadb9e253e">CDC_ABSTRACT_CONTROL_MANAGEMENT</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:af25239a0a435bd921892cadadb9e253e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2098e156d8f57126390f70aecf4ecae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ac2098e156d8f57126390f70aecf4ecae">CDC_DIRECT_LINE_MANAGEMENT</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:ac2098e156d8f57126390f70aecf4ecae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a5a5d643222d2f98829e4e3820ae893"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a0a5a5d643222d2f98829e4e3820ae893">CDC_TELEPHONE_RINGER</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a0a5a5d643222d2f98829e4e3820ae893"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c22e67f33828642c5de9bdb9744fba0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a1c22e67f33828642c5de9bdb9744fba0">CDC_REPORTING_CAPABILITIES</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:a1c22e67f33828642c5de9bdb9744fba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f38e6604e2bc2f4dc6e138cc39162a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af6f38e6604e2bc2f4dc6e138cc39162a">CDC_UNION</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="separator:af6f38e6604e2bc2f4dc6e138cc39162a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76861e5f85f372d6a993d773f05e48eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a76861e5f85f372d6a993d773f05e48eb">CDC_COUNTRY_SELECTION</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:a76861e5f85f372d6a993d773f05e48eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a819de39e07558242157c6f43b1c9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a80a819de39e07558242157c6f43b1c9b">CDC_TELEPHONE_OPERATIONAL_MODES</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:a80a819de39e07558242157c6f43b1c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d0ea5a7cedfd170085ac2e713d95be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab1d0ea5a7cedfd170085ac2e713d95be">CDC_USB_TERMINAL</a>&#160;&#160;&#160;0x09</td></tr>
+<tr class="separator:ab1d0ea5a7cedfd170085ac2e713d95be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2541f7d6e99caaffe7ef24e450848ca4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a2541f7d6e99caaffe7ef24e450848ca4">CDC_NETWORK_CHANNEL</a>&#160;&#160;&#160;0x0A</td></tr>
+<tr class="separator:a2541f7d6e99caaffe7ef24e450848ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763bfa17ad4e31a2d825435d2d525743"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a763bfa17ad4e31a2d825435d2d525743">CDC_PROTOCOL_UNIT</a>&#160;&#160;&#160;0x0B</td></tr>
+<tr class="separator:a763bfa17ad4e31a2d825435d2d525743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7617ce5ed5f0d8b9058c6596d9be2067"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a7617ce5ed5f0d8b9058c6596d9be2067">CDC_EXTENSION_UNIT</a>&#160;&#160;&#160;0x0C</td></tr>
+<tr class="separator:a7617ce5ed5f0d8b9058c6596d9be2067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35dda23ca54017fbb00deed4d4f8c246"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a35dda23ca54017fbb00deed4d4f8c246">CDC_MULTI_CHANNEL_MANAGEMENT</a>&#160;&#160;&#160;0x0D</td></tr>
+<tr class="separator:a35dda23ca54017fbb00deed4d4f8c246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb41e1403101869f4d3cf5aa261fa2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a1eb41e1403101869f4d3cf5aa261fa2a">CDC_CAPI_CONTROL_MANAGEMENT</a>&#160;&#160;&#160;0x0E</td></tr>
+<tr class="separator:a1eb41e1403101869f4d3cf5aa261fa2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7cb7b2ddf1244b4f38197fbf3d6017"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a2d7cb7b2ddf1244b4f38197fbf3d6017">CDC_ETHERNET_NETWORKING</a>&#160;&#160;&#160;0x0F</td></tr>
+<tr class="separator:a2d7cb7b2ddf1244b4f38197fbf3d6017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d98845aabbddd52c3f9d2b8444b245"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ae6d98845aabbddd52c3f9d2b8444b245">CDC_ATM_NETWORKING</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="separator:ae6d98845aabbddd52c3f9d2b8444b245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aaa245703a0a2191c27697715f3727c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a7aaa245703a0a2191c27697715f3727c">CDC_SEND_ENCAPSULATED_COMMAND</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a7aaa245703a0a2191c27697715f3727c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6170632c774a3163b5a9927cc4e960ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a6170632c774a3163b5a9927cc4e960ec">CDC_GET_ENCAPSULATED_RESPONSE</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a6170632c774a3163b5a9927cc4e960ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a893b79445f99070657e8d45f6495b174"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a893b79445f99070657e8d45f6495b174">CDC_SET_COMM_FEATURE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a893b79445f99070657e8d45f6495b174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0912dac888d01142b225b0c6f8a508f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ad0912dac888d01142b225b0c6f8a508f">CDC_GET_COMM_FEATURE</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:ad0912dac888d01142b225b0c6f8a508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c79b8666110840333ad3785bf7ce87c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a6c79b8666110840333ad3785bf7ce87c">CDC_CLEAR_COMM_FEATURE</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a6c79b8666110840333ad3785bf7ce87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39a42b128864ba4fae224be0078adba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ac39a42b128864ba4fae224be0078adba">CDC_SET_AUX_LINE_STATE</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="separator:ac39a42b128864ba4fae224be0078adba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a367e07b7ce50e3a17703da1dea7f05a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a367e07b7ce50e3a17703da1dea7f05a1">CDC_SET_HOOK_STATE</a>&#160;&#160;&#160;0x11</td></tr>
+<tr class="separator:a367e07b7ce50e3a17703da1dea7f05a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5439915442bd5b835d7c755ba5fec1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aab5439915442bd5b835d7c755ba5fec1">CDC_PULSE_SETUP</a>&#160;&#160;&#160;0x12</td></tr>
+<tr class="separator:aab5439915442bd5b835d7c755ba5fec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83535db4560a2fa52c72571f914dfc1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af83535db4560a2fa52c72571f914dfc1">CDC_SEND_PULSE</a>&#160;&#160;&#160;0x13</td></tr>
+<tr class="separator:af83535db4560a2fa52c72571f914dfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ededfa85fdc32e603f9d1cdccbad78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a83ededfa85fdc32e603f9d1cdccbad78">CDC_SET_PULSE_TIME</a>&#160;&#160;&#160;0x14</td></tr>
+<tr class="separator:a83ededfa85fdc32e603f9d1cdccbad78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763f022025ebdaa3e6fb3dd6b5bef118"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a763f022025ebdaa3e6fb3dd6b5bef118">CDC_RING_AUX_JACK</a>&#160;&#160;&#160;0x15</td></tr>
+<tr class="separator:a763f022025ebdaa3e6fb3dd6b5bef118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07ce089c8757b8d2ff37ddd83dc9351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ad07ce089c8757b8d2ff37ddd83dc9351">CDC_SET_LINE_CODING</a>&#160;&#160;&#160;0x20</td></tr>
+<tr class="separator:ad07ce089c8757b8d2ff37ddd83dc9351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1068ab45668e413d964a01bc36fa2d43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a1068ab45668e413d964a01bc36fa2d43">CDC_GET_LINE_CODING</a>&#160;&#160;&#160;0x21</td></tr>
+<tr class="separator:a1068ab45668e413d964a01bc36fa2d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c392243dec4d03970f1eaa1f8053ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a11c392243dec4d03970f1eaa1f8053ae">CDC_SET_CONTROL_LINE_STATE</a>&#160;&#160;&#160;0x22</td></tr>
+<tr class="separator:a11c392243dec4d03970f1eaa1f8053ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a868c480caf0abda6b458c82281dda8ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a868c480caf0abda6b458c82281dda8ad">CDC_SEND_BREAK</a>&#160;&#160;&#160;0x23</td></tr>
+<tr class="separator:a868c480caf0abda6b458c82281dda8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacceff07ade4b94b3c924d4f4ad6b139"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aacceff07ade4b94b3c924d4f4ad6b139">CDC_SET_RINGER_PARMS</a>&#160;&#160;&#160;0x30</td></tr>
+<tr class="separator:aacceff07ade4b94b3c924d4f4ad6b139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a17ca0755e655bd1fe6ac97b68ec10f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a7a17ca0755e655bd1fe6ac97b68ec10f">CDC_GET_RINGER_PARMS</a>&#160;&#160;&#160;0x31</td></tr>
+<tr class="separator:a7a17ca0755e655bd1fe6ac97b68ec10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437557c6adb23d8cdde7842b62a03a21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a437557c6adb23d8cdde7842b62a03a21">CDC_SET_OPERATION_PARMS</a>&#160;&#160;&#160;0x32</td></tr>
+<tr class="separator:a437557c6adb23d8cdde7842b62a03a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257e7150670c8cc0b1d90c8f19c36b38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a257e7150670c8cc0b1d90c8f19c36b38">CDC_GET_OPERATION_PARMS</a>&#160;&#160;&#160;0x33</td></tr>
+<tr class="separator:a257e7150670c8cc0b1d90c8f19c36b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74433e0421d2cfd59982db6417a8ea41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a74433e0421d2cfd59982db6417a8ea41">CDC_SET_LINE_PARMS</a>&#160;&#160;&#160;0x34</td></tr>
+<tr class="separator:a74433e0421d2cfd59982db6417a8ea41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725da0e1d595c7aebacb9fa3df4d7231"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a725da0e1d595c7aebacb9fa3df4d7231">CDC_GET_LINE_PARMS</a>&#160;&#160;&#160;0x35</td></tr>
+<tr class="separator:a725da0e1d595c7aebacb9fa3df4d7231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d1029757801882e8d6589c05a3c41db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a4d1029757801882e8d6589c05a3c41db">CDC_DIAL_DIGITS</a>&#160;&#160;&#160;0x36</td></tr>
+<tr class="separator:a4d1029757801882e8d6589c05a3c41db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6288535dffb72bcbdce329546eede03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af6288535dffb72bcbdce329546eede03">CDC_SET_UNIT_PARAMETER</a>&#160;&#160;&#160;0x37</td></tr>
+<tr class="separator:af6288535dffb72bcbdce329546eede03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbcb9dcbc2139a1e0dc9a171033ca6e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#afbcb9dcbc2139a1e0dc9a171033ca6e4">CDC_GET_UNIT_PARAMETER</a>&#160;&#160;&#160;0x38</td></tr>
+<tr class="separator:afbcb9dcbc2139a1e0dc9a171033ca6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296b7ff8f411cbec0beb3ca081807851"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a296b7ff8f411cbec0beb3ca081807851">CDC_CLEAR_UNIT_PARAMETER</a>&#160;&#160;&#160;0x39</td></tr>
+<tr class="separator:a296b7ff8f411cbec0beb3ca081807851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc210559fe7b278167eaac01c504b048"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#adc210559fe7b278167eaac01c504b048">CDC_GET_PROFILE</a>&#160;&#160;&#160;0x3A</td></tr>
+<tr class="separator:adc210559fe7b278167eaac01c504b048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9abaa51e99db04219620a328c719d9b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a9abaa51e99db04219620a328c719d9b4">CDC_SET_ETHERNET_MULTICAST_FILTERS</a>&#160;&#160;&#160;0x40</td></tr>
+<tr class="separator:a9abaa51e99db04219620a328c719d9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f6ee8db8c60236159f939776829fcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aa0f6ee8db8c60236159f939776829fcf">CDC_SET_ETHERNET_PMP_FILTER</a>&#160;&#160;&#160;0x41</td></tr>
+<tr class="separator:aa0f6ee8db8c60236159f939776829fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc0a1bd36fdd097c6aab5455ecb4dc31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#afc0a1bd36fdd097c6aab5455ecb4dc31">CDC_GET_ETHERNET_PMP_FILTER</a>&#160;&#160;&#160;0x42</td></tr>
+<tr class="separator:afc0a1bd36fdd097c6aab5455ecb4dc31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5776aef3d254f11c1b6cca8b9c25ea77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a5776aef3d254f11c1b6cca8b9c25ea77">CDC_SET_ETHERNET_PACKET_FILTER</a>&#160;&#160;&#160;0x43</td></tr>
+<tr class="separator:a5776aef3d254f11c1b6cca8b9c25ea77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee82eef61bdf0892cfbc3e2024b20416"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aee82eef61bdf0892cfbc3e2024b20416">CDC_GET_ETHERNET_STATISTIC</a>&#160;&#160;&#160;0x44</td></tr>
+<tr class="separator:aee82eef61bdf0892cfbc3e2024b20416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa035b52c9857b59480234cde9624c89c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aa035b52c9857b59480234cde9624c89c">CDC_SET_ATM_DATA_FORMAT</a>&#160;&#160;&#160;0x50</td></tr>
+<tr class="separator:aa035b52c9857b59480234cde9624c89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6533ac7d829cdb9c496a81cee1e94d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ae6533ac7d829cdb9c496a81cee1e94d7">CDC_GET_ATM_DEVICE_STATISTICS</a>&#160;&#160;&#160;0x51</td></tr>
+<tr class="separator:ae6533ac7d829cdb9c496a81cee1e94d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3fad775e9da8b7d0223cddfb444c4d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab3fad775e9da8b7d0223cddfb444c4d2">CDC_SET_ATM_DEFAULT_VC</a>&#160;&#160;&#160;0x52</td></tr>
+<tr class="separator:ab3fad775e9da8b7d0223cddfb444c4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e526400896ec1ae50b4b49225a3cde"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#af1e526400896ec1ae50b4b49225a3cde">CDC_GET_ATM_VC_STATISTICS</a>&#160;&#160;&#160;0x53</td></tr>
+<tr class="separator:af1e526400896ec1ae50b4b49225a3cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7ac79bd33733bd68140d2e88062281"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#afc7ac79bd33733bd68140d2e88062281">CDC_ABSTRACT_STATE</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:afc7ac79bd33733bd68140d2e88062281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1bc012fc51f7f645360cd2cdad2c97c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab1bc012fc51f7f645360cd2cdad2c97c">CDC_COUNTRY_SETTING</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:ab1bc012fc51f7f645360cd2cdad2c97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7cf7bbef26d854f9eaa674e30a724b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab7cf7bbef26d854f9eaa674e30a724b3">CDC_IDLE_SETTING</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:ab7cf7bbef26d854f9eaa674e30a724b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5ea0520d17cefc8007249738703d03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#afe5ea0520d17cefc8007249738703d03">CDC_DATA_MULTPLEXED_STATE</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:afe5ea0520d17cefc8007249738703d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47a8c4d97a6c4701526b8c0083de851"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ac47a8c4d97a6c4701526b8c0083de851">CDC_DTE_PRESENT</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:ac47a8c4d97a6c4701526b8c0083de851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7800f91d3e98a1b22c00a925099d9000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a7800f91d3e98a1b22c00a925099d9000">CDC_ACTIVATE_CARRIER</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:a7800f91d3e98a1b22c00a925099d9000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc10b4e8d5f62b794742579f331ccb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a2fc10b4e8d5f62b794742579f331ccb6">CDC_NOTIFICATION_NETWORK_CONNECTION</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a2fc10b4e8d5f62b794742579f331ccb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8181593c43c91cdcae5fce9578cf14a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a8181593c43c91cdcae5fce9578cf14a6">CDC_RESPONSE_AVAILABLE</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a8181593c43c91cdcae5fce9578cf14a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1eabf2ab336fe1aab2949d736e8de0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a0c1eabf2ab336fe1aab2949d736e8de0">CDC_AUX_JACK_HOOK_STATE</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:a0c1eabf2ab336fe1aab2949d736e8de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1eec1036c75765a36266563f5dc522a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ac1eec1036c75765a36266563f5dc522a">CDC_RING_DETECT</a>&#160;&#160;&#160;0x09</td></tr>
+<tr class="separator:ac1eec1036c75765a36266563f5dc522a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0b1a3162b4366e4affe826d41b588a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a5e0b1a3162b4366e4affe826d41b588a">CDC_NOTIFICATION_SERIAL_STATE</a>&#160;&#160;&#160;0x20</td></tr>
+<tr class="separator:a5e0b1a3162b4366e4affe826d41b588a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81c6abf6515b13872792d5ac78e7a9e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab81c6abf6515b13872792d5ac78e7a9e">CDC_CALL_STATE_CHANGE</a>&#160;&#160;&#160;0x28</td></tr>
+<tr class="separator:ab81c6abf6515b13872792d5ac78e7a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc1d5d2e07e211932793bd184c086d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a0bc1d5d2e07e211932793bd184c086d2">CDC_LINE_STATE_CHANGE</a>&#160;&#160;&#160;0x29</td></tr>
+<tr class="separator:a0bc1d5d2e07e211932793bd184c086d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f28a376a759311d1e4a1e56a6b2f49a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a9f28a376a759311d1e4a1e56a6b2f49a">CDC_CONNECTION_SPEED_CHANGE</a>&#160;&#160;&#160;0x2A</td></tr>
+<tr class="separator:a9f28a376a759311d1e4a1e56a6b2f49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460608200d65e5aaa071185af20973e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a460608200d65e5aaa071185af20973e6">CDC_SERIAL_STATE_OVERRUN</a>&#160;&#160;&#160;(1 &lt;&lt; 6)</td></tr>
+<tr class="separator:a460608200d65e5aaa071185af20973e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a2e84a7444f8d9c22467d48b250449"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ac1a2e84a7444f8d9c22467d48b250449">CDC_SERIAL_STATE_PARITY</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
+<tr class="separator:ac1a2e84a7444f8d9c22467d48b250449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2b66027b86544993305f5602612a72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a1d2b66027b86544993305f5602612a72">CDC_SERIAL_STATE_FRAMING</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="separator:a1d2b66027b86544993305f5602612a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e133d334a1d269f11dbfddf7584aa2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a50e133d334a1d269f11dbfddf7584aa2">CDC_SERIAL_STATE_RING</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a50e133d334a1d269f11dbfddf7584aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4568a9c419e1f6c6049e6351f4fb8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a4f4568a9c419e1f6c6049e6351f4fb8a">CDC_SERIAL_STATE_BREAK</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:a4f4568a9c419e1f6c6049e6351f4fb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac7cec8cdd36cb4a824af50cc556c862"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aac7cec8cdd36cb4a824af50cc556c862">CDC_SERIAL_STATE_TX_CARRIER</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:aac7cec8cdd36cb4a824af50cc556c862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5cce2e3041aeb473b3e570ea7e0dd02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ab5cce2e3041aeb473b3e570ea7e0dd02">CDC_SERIAL_STATE_RX_CARRIER</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:ab5cce2e3041aeb473b3e570ea7e0dd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+型定義</h2></td></tr>
+<tr class="memitem:a0859cc73ebea375bd109da2f54b862cf"><td class="memItemLeft" align="right" valign="top">typedef USB_SETUP_PACKET&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a0859cc73ebea375bd109da2f54b862cf">CDC_NOTIFICATION_HEADER</a></td></tr>
+<tr class="separator:a0859cc73ebea375bd109da2f54b862cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:ad0ae943d8a91add2dfebfe490b8a0432"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct___c_d_c___h_e_a_d_e_r___d_e_s_c_r_i_p_t_o_r.html">_CDC_HEADER_DESCRIPTOR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ad0ae943d8a91add2dfebfe490b8a0432">__attribute__</a> ((packed)) CDC_HEADER_DESCRIPTOR</td></tr>
+<tr class="separator:ad0ae943d8a91add2dfebfe490b8a0432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:a65d7922f01732e3c44ebb46a73f99393"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a65d7922f01732e3c44ebb46a73f99393">bFunctionLength</a></td></tr>
+<tr class="separator:a65d7922f01732e3c44ebb46a73f99393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d7027b9eb9ed268d28e84fbc675707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a67d7027b9eb9ed268d28e84fbc675707">bDescriptorType</a></td></tr>
+<tr class="separator:a67d7027b9eb9ed268d28e84fbc675707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a7544f66e5343048a779cc2f81f79e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#ac9a7544f66e5343048a779cc2f81f79e">bDescriptorSubtype</a></td></tr>
+<tr class="separator:ac9a7544f66e5343048a779cc2f81f79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bffb583550e4d83b4a2a4d735ece97f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a2bffb583550e4d83b4a2a4d735ece97f">bcdCDC</a></td></tr>
+<tr class="separator:a2bffb583550e4d83b4a2a4d735ece97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a881b7a2d441c1074050bb06c058b680c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a881b7a2d441c1074050bb06c058b680c">bmCapabilities</a></td></tr>
+<tr class="separator:a881b7a2d441c1074050bb06c058b680c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69219cd97dd6c69e7d5b798d9251ce5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a69219cd97dd6c69e7d5b798d9251ce5f">bDataInterface</a></td></tr>
+<tr class="separator:a69219cd97dd6c69e7d5b798d9251ce5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab108f916e137502b55f0324e594963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a4ab108f916e137502b55f0324e594963">bMasterInterface</a></td></tr>
+<tr class="separator:a4ab108f916e137502b55f0324e594963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa012f62b34563dac0d7292570c73e865"><td class="memItemLeft" align="right" valign="top">CDC_UNION_DESCRIPTOR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aa012f62b34563dac0d7292570c73e865">sUnion</a></td></tr>
+<tr class="separator:aa012f62b34563dac0d7292570c73e865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff07995530450312f331697697237abd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aff07995530450312f331697697237abd">bSlaveInterfaces</a> [1]</td></tr>
+<tr class="separator:aff07995530450312f331697697237abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c7eaa2f09ca8253de1711d01e05e02c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a1c7eaa2f09ca8253de1711d01e05e02c">dwDTERate</a></td></tr>
+<tr class="separator:a1c7eaa2f09ca8253de1711d01e05e02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296b7b4f7eaba228afa94b5f9854b86b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a296b7b4f7eaba228afa94b5f9854b86b">bCharFormat</a></td></tr>
+<tr class="separator:a296b7b4f7eaba228afa94b5f9854b86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f5ab7fcc915dedd560214e61438bc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#a47f5ab7fcc915dedd560214e61438bc3">bParityType</a></td></tr>
+<tr class="separator:a47f5ab7fcc915dedd560214e61438bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb01baccbd5328de664ba39a4c295941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdc_8h.html#aeb01baccbd5328de664ba39a4c295941">bDataBits</a></td></tr>
+<tr class="separator:aeb01baccbd5328de664ba39a4c295941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="af25239a0a435bd921892cadadb9e253e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25239a0a435bd921892cadadb9e253e">&#9670;&nbsp;</a></span>CDC_ABSTRACT_CONTROL_MANAGEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ABSTRACT_CONTROL_MANAGEMENT&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45c103c50f65018dc180c9b2bebf7efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c103c50f65018dc180c9b2bebf7efd">&#9670;&nbsp;</a></span>CDC_ABSTRACT_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ABSTRACT_CONTROL_MODEL&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc7ac79bd33733bd68140d2e88062281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7ac79bd33733bd68140d2e88062281">&#9670;&nbsp;</a></span>CDC_ABSTRACT_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ABSTRACT_STATE&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7800f91d3e98a1b22c00a925099d9000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7800f91d3e98a1b22c00a925099d9000">&#9670;&nbsp;</a></span>CDC_ACTIVATE_CARRIER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ACTIVATE_CARRIER&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6d98845aabbddd52c3f9d2b8444b245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d98845aabbddd52c3f9d2b8444b245">&#9670;&nbsp;</a></span>CDC_ATM_NETWORKING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ATM_NETWORKING&#160;&#160;&#160;0x10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3eb9a2cf5b62f9dae77f1b25397c75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3eb9a2cf5b62f9dae77f1b25397c75a">&#9670;&nbsp;</a></span>CDC_ATM_NETWORKING_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ATM_NETWORKING_CONTROL_MODEL&#160;&#160;&#160;0x07</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c1eabf2ab336fe1aab2949d736e8de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c1eabf2ab336fe1aab2949d736e8de0">&#9670;&nbsp;</a></span>CDC_AUX_JACK_HOOK_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_AUX_JACK_HOOK_STATE&#160;&#160;&#160;0x08</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9917cd2343a8736133247b9c3fe77d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9917cd2343a8736133247b9c3fe77d07">&#9670;&nbsp;</a></span>CDC_CALL_MANAGEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CALL_MANAGEMENT&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab81c6abf6515b13872792d5ac78e7a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81c6abf6515b13872792d5ac78e7a9e">&#9670;&nbsp;</a></span>CDC_CALL_STATE_CHANGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CALL_STATE_CHANGE&#160;&#160;&#160;0x28</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1eb41e1403101869f4d3cf5aa261fa2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb41e1403101869f4d3cf5aa261fa2a">&#9670;&nbsp;</a></span>CDC_CAPI_CONTROL_MANAGEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CAPI_CONTROL_MANAGEMENT&#160;&#160;&#160;0x0E</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4e3243ed0fcc9f1f7ac66bbe2170b02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e3243ed0fcc9f1f7ac66bbe2170b02">&#9670;&nbsp;</a></span>CDC_CAPI_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CAPI_CONTROL_MODEL&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c79b8666110840333ad3785bf7ce87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c79b8666110840333ad3785bf7ce87c">&#9670;&nbsp;</a></span>CDC_CLEAR_COMM_FEATURE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CLEAR_COMM_FEATURE&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a296b7ff8f411cbec0beb3ca081807851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296b7ff8f411cbec0beb3ca081807851">&#9670;&nbsp;</a></span>CDC_CLEAR_UNIT_PARAMETER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CLEAR_UNIT_PARAMETER&#160;&#160;&#160;0x39</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15ba271255934c53442a1b5c3f84bcdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ba271255934c53442a1b5c3f84bcdd">&#9670;&nbsp;</a></span>CDC_COMMUNICATION_INTERFACE_CLASS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_COMMUNICATION_INTERFACE_CLASS&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f28a376a759311d1e4a1e56a6b2f49a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f28a376a759311d1e4a1e56a6b2f49a">&#9670;&nbsp;</a></span>CDC_CONNECTION_SPEED_CHANGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CONNECTION_SPEED_CHANGE&#160;&#160;&#160;0x2A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76861e5f85f372d6a993d773f05e48eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76861e5f85f372d6a993d773f05e48eb">&#9670;&nbsp;</a></span>CDC_COUNTRY_SELECTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_COUNTRY_SELECTION&#160;&#160;&#160;0x07</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1bc012fc51f7f645360cd2cdad2c97c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1bc012fc51f7f645360cd2cdad2c97c">&#9670;&nbsp;</a></span>CDC_COUNTRY_SETTING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_COUNTRY_SETTING&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae07e10978a48ff63df33c3aeedf84c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae07e10978a48ff63df33c3aeedf84c3a">&#9670;&nbsp;</a></span>CDC_CS_ENDPOINT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CS_ENDPOINT&#160;&#160;&#160;0x25</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe0ca40b5aacc5c750f952af952583d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0ca40b5aacc5c750f952af952583d2">&#9670;&nbsp;</a></span>CDC_CS_INTERFACE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_CS_INTERFACE&#160;&#160;&#160;0x24</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af81d6e2f13ca36ac1099de2cabd56b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81d6e2f13ca36ac1099de2cabd56b84">&#9670;&nbsp;</a></span>CDC_DATA_INTERFACE_CLASS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_DATA_INTERFACE_CLASS&#160;&#160;&#160;0x0A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe5ea0520d17cefc8007249738703d03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5ea0520d17cefc8007249738703d03">&#9670;&nbsp;</a></span>CDC_DATA_MULTPLEXED_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_DATA_MULTPLEXED_STATE&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d1029757801882e8d6589c05a3c41db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d1029757801882e8d6589c05a3c41db">&#9670;&nbsp;</a></span>CDC_DIAL_DIGITS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_DIAL_DIGITS&#160;&#160;&#160;0x36</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4b22f62a3e073de17e7c5fa1c44fce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b22f62a3e073de17e7c5fa1c44fce3">&#9670;&nbsp;</a></span>CDC_DIRECT_LINE_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_DIRECT_LINE_CONTROL_MODEL&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2098e156d8f57126390f70aecf4ecae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2098e156d8f57126390f70aecf4ecae">&#9670;&nbsp;</a></span>CDC_DIRECT_LINE_MANAGEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_DIRECT_LINE_MANAGEMENT&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac47a8c4d97a6c4701526b8c0083de851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47a8c4d97a6c4701526b8c0083de851">&#9670;&nbsp;</a></span>CDC_DTE_PRESENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_DTE_PRESENT&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d7cb7b2ddf1244b4f38197fbf3d6017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7cb7b2ddf1244b4f38197fbf3d6017">&#9670;&nbsp;</a></span>CDC_ETHERNET_NETWORKING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ETHERNET_NETWORKING&#160;&#160;&#160;0x0F</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4582f88e4c5e7c6dfdd6b4f20793b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4582f88e4c5e7c6dfdd6b4f20793b5b">&#9670;&nbsp;</a></span>CDC_ETHERNET_NETWORKING_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_ETHERNET_NETWORKING_CONTROL_MODEL&#160;&#160;&#160;0x06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7617ce5ed5f0d8b9058c6596d9be2067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7617ce5ed5f0d8b9058c6596d9be2067">&#9670;&nbsp;</a></span>CDC_EXTENSION_UNIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_EXTENSION_UNIT&#160;&#160;&#160;0x0C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6533ac7d829cdb9c496a81cee1e94d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6533ac7d829cdb9c496a81cee1e94d7">&#9670;&nbsp;</a></span>CDC_GET_ATM_DEVICE_STATISTICS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_ATM_DEVICE_STATISTICS&#160;&#160;&#160;0x51</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1e526400896ec1ae50b4b49225a3cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e526400896ec1ae50b4b49225a3cde">&#9670;&nbsp;</a></span>CDC_GET_ATM_VC_STATISTICS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_ATM_VC_STATISTICS&#160;&#160;&#160;0x53</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0912dac888d01142b225b0c6f8a508f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0912dac888d01142b225b0c6f8a508f">&#9670;&nbsp;</a></span>CDC_GET_COMM_FEATURE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_COMM_FEATURE&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6170632c774a3163b5a9927cc4e960ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6170632c774a3163b5a9927cc4e960ec">&#9670;&nbsp;</a></span>CDC_GET_ENCAPSULATED_RESPONSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_ENCAPSULATED_RESPONSE&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc0a1bd36fdd097c6aab5455ecb4dc31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc0a1bd36fdd097c6aab5455ecb4dc31">&#9670;&nbsp;</a></span>CDC_GET_ETHERNET_PMP_FILTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_ETHERNET_PMP_FILTER&#160;&#160;&#160;0x42</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee82eef61bdf0892cfbc3e2024b20416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee82eef61bdf0892cfbc3e2024b20416">&#9670;&nbsp;</a></span>CDC_GET_ETHERNET_STATISTIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_ETHERNET_STATISTIC&#160;&#160;&#160;0x44</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1068ab45668e413d964a01bc36fa2d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1068ab45668e413d964a01bc36fa2d43">&#9670;&nbsp;</a></span>CDC_GET_LINE_CODING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_LINE_CODING&#160;&#160;&#160;0x21</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a725da0e1d595c7aebacb9fa3df4d7231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725da0e1d595c7aebacb9fa3df4d7231">&#9670;&nbsp;</a></span>CDC_GET_LINE_PARMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_LINE_PARMS&#160;&#160;&#160;0x35</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a257e7150670c8cc0b1d90c8f19c36b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a257e7150670c8cc0b1d90c8f19c36b38">&#9670;&nbsp;</a></span>CDC_GET_OPERATION_PARMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_OPERATION_PARMS&#160;&#160;&#160;0x33</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc210559fe7b278167eaac01c504b048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc210559fe7b278167eaac01c504b048">&#9670;&nbsp;</a></span>CDC_GET_PROFILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_PROFILE&#160;&#160;&#160;0x3A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a17ca0755e655bd1fe6ac97b68ec10f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a17ca0755e655bd1fe6ac97b68ec10f">&#9670;&nbsp;</a></span>CDC_GET_RINGER_PARMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_RINGER_PARMS&#160;&#160;&#160;0x31</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbcb9dcbc2139a1e0dc9a171033ca6e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbcb9dcbc2139a1e0dc9a171033ca6e4">&#9670;&nbsp;</a></span>CDC_GET_UNIT_PARAMETER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_GET_UNIT_PARAMETER&#160;&#160;&#160;0x38</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed9b4832a62cea26549cb48d1d60b3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed9b4832a62cea26549cb48d1d60b3cd">&#9670;&nbsp;</a></span>CDC_HEADER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_HEADER&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7cf7bbef26d854f9eaa674e30a724b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7cf7bbef26d854f9eaa674e30a724b3">&#9670;&nbsp;</a></span>CDC_IDLE_SETTING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_IDLE_SETTING&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc1d5d2e07e211932793bd184c086d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc1d5d2e07e211932793bd184c086d2">&#9670;&nbsp;</a></span>CDC_LINE_STATE_CHANGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_LINE_STATE_CHANGE&#160;&#160;&#160;0x29</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09432e81675e3420e2417c48dacc1446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09432e81675e3420e2417c48dacc1446">&#9670;&nbsp;</a></span>CDC_MULTI_CHANNEL_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_MULTI_CHANNEL_CONTROL_MODEL&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35dda23ca54017fbb00deed4d4f8c246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35dda23ca54017fbb00deed4d4f8c246">&#9670;&nbsp;</a></span>CDC_MULTI_CHANNEL_MANAGEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_MULTI_CHANNEL_MANAGEMENT&#160;&#160;&#160;0x0D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2541f7d6e99caaffe7ef24e450848ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2541f7d6e99caaffe7ef24e450848ca4">&#9670;&nbsp;</a></span>CDC_NETWORK_CHANNEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_NETWORK_CHANNEL&#160;&#160;&#160;0x0A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fc10b4e8d5f62b794742579f331ccb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc10b4e8d5f62b794742579f331ccb6">&#9670;&nbsp;</a></span>CDC_NOTIFICATION_NETWORK_CONNECTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_NOTIFICATION_NETWORK_CONNECTION&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e0b1a3162b4366e4affe826d41b588a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0b1a3162b4366e4affe826d41b588a">&#9670;&nbsp;</a></span>CDC_NOTIFICATION_SERIAL_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_NOTIFICATION_SERIAL_STATE&#160;&#160;&#160;0x20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4b9f5ccbaea5aa9468c352bd6670673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b9f5ccbaea5aa9468c352bd6670673">&#9670;&nbsp;</a></span>CDC_PROTOCOL_CAPI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_CAPI&#160;&#160;&#160;0x93</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21d037be044406870a96728eab22eb04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d037be044406870a96728eab22eb04">&#9670;&nbsp;</a></span>CDC_PROTOCOL_COMMON_AT_COMMANDS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_COMMON_AT_COMMANDS&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae92a998daaf7ced3b53d01f6e02bf272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae92a998daaf7ced3b53d01f6e02bf272">&#9670;&nbsp;</a></span>CDC_PROTOCOL_DESCRIBED_IN_PUFD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_DESCRIBED_IN_PUFD&#160;&#160;&#160;0xFE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad89bfc1833e0b0d016eb76d79eb9c91b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad89bfc1833e0b0d016eb76d79eb9c91b">&#9670;&nbsp;</a></span>CDC_PROTOCOL_EURO_ISDN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_EURO_ISDN&#160;&#160;&#160;0x91</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4adc6afe3a8d15272d6063942fe1b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4adc6afe3a8d15272d6063942fe1b1d">&#9670;&nbsp;</a></span>CDC_PROTOCOL_HDLC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_HDLC&#160;&#160;&#160;0x31</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c92cdf947b11c57a0367f2176dcb1c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c92cdf947b11c57a0367f2176dcb1c7">&#9670;&nbsp;</a></span>CDC_PROTOCOL_HOST_BASED_DRIVER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_HOST_BASED_DRIVER&#160;&#160;&#160;0xFD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78dc55c4e5f94f3d8f582601fe7ea898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78dc55c4e5f94f3d8f582601fe7ea898">&#9670;&nbsp;</a></span>CDC_PROTOCOL_ISDN_BRI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_ISDN_BRI&#160;&#160;&#160;0x30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfb6cf3a9d44e8cd5fe500b7b54d375c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb6cf3a9d44e8cd5fe500b7b54d375c">&#9670;&nbsp;</a></span>CDC_PROTOCOL_Q921_DATA_LINK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_Q921_DATA_LINK&#160;&#160;&#160;0x51</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd3e2fe679be1a4dd412907e48752106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3e2fe679be1a4dd412907e48752106">&#9670;&nbsp;</a></span>CDC_PROTOCOL_Q921_MANAGEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_Q921_MANAGEMENT&#160;&#160;&#160;0x50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d6e149c2214d9dbd8534dda168daacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d6e149c2214d9dbd8534dda168daacf">&#9670;&nbsp;</a></span>CDC_PROTOCOL_Q921_MULTIPLEXOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_Q921_MULTIPLEXOR&#160;&#160;&#160;0x52</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab19110d83ed2e6ca0346e49b49522062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19110d83ed2e6ca0346e49b49522062">&#9670;&nbsp;</a></span>CDC_PROTOCOL_TRANSPARENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_TRANSPARENT&#160;&#160;&#160;0x32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a763bfa17ad4e31a2d825435d2d525743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763bfa17ad4e31a2d825435d2d525743">&#9670;&nbsp;</a></span>CDC_PROTOCOL_UNIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_UNIT&#160;&#160;&#160;0x0B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a170942a6e275b4e9d651b7f0f079e131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a170942a6e275b4e9d651b7f0f079e131">&#9670;&nbsp;</a></span>CDC_PROTOCOL_V24_RATE_ADAPTATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_V24_RATE_ADAPTATION&#160;&#160;&#160;0x92</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad24f4fed1ae2a53e78953d714effc033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24f4fed1ae2a53e78953d714effc033">&#9670;&nbsp;</a></span>CDC_PROTOCOL_V42</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PROTOCOL_V42&#160;&#160;&#160;0x90</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab5439915442bd5b835d7c755ba5fec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5439915442bd5b835d7c755ba5fec1">&#9670;&nbsp;</a></span>CDC_PULSE_SETUP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_PULSE_SETUP&#160;&#160;&#160;0x12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c22e67f33828642c5de9bdb9744fba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c22e67f33828642c5de9bdb9744fba0">&#9670;&nbsp;</a></span>CDC_REPORTING_CAPABILITIES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_REPORTING_CAPABILITIES&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8181593c43c91cdcae5fce9578cf14a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8181593c43c91cdcae5fce9578cf14a6">&#9670;&nbsp;</a></span>CDC_RESPONSE_AVAILABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_RESPONSE_AVAILABLE&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a763f022025ebdaa3e6fb3dd6b5bef118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763f022025ebdaa3e6fb3dd6b5bef118">&#9670;&nbsp;</a></span>CDC_RING_AUX_JACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_RING_AUX_JACK&#160;&#160;&#160;0x15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1eec1036c75765a36266563f5dc522a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1eec1036c75765a36266563f5dc522a">&#9670;&nbsp;</a></span>CDC_RING_DETECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_RING_DETECT&#160;&#160;&#160;0x09</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a868c480caf0abda6b458c82281dda8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a868c480caf0abda6b458c82281dda8ad">&#9670;&nbsp;</a></span>CDC_SEND_BREAK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SEND_BREAK&#160;&#160;&#160;0x23</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7aaa245703a0a2191c27697715f3727c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aaa245703a0a2191c27697715f3727c">&#9670;&nbsp;</a></span>CDC_SEND_ENCAPSULATED_COMMAND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SEND_ENCAPSULATED_COMMAND&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af83535db4560a2fa52c72571f914dfc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83535db4560a2fa52c72571f914dfc1">&#9670;&nbsp;</a></span>CDC_SEND_PULSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SEND_PULSE&#160;&#160;&#160;0x13</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f4568a9c419e1f6c6049e6351f4fb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4568a9c419e1f6c6049e6351f4fb8a">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_BREAK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_BREAK&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d2b66027b86544993305f5602612a72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2b66027b86544993305f5602612a72">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_FRAMING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_FRAMING&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a460608200d65e5aaa071185af20973e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460608200d65e5aaa071185af20973e6">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_OVERRUN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_OVERRUN&#160;&#160;&#160;(1 &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1a2e84a7444f8d9c22467d48b250449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1a2e84a7444f8d9c22467d48b250449">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_PARITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_PARITY&#160;&#160;&#160;(1 &lt;&lt; 5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50e133d334a1d269f11dbfddf7584aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e133d334a1d269f11dbfddf7584aa2">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_RING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_RING&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5cce2e3041aeb473b3e570ea7e0dd02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5cce2e3041aeb473b3e570ea7e0dd02">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_RX_CARRIER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_RX_CARRIER&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac7cec8cdd36cb4a824af50cc556c862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac7cec8cdd36cb4a824af50cc556c862">&#9670;&nbsp;</a></span>CDC_SERIAL_STATE_TX_CARRIER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SERIAL_STATE_TX_CARRIER&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa035b52c9857b59480234cde9624c89c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa035b52c9857b59480234cde9624c89c">&#9670;&nbsp;</a></span>CDC_SET_ATM_DATA_FORMAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_ATM_DATA_FORMAT&#160;&#160;&#160;0x50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3fad775e9da8b7d0223cddfb444c4d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3fad775e9da8b7d0223cddfb444c4d2">&#9670;&nbsp;</a></span>CDC_SET_ATM_DEFAULT_VC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_ATM_DEFAULT_VC&#160;&#160;&#160;0x52</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac39a42b128864ba4fae224be0078adba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac39a42b128864ba4fae224be0078adba">&#9670;&nbsp;</a></span>CDC_SET_AUX_LINE_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_AUX_LINE_STATE&#160;&#160;&#160;0x10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a893b79445f99070657e8d45f6495b174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893b79445f99070657e8d45f6495b174">&#9670;&nbsp;</a></span>CDC_SET_COMM_FEATURE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_COMM_FEATURE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11c392243dec4d03970f1eaa1f8053ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11c392243dec4d03970f1eaa1f8053ae">&#9670;&nbsp;</a></span>CDC_SET_CONTROL_LINE_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_CONTROL_LINE_STATE&#160;&#160;&#160;0x22</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9abaa51e99db04219620a328c719d9b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9abaa51e99db04219620a328c719d9b4">&#9670;&nbsp;</a></span>CDC_SET_ETHERNET_MULTICAST_FILTERS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_ETHERNET_MULTICAST_FILTERS&#160;&#160;&#160;0x40</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5776aef3d254f11c1b6cca8b9c25ea77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5776aef3d254f11c1b6cca8b9c25ea77">&#9670;&nbsp;</a></span>CDC_SET_ETHERNET_PACKET_FILTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_ETHERNET_PACKET_FILTER&#160;&#160;&#160;0x43</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0f6ee8db8c60236159f939776829fcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f6ee8db8c60236159f939776829fcf">&#9670;&nbsp;</a></span>CDC_SET_ETHERNET_PMP_FILTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_ETHERNET_PMP_FILTER&#160;&#160;&#160;0x41</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a367e07b7ce50e3a17703da1dea7f05a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a367e07b7ce50e3a17703da1dea7f05a1">&#9670;&nbsp;</a></span>CDC_SET_HOOK_STATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_HOOK_STATE&#160;&#160;&#160;0x11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad07ce089c8757b8d2ff37ddd83dc9351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad07ce089c8757b8d2ff37ddd83dc9351">&#9670;&nbsp;</a></span>CDC_SET_LINE_CODING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_LINE_CODING&#160;&#160;&#160;0x20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74433e0421d2cfd59982db6417a8ea41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74433e0421d2cfd59982db6417a8ea41">&#9670;&nbsp;</a></span>CDC_SET_LINE_PARMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_LINE_PARMS&#160;&#160;&#160;0x34</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a437557c6adb23d8cdde7842b62a03a21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437557c6adb23d8cdde7842b62a03a21">&#9670;&nbsp;</a></span>CDC_SET_OPERATION_PARMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_OPERATION_PARMS&#160;&#160;&#160;0x32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83ededfa85fdc32e603f9d1cdccbad78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ededfa85fdc32e603f9d1cdccbad78">&#9670;&nbsp;</a></span>CDC_SET_PULSE_TIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_PULSE_TIME&#160;&#160;&#160;0x14</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacceff07ade4b94b3c924d4f4ad6b139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacceff07ade4b94b3c924d4f4ad6b139">&#9670;&nbsp;</a></span>CDC_SET_RINGER_PARMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_RINGER_PARMS&#160;&#160;&#160;0x30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6288535dffb72bcbdce329546eede03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6288535dffb72bcbdce329546eede03">&#9670;&nbsp;</a></span>CDC_SET_UNIT_PARAMETER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_SET_UNIT_PARAMETER&#160;&#160;&#160;0x37</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7952047aa14ed96652c4ca32184b5fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7952047aa14ed96652c4ca32184b5fbe">&#9670;&nbsp;</a></span>CDC_TELEPHONE_CONTROL_MODEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_TELEPHONE_CONTROL_MODEL&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80a819de39e07558242157c6f43b1c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a819de39e07558242157c6f43b1c9b">&#9670;&nbsp;</a></span>CDC_TELEPHONE_OPERATIONAL_MODES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_TELEPHONE_OPERATIONAL_MODES&#160;&#160;&#160;0x08</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a5a5d643222d2f98829e4e3820ae893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5a5d643222d2f98829e4e3820ae893">&#9670;&nbsp;</a></span>CDC_TELEPHONE_RINGER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_TELEPHONE_RINGER&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6f38e6604e2bc2f4dc6e138cc39162a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f38e6604e2bc2f4dc6e138cc39162a">&#9670;&nbsp;</a></span>CDC_UNION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_UNION&#160;&#160;&#160;0x06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1d0ea5a7cedfd170085ac2e713d95be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d0ea5a7cedfd170085ac2e713d95be">&#9670;&nbsp;</a></span>CDC_USB_TERMINAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_USB_TERMINAL&#160;&#160;&#160;0x09</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e40069024a8bbca6a4c9475f16a390b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e40069024a8bbca6a4c9475f16a390b">&#9670;&nbsp;</a></span>CDC_V1_10</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CDC_V1_10&#160;&#160;&#160;0x0110</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">型定義詳解</h2>
+<a id="a0859cc73ebea375bd109da2f54b862cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0859cc73ebea375bd109da2f54b862cf">&#9670;&nbsp;</a></span>CDC_NOTIFICATION_HEADER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef USB_SETUP_PACKET <a class="el" href="cdc_8h.html#a0859cc73ebea375bd109da2f54b862cf">CDC_NOTIFICATION_HEADER</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="ad0ae943d8a91add2dfebfe490b8a0432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ae943d8a91add2dfebfe490b8a0432">&#9670;&nbsp;</a></span>__attribute__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="struct___c_d_c___h_e_a_d_e_r___d_e_s_c_r_i_p_t_o_r.html">_CDC_HEADER_DESCRIPTOR</a> <a class="el" href="union____attribute____.html">__attribute__</a> </td>
+          <td>(</td>
+          <td class="paramtype">(packed)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">変数詳解</h2>
+<a id="a2bffb583550e4d83b4a2a4d735ece97f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bffb583550e4d83b4a2a4d735ece97f">&#9670;&nbsp;</a></span>bcdCDC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a> bcdCDC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a296b7b4f7eaba228afa94b5f9854b86b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296b7b4f7eaba228afa94b5f9854b86b">&#9670;&nbsp;</a></span>bCharFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bCharFormat</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb01baccbd5328de664ba39a4c295941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb01baccbd5328de664ba39a4c295941">&#9670;&nbsp;</a></span>bDataBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bDataBits</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69219cd97dd6c69e7d5b798d9251ce5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69219cd97dd6c69e7d5b798d9251ce5f">&#9670;&nbsp;</a></span>bDataInterface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bDataInterface</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9a7544f66e5343048a779cc2f81f79e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a7544f66e5343048a779cc2f81f79e">&#9670;&nbsp;</a></span>bDescriptorSubtype</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bDescriptorSubtype</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67d7027b9eb9ed268d28e84fbc675707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d7027b9eb9ed268d28e84fbc675707">&#9670;&nbsp;</a></span>bDescriptorType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bDescriptorType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65d7922f01732e3c44ebb46a73f99393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d7922f01732e3c44ebb46a73f99393">&#9670;&nbsp;</a></span>bFunctionLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bFunctionLength</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ab108f916e137502b55f0324e594963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ab108f916e137502b55f0324e594963">&#9670;&nbsp;</a></span>bMasterInterface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bMasterInterface</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a881b7a2d441c1074050bb06c058b680c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a881b7a2d441c1074050bb06c058b680c">&#9670;&nbsp;</a></span>bmCapabilities</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bmCapabilities</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47f5ab7fcc915dedd560214e61438bc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f5ab7fcc915dedd560214e61438bc3">&#9670;&nbsp;</a></span>bParityType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bParityType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff07995530450312f331697697237abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff07995530450312f331697697237abd">&#9670;&nbsp;</a></span>bSlaveInterfaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> bSlaveInterfaces[1]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c7eaa2f09ca8253de1711d01e05e02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c7eaa2f09ca8253de1711d01e05e02c">&#9670;&nbsp;</a></span>dwDTERate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> dwDTERate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa012f62b34563dac0d7292570c73e865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa012f62b34563dac0d7292570c73e865">&#9670;&nbsp;</a></span>sUnion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CDC_UNION_DESCRIPTOR sUnion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

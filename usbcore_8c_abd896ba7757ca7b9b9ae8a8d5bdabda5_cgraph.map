@@ -1,0 +1,7 @@
+<map id="USB_StatusInStage" name="USB_StatusInStage">
+<area shape="rect" id="node2" href="$usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="192,31,297,57"/>
+<area shape="rect" id="node3" href="$usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="361,5,414,32"/>
+<area shape="rect" id="node4" href="$usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="345,56,429,83"/>
+<area shape="rect" id="node5" href="$usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="477,31,544,57"/>
+<area shape="rect" id="node6" href="$usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="481,81,541,108"/>
+</map>

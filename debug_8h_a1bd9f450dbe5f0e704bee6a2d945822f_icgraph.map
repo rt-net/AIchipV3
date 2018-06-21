@@ -1,0 +1,7 @@
+<map id="myPrintfUSB" name="myPrintfUSB">
+<area shape="rect" id="node2" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="155,5,261,32"/>
+<area shape="rect" id="node4" href="$mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="174,56,242,83"/>
+<area shape="rect" id="node5" href="$mpu9250_8c.html#a2c74a170b91fa6bef07054c2037490c5" title="debugMPU9250" alt="" coords="151,107,265,133"/>
+<area shape="rect" id="node3" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="317,5,406,32"/>
+<area shape="rect" id="node6" href="$mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="313,107,409,133"/>
+</map>

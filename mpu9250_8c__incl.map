@@ -1,0 +1,11 @@
+<map id="src/AICHIP/mpu9250.c" name="src/AICHIP/mpu9250.c">
+<area shape="rect" id="node2" href="$type_8h.html" title="type.h" alt="" coords="5,80,64,107"/>
+<area shape="rect" id="node3" href="$mpu9250_8h.html" title="mpu9250.h" alt="" coords="89,80,175,107"/>
+<area shape="rect" id="node4" href="$i2c_8h.html" title="i2c.h" alt="" coords="200,80,251,107"/>
+<area shape="rect" id="node5" href="$uart_8h.html" title="uart.h" alt="" coords="275,80,330,107"/>
+<area shape="rect" id="node6" href="$_system_tick_timer_8h.html" title="SystemTickTimer.h" alt="" coords="354,80,489,107"/>
+<area shape="rect" id="node7" href="$_main_function_8h.html" title="MainFunction.h" alt="" coords="513,80,623,107"/>
+<area shape="rect" id="node8" href="$tiny_math_function_8h.html" title="TinyMathFunction.h" alt="" coords="648,80,784,107"/>
+<area shape="rect" id="node9" href="$debug_8h.html" title="debug.h" alt="" coords="809,80,877,107"/>
+<area shape="rect" id="node10" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html" title="EEPROM_24LC16BT_I.h" alt="" coords="901,80,1067,107"/>
+</map>

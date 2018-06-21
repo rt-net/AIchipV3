@@ -1,0 +1,5 @@
+<map id="CDC_SetLineCoding" name="CDC_SetLineCoding">
+<area shape="rect" id="node2" href="$serial_8h.html#a1fd4614e99c4b4e87970429c69b3867d" title="ser_ClosePort" alt="" coords="193,5,297,32"/>
+<area shape="rect" id="node3" href="$serial_8h.html#a6d4d3e6db68a3737215755a4a800b128" title="ser_OpenPort" alt="" coords="194,56,297,83"/>
+<area shape="rect" id="node4" href="$serial_8h.html#af120d75c37bd44edc6eb6c163bb8e91d" title="ser_InitPort" alt="" coords="201,107,289,133"/>
+</map>
