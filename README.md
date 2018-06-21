@@ -1,4 +1,4 @@
-# AIchip V3
+# AIchipV3
 
 本リポジトリはAIチップV3に関する資料およびサンプルプログラムを
 まとめたものです.  各種ファイルの内容は以下になります.  
@@ -10,8 +10,7 @@ AIチップの回路図です.
 
 ### 概要
 
-processingとはarudinoのようにC言語likeな文法で簡単なプログラミングができる言語です.   
-<https://processing.org/>   
+[processing](https://processing.org/)とはarudinoのようにC言語likeな文法で簡単なプログラミングができる言語です.   
 グラフィック等の表示が比較的に簡単にできるのでちょっとしたプログラミングに適しています.  
 AIチップのいくつかのサンプルはprocessingを用いて記述されています.  
 processingの導入方法等についてはmanualフォルダ内のAI_CHIP_V3_manual.pdfを参照してください.  
