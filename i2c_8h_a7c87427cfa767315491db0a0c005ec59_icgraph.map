@@ -1,0 +1,23 @@
+<map id="I2CStart" name="I2CStart">
+<area shape="rect" id="node2" href="$i2c_8c.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="123,372,204,399"/>
+<area shape="rect" id="node3" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a90dd5d92bd34934014799f84126177ac" title="write1byteEEPROM" alt="" coords="255,113,394,140"/>
+<area shape="rect" id="node8" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a27109ef829f3dd77b5209510da07edec" title="read1byteEEPROM" alt="" coords="257,201,393,228"/>
+<area shape="rect" id="node11" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a8f274db09e37c0ff0a18edb70c4c9f2d" title="readNbyteEEPROM" alt="" coords="255,271,394,297"/>
+<area shape="rect" id="node18" href="$mpu9250_8c.html#af5ba140727514d78380957728fb85858" title="initMPU9250" alt="" coords="495,347,591,373"/>
+<area shape="rect" id="node19" href="$mpu9250_8c.html#a92d3fbffdf08a1e1f34704118cd70ad5" title="initAK8963" alt="" coords="743,397,829,424"/>
+<area shape="rect" id="node20" href="$mpu9250_8c.html#a386e4bbff734d4a43941b35205942cfe" title="updateMPU9250Data" alt="" coords="252,448,397,475"/>
+<area shape="rect" id="node21" href="$mpu9250_8c.html#a862a4101d94d72d8b132ec0a0862eae9" title="updateAK8963Data" alt="" coords="257,499,392,525"/>
+<area shape="rect" id="node22" href="$mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="291,549,359,576"/>
+<area shape="rect" id="node4" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af7ecf1a6eb9052c1f2b97606c42ce6a1" title="writeNbyteEEPROM" alt="" coords="473,68,613,95"/>
+<area shape="rect" id="node5" href="$mpu9250_8c.html#ae614aca57612ac1158164a1ab6f73ca3" title="writeEEPROMOffsetAccInt" alt="" coords="697,5,875,32"/>
+<area shape="rect" id="node6" href="$mpu9250_8c.html#aba705c4f603e68a4b0a6763050f384a0" title="writeEEPROMOffsetOmegaInt" alt="" coords="688,56,884,83"/>
+<area shape="rect" id="node7" href="$mpu9250_8c.html#af1ca931e223bcce03fb992224fc18596" title="writeEEPROMOffsetMagInt" alt="" coords="697,107,875,133"/>
+<area shape="rect" id="node9" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="489,144,596,171"/>
+<area shape="rect" id="node10" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="741,157,831,184"/>
+<area shape="rect" id="node12" href="$mpu9250_8c.html#a0210711108d4042649f4fd338acac85e" title="readEEPROMOffsetAccInt" alt="" coords="455,195,630,221"/>
+<area shape="rect" id="node16" href="$mpu9250_8c.html#ab4139a9d25ca39d26e60d6d7d7c744a4" title="readEEPROMOffsetOmegaInt" alt="" coords="445,245,640,272"/>
+<area shape="rect" id="node17" href="$mpu9250_8c.html#a9cdfa564e571990552ebacf18f76416e" title="readEEPROMOffsetMagInt" alt="" coords="454,296,631,323"/>
+<area shape="rect" id="node13" href="$mpu9250_8c.html#a497db0f06ddaa6cb49582485abfbb05b" title="initOffsetByEEPROM" alt="" coords="713,259,859,285"/>
+<area shape="rect" id="node14" href="$main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="932,347,971,373"/>
+<area shape="rect" id="node15" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="1019,347,1069,373"/>
+</map>

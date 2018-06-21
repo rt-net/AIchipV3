@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: inc/AICHIP/MainFunction.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_66732bebd6e8d906bf079d84012861f0.html">AICHIP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">MainFunction.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_main_function_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* ------------------------------------------------------------ *</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">File MainFunction.h</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">* ------------------------------------------------------------ */</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef MAINFUNCTION_H</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define MAINFUNCTION_H</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_main_function_8h.html#aca26a4f4a9af167d156b9056a348cda7">startTimerInterruptMainFunction</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_main_function_8h.html#ab9a35976424c56c00f2cdf65678f4b60">stopTimerInterruptMainFunction</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_main_function_8h.html#a74ff919bbe2bc33306db409cd474705f">setSendDataEnable</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> en);</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_main_function_8h.html#aa03cf5328ae01a415d330c002fe659fa">writeEEPROMOutputMode</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> mode);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="_main_function_8h.html#a91749b4160fbf9df3f1535a1af3982e3">readEEPROMOutputMode</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_main_function_8h.html#a8d010a21d60102538dcedc2b42aa022d">setOutputMode</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> mode);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">//出力データの形式</span></div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="_main_function_8h.html#a085f899013b2d7299f994165d0a9c908">   17</a></span>&#160;<span class="preprocessor">#define OUTPUT_MODE_USB_ASCII_9AXIS (0)</span></div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="_main_function_8h.html#a64654f66f27df79412f6d3c3cad169a0">   18</a></span>&#160;<span class="preprocessor">#define OUTPUT_MODE_57600_BINARY_9AXIS (1)</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">/******************************************************************************</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">**                            End Of File</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">******************************************************************************/</span></div><div class="ttc" id="_main_function_8h_html_a74ff919bbe2bc33306db409cd474705f"><div class="ttname"><a href="_main_function_8h.html#a74ff919bbe2bc33306db409cd474705f">setSendDataEnable</a></div><div class="ttdeci">void setSendDataEnable(uint8_t en)</div><div class="ttdef"><b>Definition:</b> AICHIPFunction.c:63</div></div>
+<div class="ttc" id="type_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition:</b> type.h:27</div></div>
+<div class="ttc" id="_main_function_8h_html_aca26a4f4a9af167d156b9056a348cda7"><div class="ttname"><a href="_main_function_8h.html#aca26a4f4a9af167d156b9056a348cda7">startTimerInterruptMainFunction</a></div><div class="ttdeci">void startTimerInterruptMainFunction(void)</div></div>
+<div class="ttc" id="_main_function_8h_html_aa03cf5328ae01a415d330c002fe659fa"><div class="ttname"><a href="_main_function_8h.html#aa03cf5328ae01a415d330c002fe659fa">writeEEPROMOutputMode</a></div><div class="ttdeci">void writeEEPROMOutputMode(uint8_t mode)</div></div>
+<div class="ttc" id="_main_function_8h_html_ab9a35976424c56c00f2cdf65678f4b60"><div class="ttname"><a href="_main_function_8h.html#ab9a35976424c56c00f2cdf65678f4b60">stopTimerInterruptMainFunction</a></div><div class="ttdeci">void stopTimerInterruptMainFunction(void)</div></div>
+<div class="ttc" id="_main_function_8h_html_a8d010a21d60102538dcedc2b42aa022d"><div class="ttname"><a href="_main_function_8h.html#a8d010a21d60102538dcedc2b42aa022d">setOutputMode</a></div><div class="ttdeci">void setOutputMode(uint8_t mode)</div></div>
+<div class="ttc" id="_main_function_8h_html_a91749b4160fbf9df3f1535a1af3982e3"><div class="ttname"><a href="_main_function_8h.html#a91749b4160fbf9df3f1535a1af3982e3">readEEPROMOutputMode</a></div><div class="ttdeci">uint8_t readEEPROMOutputMode(void)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

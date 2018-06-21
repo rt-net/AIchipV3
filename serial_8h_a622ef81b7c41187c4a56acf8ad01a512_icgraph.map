@@ -1,0 +1,11 @@
+<map id="ser_LineState" name="ser_LineState">
+<area shape="rect" id="node2" href="$cdcuser_8c.html#a7ce873af21ad9bad0f156b742d60e7db" title="CDC_GetSerialState" alt="" coords="156,81,297,108"/>
+<area shape="rect" id="node3" href="$usb_transmission_8c.html#a4a2bacd9a23fff588cb7f5b6538e7b25" title="VCOM_CheckState" alt="" coords="345,56,481,83"/>
+<area shape="rect" id="node10" href="$usbuser_8c.html#a910d243e4f1701b825b7e9c6e7fa2bed" title="USB_EndPoint1" alt="" coords="355,107,471,133"/>
+<area shape="rect" id="node4" href="$debug_8c.html#a1bd9f450dbe5f0e704bee6a2d945822f" title="myPrintfUSB" alt="" coords="529,56,627,83"/>
+<area shape="rect" id="node5" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="679,5,785,32"/>
+<area shape="rect" id="node7" href="$mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="698,56,766,83"/>
+<area shape="rect" id="node8" href="$mpu9250_8c.html#a2c74a170b91fa6bef07054c2037490c5" title="debugMPU9250" alt="" coords="675,107,789,133"/>
+<area shape="rect" id="node6" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="841,5,930,32"/>
+<area shape="rect" id="node9" href="$mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="837,107,933,133"/>
+</map>

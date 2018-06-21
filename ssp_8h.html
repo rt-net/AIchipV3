@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: inc/PERIPHERAL/ssp.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_465fd8e6a32cf7967e860f7de28a8bae.html">PERIPHERAL</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">ssp.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="ssp_8h__dep__incl.png" border="0" usemap="#inc_2_p_e_r_i_p_h_e_r_a_l_2ssp_8hdep" alt=""/></div>
+<map name="inc_2_p_e_r_i_p_h_e_r_a_l_2ssp_8hdep" id="inc_2_p_e_r_i_p_h_e_r_a_l_2ssp_8hdep">
+<area shape="rect" id="node2" href="ssp_8c.html" title="src/PERIPHERAL/ssp.c" alt="" coords="5,80,168,107"/>
+</map>
+</div>
+</div>
+<p><a href="ssp_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:a65df18427466934c643037d96a889c2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a65df18427466934c643037d96a889c2c">LOOPBACK_MODE</a>&#160;&#160;&#160;0               /* 1 is loopback, 0 is normal operation. */</td></tr>
+<tr class="separator:a65df18427466934c643037d96a889c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a929f128604feb3c8037db3fb9255005a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a929f128604feb3c8037db3fb9255005a">SSP_SLAVE</a>&#160;&#160;&#160;0               /* 1 is SLAVE mode, 0 is master mode */</td></tr>
+<tr class="separator:a929f128604feb3c8037db3fb9255005a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c7d469092336c834892a8eadf19e86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a86c7d469092336c834892a8eadf19e86">TX_RX_ONLY</a></td></tr>
+<tr class="separator:a86c7d469092336c834892a8eadf19e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe27631b9fea75748a29b37a5c640a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#affe27631b9fea75748a29b37a5c640a8">USE_CS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:affe27631b9fea75748a29b37a5c640a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67270b8762f743ccaffbd1932fe81fad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a67270b8762f743ccaffbd1932fe81fad">SSP_DEBUG</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a67270b8762f743ccaffbd1932fe81fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4bad637aa761c75896ebce6e04a55d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#af4bad637aa761c75896ebce6e04a55d7">SSP_BUFSIZE</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:af4bad637aa761c75896ebce6e04a55d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e4b24f65356027c6f71613e419acd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a00e4b24f65356027c6f71613e419acd6">FIFOSIZE</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:a00e4b24f65356027c6f71613e419acd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a81baaf5d6dedb310130810ef8c565"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a34a81baaf5d6dedb310130810ef8c565">DELAY_COUNT</a>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:a34a81baaf5d6dedb310130810ef8c565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fda3522e69a1bf85f7dcd97b6023a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a85fda3522e69a1bf85f7dcd97b6023a1">MAX_TIMEOUT</a>&#160;&#160;&#160;0xFF</td></tr>
+<tr class="separator:a85fda3522e69a1bf85f7dcd97b6023a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178d1ee73a054bf0600be44ab4bcf74c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a178d1ee73a054bf0600be44ab4bcf74c">SSP0_SEL</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:a178d1ee73a054bf0600be44ab4bcf74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c30de3e92b79edba301028dd5ef1a29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a3c30de3e92b79edba301028dd5ef1a29">SSPSR_TFE</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a3c30de3e92b79edba301028dd5ef1a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65fb585dce4180dad27397c8e1577a5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a65fb585dce4180dad27397c8e1577a5d">SSPSR_TNF</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:a65fb585dce4180dad27397c8e1577a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad638ef8e978c21cebb48415c2fbfa22f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ad638ef8e978c21cebb48415c2fbfa22f">SSPSR_RNE</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:ad638ef8e978c21cebb48415c2fbfa22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc29100f9ecdc82c6349e6bd50cd46f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a6bc29100f9ecdc82c6349e6bd50cd46f">SSPSR_RFF</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a6bc29100f9ecdc82c6349e6bd50cd46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a675271430ee1b8b0a62cce102964a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a4a675271430ee1b8b0a62cce102964a7">SSPSR_BSY</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="separator:a4a675271430ee1b8b0a62cce102964a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e7883383380718058735d02be1a2e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a75e7883383380718058735d02be1a2e7">SSPCR0_DSS</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a75e7883383380718058735d02be1a2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db7f431687b4d2cf576047c26c7a258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a5db7f431687b4d2cf576047c26c7a258">SSPCR0_FRF</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="separator:a5db7f431687b4d2cf576047c26c7a258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a616d34797ab59e1dad97fd0df48f587d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a616d34797ab59e1dad97fd0df48f587d">SSPCR0_SPO</a>&#160;&#160;&#160;(1 &lt;&lt; 6)</td></tr>
+<tr class="separator:a616d34797ab59e1dad97fd0df48f587d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7988d59fae3f500c74a3606ce3e3eb44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a7988d59fae3f500c74a3606ce3e3eb44">SSPCR0_SPH</a>&#160;&#160;&#160;(1 &lt;&lt; 7)</td></tr>
+<tr class="separator:a7988d59fae3f500c74a3606ce3e3eb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2a1e4a912ce1f6b9cc77317de853a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a0b2a1e4a912ce1f6b9cc77317de853a5">SSPCR0_SCR</a>&#160;&#160;&#160;(1 &lt;&lt; 8)</td></tr>
+<tr class="separator:a0b2a1e4a912ce1f6b9cc77317de853a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7e43c17d431399773d49006b590b60"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a5e7e43c17d431399773d49006b590b60">SSPCR1_LBM</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a5e7e43c17d431399773d49006b590b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362d101392c201a9d0525f695c1417ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a362d101392c201a9d0525f695c1417ec">SSPCR1_SSE</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:a362d101392c201a9d0525f695c1417ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e1c048a408501c5a7d9a16522c9ee2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#aa0e1c048a408501c5a7d9a16522c9ee2">SSPCR1_MS</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:aa0e1c048a408501c5a7d9a16522c9ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a271799424417919e93871bb101848bcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a271799424417919e93871bb101848bcd">SSPCR1_SOD</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a271799424417919e93871bb101848bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d4e85308ec63d71dfb6b197275f68c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a5d4e85308ec63d71dfb6b197275f68c4">SSPIMSC_RORIM</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a5d4e85308ec63d71dfb6b197275f68c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc9cba1a9a3510f08252974124541f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#aacc9cba1a9a3510f08252974124541f4">SSPIMSC_RTIM</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:aacc9cba1a9a3510f08252974124541f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6fb243306e557e0a622132ef8a81068"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#af6fb243306e557e0a622132ef8a81068">SSPIMSC_RXIM</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:af6fb243306e557e0a622132ef8a81068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02a9fba448816577444fdb0d1f998a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ad02a9fba448816577444fdb0d1f998a6">SSPIMSC_TXIM</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:ad02a9fba448816577444fdb0d1f998a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e6c921b218bd4ac023012d0e6a98a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a42e6c921b218bd4ac023012d0e6a98a0">SSPRIS_RORRIS</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a42e6c921b218bd4ac023012d0e6a98a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf0a8b08904118a1b2fdcc4d71639fb9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#acf0a8b08904118a1b2fdcc4d71639fb9">SSPRIS_RTRIS</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:acf0a8b08904118a1b2fdcc4d71639fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7208b566d7b83eef242c1f460d98ed92"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a7208b566d7b83eef242c1f460d98ed92">SSPRIS_RXRIS</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:a7208b566d7b83eef242c1f460d98ed92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f51d15fa450af69002b6e7a1ce37dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ab5f51d15fa450af69002b6e7a1ce37dd">SSPRIS_TXRIS</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:ab5f51d15fa450af69002b6e7a1ce37dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233b13efc853649181830fa6ddc0af08"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a233b13efc853649181830fa6ddc0af08">SSPMIS_RORMIS</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a233b13efc853649181830fa6ddc0af08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819567b6c6efab2946b4915295a78925"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a819567b6c6efab2946b4915295a78925">SSPMIS_RTMIS</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:a819567b6c6efab2946b4915295a78925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab29d8e7034ba3e2891f1f0f5391748a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ab29d8e7034ba3e2891f1f0f5391748a8">SSPMIS_RXMIS</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:ab29d8e7034ba3e2891f1f0f5391748a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f3a99c4bfcf0df4e54de56485101fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a80f3a99c4bfcf0df4e54de56485101fb">SSPMIS_TXMIS</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a80f3a99c4bfcf0df4e54de56485101fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4087c61aad7325d384aca78ce4f1958"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ac4087c61aad7325d384aca78ce4f1958">SSPICR_RORIC</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:ac4087c61aad7325d384aca78ce4f1958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3b5c3a11577835b3ca8b750397b19f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a0c3b5c3a11577835b3ca8b750397b19f">SSPICR_RTIC</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:a0c3b5c3a11577835b3ca8b750397b19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53dec1d28a7c7b24b2d56c058f7e140a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a53dec1d28a7c7b24b2d56c058f7e140a">WREN</a>&#160;&#160;&#160;0x06            /* MSB A8 is set to 0, simplifying test */</td></tr>
+<tr class="separator:a53dec1d28a7c7b24b2d56c058f7e140a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb229428140f30a6f8b6fa2ebb3fb6f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#acb229428140f30a6f8b6fa2ebb3fb6f0">WRDI</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:acb229428140f30a6f8b6fa2ebb3fb6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a899f71cf1ab9be6e8c8482e443558450"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a899f71cf1ab9be6e8c8482e443558450">RDSR</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:a899f71cf1ab9be6e8c8482e443558450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d01dca16eb0a060d2efd567b58b47a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a29d01dca16eb0a060d2efd567b58b47a">WRSR</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a29d01dca16eb0a060d2efd567b58b47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada74e7db007a68e763f20c17f2985356"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ada74e7db007a68e763f20c17f2985356">READ</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:ada74e7db007a68e763f20c17f2985356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10f470e996d0f51210d24f442d25e1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#aa10f470e996d0f51210d24f442d25e1e">WRITE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:aa10f470e996d0f51210d24f442d25e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06db57e84056372cc97e6e746e11a44b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a06db57e84056372cc97e6e746e11a44b">RDSR_RDY</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a06db57e84056372cc97e6e746e11a44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64bdb94ed3cec7893c74e3c4e82702b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#aa64bdb94ed3cec7893c74e3c4e82702b">RDSR_WEN</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:aa64bdb94ed3cec7893c74e3c4e82702b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:ac1cdd6ce3a27312adcabe0e4600dd105"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ac1cdd6ce3a27312adcabe0e4600dd105">SSP_IRQHandler</a> (void)</td></tr>
+<tr class="separator:ac1cdd6ce3a27312adcabe0e4600dd105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d2af949eb3443b5bda06df509b15a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#ac4d2af949eb3443b5bda06df509b15a2">SSPInit</a> (void)</td></tr>
+<tr class="separator:ac4d2af949eb3443b5bda06df509b15a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaacf52bfe05f932a65d9c06f3c64d51d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#aaacf52bfe05f932a65d9c06f3c64d51d">SSPSend</a> (<a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *Buf, <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Length)</td></tr>
+<tr class="separator:aaacf52bfe05f932a65d9c06f3c64d51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8830caf8a7efcd3be2c8a0b963099e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ssp_8h.html#a3c8830caf8a7efcd3be2c8a0b963099e">SSPReceive</a> (<a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *buf, <a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Length)</td></tr>
+<tr class="separator:a3c8830caf8a7efcd3be2c8a0b963099e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="a34a81baaf5d6dedb310130810ef8c565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a81baaf5d6dedb310130810ef8c565">&#9670;&nbsp;</a></span>DELAY_COUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAY_COUNT&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00e4b24f65356027c6f71613e419acd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e4b24f65356027c6f71613e419acd6">&#9670;&nbsp;</a></span>FIFOSIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FIFOSIZE&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65df18427466934c643037d96a889c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65df18427466934c643037d96a889c2c">&#9670;&nbsp;</a></span>LOOPBACK_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOOPBACK_MODE&#160;&#160;&#160;0               /* 1 is loopback, 0 is normal operation. */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85fda3522e69a1bf85f7dcd97b6023a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85fda3522e69a1bf85f7dcd97b6023a1">&#9670;&nbsp;</a></span>MAX_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_TIMEOUT&#160;&#160;&#160;0xFF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a899f71cf1ab9be6e8c8482e443558450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899f71cf1ab9be6e8c8482e443558450">&#9670;&nbsp;</a></span>RDSR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDSR&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06db57e84056372cc97e6e746e11a44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06db57e84056372cc97e6e746e11a44b">&#9670;&nbsp;</a></span>RDSR_RDY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDSR_RDY&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa64bdb94ed3cec7893c74e3c4e82702b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa64bdb94ed3cec7893c74e3c4e82702b">&#9670;&nbsp;</a></span>RDSR_WEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RDSR_WEN&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada74e7db007a68e763f20c17f2985356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada74e7db007a68e763f20c17f2985356">&#9670;&nbsp;</a></span>READ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a178d1ee73a054bf0600be44ab4bcf74c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178d1ee73a054bf0600be44ab4bcf74c">&#9670;&nbsp;</a></span>SSP0_SEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSP0_SEL&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4bad637aa761c75896ebce6e04a55d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4bad637aa761c75896ebce6e04a55d7">&#9670;&nbsp;</a></span>SSP_BUFSIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSP_BUFSIZE&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67270b8762f743ccaffbd1932fe81fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67270b8762f743ccaffbd1932fe81fad">&#9670;&nbsp;</a></span>SSP_DEBUG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSP_DEBUG&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a929f128604feb3c8037db3fb9255005a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a929f128604feb3c8037db3fb9255005a">&#9670;&nbsp;</a></span>SSP_SLAVE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSP_SLAVE&#160;&#160;&#160;0               /* 1 is SLAVE mode, 0 is master mode */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75e7883383380718058735d02be1a2e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e7883383380718058735d02be1a2e7">&#9670;&nbsp;</a></span>SSPCR0_DSS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR0_DSS&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5db7f431687b4d2cf576047c26c7a258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db7f431687b4d2cf576047c26c7a258">&#9670;&nbsp;</a></span>SSPCR0_FRF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR0_FRF&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b2a1e4a912ce1f6b9cc77317de853a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2a1e4a912ce1f6b9cc77317de853a5">&#9670;&nbsp;</a></span>SSPCR0_SCR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR0_SCR&#160;&#160;&#160;(1 &lt;&lt; 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7988d59fae3f500c74a3606ce3e3eb44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7988d59fae3f500c74a3606ce3e3eb44">&#9670;&nbsp;</a></span>SSPCR0_SPH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR0_SPH&#160;&#160;&#160;(1 &lt;&lt; 7)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a616d34797ab59e1dad97fd0df48f587d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616d34797ab59e1dad97fd0df48f587d">&#9670;&nbsp;</a></span>SSPCR0_SPO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR0_SPO&#160;&#160;&#160;(1 &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e7e43c17d431399773d49006b590b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7e43c17d431399773d49006b590b60">&#9670;&nbsp;</a></span>SSPCR1_LBM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR1_LBM&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0e1c048a408501c5a7d9a16522c9ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e1c048a408501c5a7d9a16522c9ee2">&#9670;&nbsp;</a></span>SSPCR1_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR1_MS&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a271799424417919e93871bb101848bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271799424417919e93871bb101848bcd">&#9670;&nbsp;</a></span>SSPCR1_SOD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR1_SOD&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a362d101392c201a9d0525f695c1417ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a362d101392c201a9d0525f695c1417ec">&#9670;&nbsp;</a></span>SSPCR1_SSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPCR1_SSE&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4087c61aad7325d384aca78ce4f1958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4087c61aad7325d384aca78ce4f1958">&#9670;&nbsp;</a></span>SSPICR_RORIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPICR_RORIC&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c3b5c3a11577835b3ca8b750397b19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3b5c3a11577835b3ca8b750397b19f">&#9670;&nbsp;</a></span>SSPICR_RTIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPICR_RTIC&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d4e85308ec63d71dfb6b197275f68c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d4e85308ec63d71dfb6b197275f68c4">&#9670;&nbsp;</a></span>SSPIMSC_RORIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPIMSC_RORIM&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacc9cba1a9a3510f08252974124541f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacc9cba1a9a3510f08252974124541f4">&#9670;&nbsp;</a></span>SSPIMSC_RTIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPIMSC_RTIM&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6fb243306e557e0a622132ef8a81068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6fb243306e557e0a622132ef8a81068">&#9670;&nbsp;</a></span>SSPIMSC_RXIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPIMSC_RXIM&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad02a9fba448816577444fdb0d1f998a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02a9fba448816577444fdb0d1f998a6">&#9670;&nbsp;</a></span>SSPIMSC_TXIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPIMSC_TXIM&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a233b13efc853649181830fa6ddc0af08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233b13efc853649181830fa6ddc0af08">&#9670;&nbsp;</a></span>SSPMIS_RORMIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPMIS_RORMIS&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a819567b6c6efab2946b4915295a78925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a819567b6c6efab2946b4915295a78925">&#9670;&nbsp;</a></span>SSPMIS_RTMIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPMIS_RTMIS&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab29d8e7034ba3e2891f1f0f5391748a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab29d8e7034ba3e2891f1f0f5391748a8">&#9670;&nbsp;</a></span>SSPMIS_RXMIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPMIS_RXMIS&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80f3a99c4bfcf0df4e54de56485101fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f3a99c4bfcf0df4e54de56485101fb">&#9670;&nbsp;</a></span>SSPMIS_TXMIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPMIS_TXMIS&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42e6c921b218bd4ac023012d0e6a98a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e6c921b218bd4ac023012d0e6a98a0">&#9670;&nbsp;</a></span>SSPRIS_RORRIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPRIS_RORRIS&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf0a8b08904118a1b2fdcc4d71639fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf0a8b08904118a1b2fdcc4d71639fb9">&#9670;&nbsp;</a></span>SSPRIS_RTRIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPRIS_RTRIS&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7208b566d7b83eef242c1f460d98ed92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7208b566d7b83eef242c1f460d98ed92">&#9670;&nbsp;</a></span>SSPRIS_RXRIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPRIS_RXRIS&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5f51d15fa450af69002b6e7a1ce37dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f51d15fa450af69002b6e7a1ce37dd">&#9670;&nbsp;</a></span>SSPRIS_TXRIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPRIS_TXRIS&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a675271430ee1b8b0a62cce102964a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a675271430ee1b8b0a62cce102964a7">&#9670;&nbsp;</a></span>SSPSR_BSY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPSR_BSY&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bc29100f9ecdc82c6349e6bd50cd46f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc29100f9ecdc82c6349e6bd50cd46f">&#9670;&nbsp;</a></span>SSPSR_RFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPSR_RFF&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad638ef8e978c21cebb48415c2fbfa22f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad638ef8e978c21cebb48415c2fbfa22f">&#9670;&nbsp;</a></span>SSPSR_RNE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPSR_RNE&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c30de3e92b79edba301028dd5ef1a29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c30de3e92b79edba301028dd5ef1a29">&#9670;&nbsp;</a></span>SSPSR_TFE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPSR_TFE&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65fb585dce4180dad27397c8e1577a5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65fb585dce4180dad27397c8e1577a5d">&#9670;&nbsp;</a></span>SSPSR_TNF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SSPSR_TNF&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86c7d469092336c834892a8eadf19e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c7d469092336c834892a8eadf19e86">&#9670;&nbsp;</a></span>TX_RX_ONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TX_RX_ONLY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>値:</b><div class="fragment"><div class="line">0               <span class="comment">/* 1 is TX or RX only depending on SSP_SLAVE</span></div><div class="line"><span class="comment">                                                                flag, 0 is either loopback mode or communicate</span></div><div class="line"><span class="comment">                                                                with a serial EEPROM. */</span></div></div><!-- fragment -->
+</div>
+</div>
+<a id="affe27631b9fea75748a29b37a5c640a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe27631b9fea75748a29b37a5c640a8">&#9670;&nbsp;</a></span>USE_CS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USE_CS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb229428140f30a6f8b6fa2ebb3fb6f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb229428140f30a6f8b6fa2ebb3fb6f0">&#9670;&nbsp;</a></span>WRDI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRDI&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53dec1d28a7c7b24b2d56c058f7e140a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53dec1d28a7c7b24b2d56c058f7e140a">&#9670;&nbsp;</a></span>WREN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WREN&#160;&#160;&#160;0x06            /* MSB A8 is set to 0, simplifying test */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa10f470e996d0f51210d24f442d25e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10f470e996d0f51210d24f442d25e1e">&#9670;&nbsp;</a></span>WRITE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29d01dca16eb0a060d2efd567b58b47a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d01dca16eb0a060d2efd567b58b47a">&#9670;&nbsp;</a></span>WRSR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRSR&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="ac1cdd6ce3a27312adcabe0e4600dd105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1cdd6ce3a27312adcabe0e4600dd105">&#9670;&nbsp;</a></span>SSP_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSP_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4d2af949eb3443b5bda06df509b15a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d2af949eb3443b5bda06df509b15a2">&#9670;&nbsp;</a></span>SSPInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSPInit </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c8830caf8a7efcd3be2c8a0b963099e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8830caf8a7efcd3be2c8a0b963099e">&#9670;&nbsp;</a></span>SSPReceive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSPReceive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaacf52bfe05f932a65d9c06f3c64d51d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaacf52bfe05f932a65d9c06f3c64d51d">&#9670;&nbsp;</a></span>SSPSend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SSPSend </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>Buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="type_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

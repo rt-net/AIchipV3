@@ -1,0 +1,5 @@
+<map id="readNbyteEEPROM" name="readNbyteEEPROM">
+<area shape="rect" id="node2" href="$i2c_8h.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="192,31,273,57"/>
+<area shape="rect" id="node3" href="$i2c_8c.html#a7c87427cfa767315491db0a0c005ec59" title="I2CStart" alt="" coords="321,5,391,32"/>
+<area shape="rect" id="node4" href="$i2c_8c.html#a7b1d12f3a83330eda885db24a701e1b5" title="I2CStop" alt="" coords="322,56,390,83"/>
+</map>

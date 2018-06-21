@@ -1,0 +1,23 @@
+<map id="src/AICHIP/main.c" name="src/AICHIP/main.c">
+<area shape="rect" id="node3" href="$core__cm3_8h.html" title="CMSIS Cortex&#45;M3 Core Peripheral Access Layer Header File " alt="" coords="117,80,207,107"/>
+<area shape="rect" id="node5" href="$type_8h.html" title="type.h" alt="" coords="231,80,290,107"/>
+<area shape="rect" id="node6" href="$ad_8h.html" title="ad.h" alt="" coords="315,80,361,107"/>
+<area shape="rect" id="node7" href="$debug_8h.html" title="debug.h" alt="" coords="385,80,453,107"/>
+<area shape="rect" id="node8" href="$i2c_8h.html" title="i2c.h" alt="" coords="478,80,529,107"/>
+<area shape="rect" id="node9" href="$io_8h.html" title="io.h" alt="" coords="553,80,595,107"/>
+<area shape="rect" id="node10" href="$pwm_8h.html" title="pwm.h" alt="" coords="620,80,680,107"/>
+<area shape="rect" id="node11" href="$_system_tick_timer_8h.html" title="SystemTickTimer.h" alt="" coords="704,80,839,107"/>
+<area shape="rect" id="node12" href="$timer_8h.html" title="timer.h" alt="" coords="863,80,925,107"/>
+<area shape="rect" id="node13" href="$usb_transmission_8h.html" title="usbTransmission.h" alt="" coords="950,80,1081,107"/>
+<area shape="rect" id="node14" href="$uart_8h.html" title="uart.h" alt="" coords="1105,80,1160,107"/>
+<area shape="rect" id="node15" href="$_a_i_c_h_i_p_function_8h.html" title="AICHIPFunction.h" alt="" coords="1185,80,1310,107"/>
+<area shape="rect" id="node16" href="$mpu9250_8h.html" title="mpu9250.h" alt="" coords="1335,80,1421,107"/>
+<area shape="rect" id="node17" href="$_user_interface_8h.html" title="UserInterface.h" alt="" coords="1446,80,1555,107"/>
+<area shape="rect" id="node18" href="$mode_select_8h.html" title="modeSelect.h" alt="" coords="1580,80,1683,107"/>
+<area shape="rect" id="node19" href="$usb_8h.html" title="usb.h" alt="" coords="1707,80,1761,107"/>
+<area shape="rect" id="node20" href="$usbcfg_8h.html" title="usbcfg.h" alt="" coords="1785,80,1856,107"/>
+<area shape="rect" id="node21" href="$usbhw_8h.html" title="usbhw.h" alt="" coords="1880,80,1951,107"/>
+<area shape="rect" id="node22" href="$usbcore_8h.html" title="usbcore.h" alt="" coords="1975,80,2053,107"/>
+<area shape="rect" id="node23" href="$cdc_8h.html" title="cdc.h" alt="" coords="2077,80,2132,107"/>
+<area shape="rect" id="node24" href="$cdcuser_8h.html" title="cdcuser.h" alt="" coords="2156,80,2235,107"/>
+</map>

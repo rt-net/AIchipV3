@@ -1,0 +1,33 @@
+<map id="EPAdr" name="EPAdr">
+<area shape="rect" id="node2" href="$usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="130,360,214,387"/>
+<area shape="rect" id="node26" href="$usbhw_8c.html#a1b6c972b5b73b220f4d7e73100710eb4" title="USB_EnableEP" alt="" coords="115,715,229,741"/>
+<area shape="rect" id="node29" href="$usbhw_8c.html#a0f1afa965109023ca62d20bd4f06939b" title="USB_DisableEP" alt="" coords="113,613,231,640"/>
+<area shape="rect" id="node30" href="$usbhw_8c.html#a828653e11c72bafde7e5db8baad167d4" title="USB_ResetEP" alt="" coords="118,664,226,691"/>
+<area shape="rect" id="node31" href="$usbhw_8c.html#a5f634777bb45210732ae255dfd757cbb" title="USB_SetStallEP" alt="" coords="306,512,426,539"/>
+<area shape="rect" id="node32" href="$usbhw_8c.html#abd72097df3fc6d6e487fa2e855d8af6c" title="USB_ClrStallEP" alt="" coords="308,563,424,589"/>
+<area shape="rect" id="node3" href="$usbhw_8c.html#a6ffd705b6aa29ccdc13fc308f5149c5d" title="USB_ClearEPBuf" alt="" coords="305,335,427,361"/>
+<area shape="rect" id="node4" href="$usbhw_8c.html#a99dc9c682a2fa25302005ee91a86a7e0" title="USB_ReadEP" alt="" coords="314,385,418,412"/>
+<area shape="rect" id="node11" href="$usbhw_8c.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="313,208,419,235"/>
+<area shape="rect" id="node5" href="$cdcuser_8c.html#a1baecbd0f77524c5d1cf2faf27f932d8" title="CDC_BulkOut" alt="" coords="529,309,632,336"/>
+<area shape="rect" id="node7" href="$usbcore_8c.html#ac0076a5289eba0843bf484db9a6b44c3" title="USB_SetupStage" alt="" coords="519,411,643,437"/>
+<area shape="rect" id="node9" href="$usbcore_8c.html#a147ac40813dde8a168086e312a8aeff7" title="USB_DataOutStage" alt="" coords="511,461,650,488"/>
+<area shape="rect" id="node10" href="$usbcore_8c.html#a860cd794341aff47dd390c4cadcec3e7" title="USB_StatusOutStage" alt="" coords="506,360,655,387"/>
+<area shape="rect" id="node6" href="$usbuser_8c.html#a207eec28301f78ada1134d266958e807" title="USB_EndPoint3" alt="" coords="718,233,834,260"/>
+<area shape="rect" id="node8" href="$usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="718,487,834,513"/>
+<area shape="rect" id="node12" href="$usb_transmission_8c.html#a2d6d7c05d91576af25410bb856740976" title="VCOM_SendData" alt="" coords="713,107,839,133"/>
+<area shape="rect" id="node19" href="$cdcuser_8c.html#a4751ad13996ceeb9438a86340d41f206" title="CDC_BulkIn" alt="" coords="535,157,627,184"/>
+<area shape="rect" id="node20" href="$cdcuser_8c.html#a514c6123d586172d406abff1940a0591" title="CDC_NotificationIn" alt="" coords="515,56,646,83"/>
+<area shape="rect" id="node23" href="$usbcore_8c.html#af77737c9a9cf487c2d21bdb77904d5b4" title="USB_DataInStage" alt="" coords="517,208,644,235"/>
+<area shape="rect" id="node24" href="$usbcore_8c.html#abd896ba7757ca7b9b9ae8a8d5bdabda5" title="USB_StatusInStage" alt="" coords="511,259,650,285"/>
+<area shape="rect" id="node25" href="$usbcore_8c.html#aa84567109d1fe52a9d18d5562040971d" title="USB_ReqSetClrFeature" alt="" coords="501,512,660,539"/>
+<area shape="rect" id="node13" href="$debug_8c.html#a1bd9f450dbe5f0e704bee6a2d945822f" title="myPrintfUSB" alt="" coords="892,56,989,83"/>
+<area shape="rect" id="node14" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="1041,5,1148,32"/>
+<area shape="rect" id="node16" href="$mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="1061,56,1129,83"/>
+<area shape="rect" id="node17" href="$mpu9250_8c.html#a2c74a170b91fa6bef07054c2037490c5" title="debugMPU9250" alt="" coords="1037,107,1152,133"/>
+<area shape="rect" id="node15" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="1203,5,1293,32"/>
+<area shape="rect" id="node18" href="$mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="1200,107,1296,133"/>
+<area shape="rect" id="node21" href="$usb_transmission_8c.html#a4a2bacd9a23fff588cb7f5b6538e7b25" title="VCOM_CheckState" alt="" coords="708,5,844,32"/>
+<area shape="rect" id="node22" href="$usbuser_8c.html#a910d243e4f1701b825b7e9c6e7fa2bed" title="USB_EndPoint1" alt="" coords="718,56,834,83"/>
+<area shape="rect" id="node27" href="$usbcore_8c.html#a96ece75f573a7a04bccf13a0487e56e7" title="USB_ReqSetConfiguration" alt="" coords="279,715,453,741"/>
+<area shape="rect" id="node28" href="$usbcore_8c.html#a44eddaae107ee8ba7631f4ef4f3faef2" title="USB_ReqSetInterface" alt="" coords="292,664,440,691"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="inc/PERIPHERAL/debug.h" name="inc/PERIPHERAL/debug.h">
+<area shape="rect" id="node2" href="$_a_i_c_h_i_p_function_8c.html" title="モーターの回転, 機体データの送信, コマンドの受信 &#160;&#160;10msec毎に割り込み関数で処理を実行 ..." alt="" coords="5,87,199,114"/>
+<area shape="rect" id="node3" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html" title="src/AICHIP/EEPROM_24LC16\lBT_I.c" alt="" coords="223,80,421,121"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="445,87,575,114"/>
+<area shape="rect" id="node5" href="$mpu9250_8c.html" title="MPU9250を使えるようにするための関数群 &#160;&#160;注1)mpu9150とmpu9250では地磁気センサの出力分解能が異なる &#160;&#160;本..." alt="" coords="599,87,754,114"/>
+<area shape="rect" id="node6" href="$mode___bluetooth_setting_8c.html" title="Bluetoothモジュールのボーレート等を設定する. &#160;//設定項目// &#160;Bluetoothデバイス名:RT&#45;AICHIP &#160;&#160;ボーレー�..." alt="" coords="779,87,1012,114"/>
+<area shape="rect" id="node7" href="$mode__control_run_8c.html" title="コースの状況に応じてモーターのdutyを変えながら走るモード &#160;&#160;////操作//// &#160;右SW: スタート,ストップの切り替え &#160;左SW: 長押しでモード選択へ遷移 &#160;" alt="" coords="1036,87,1235,114"/>
+<area shape="rect" id="node8" href="$mode__debug_8c.html" title="デバッグ用モード. データを出力し続ける &#160;&#160;////操作//// &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="1259,87,1431,114"/>
+<area shape="rect" id="node9" href="$mode__duty_max_8c.html" title="src/MODE/mode_dutyMax.c" alt="" coords="1455,87,1642,114"/>
+<area shape="rect" id="node10" href="$mode__select_duty_8c.html" title="dutyを選択して走るモード &#160;&#160;////操作//// &#160;右SW: dutyの変更 &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="1667,87,1865,114"/>
+<area shape="rect" id="node11" href="$mode_select_8c.html" title="src/MODE/modeSelect.c" alt="" coords="1889,87,2056,114"/>
+<area shape="rect" id="node12" href="$usb_transmission_8c.html" title="src/PERIPHERAL/usbTransmission.c" alt="" coords="2080,87,2319,114"/>
+</map>

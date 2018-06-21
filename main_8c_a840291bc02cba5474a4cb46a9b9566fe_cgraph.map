@@ -1,0 +1,31 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="153,411,192,437"/>
+<area shape="rect" id="node4" href="$_user_interface_8h.html#af1a80794bf401c28dcf6880a23008c58" title="turnRedLED" alt="" coords="317,5,409,32"/>
+<area shape="rect" id="node5" href="$_user_interface_8h.html#a2ffa5149729f4001be7eaf84bc236470" title="turnGreenLED" alt="" coords="311,56,415,83"/>
+<area shape="rect" id="node6" href="$_system_tick_timer_8h.html#a18af7476504a76def67727301e3968fb" title="wait1msec" alt="" coords="529,676,613,703"/>
+<area shape="rect" id="node26" href="$usb_transmission_8h.html#a73f8c90b14a22c852f931e269184e8ad" title="isUSBConfig" alt="" coords="125,867,220,893"/>
+<area shape="rect" id="node27" href="$_user_interface_8h.html#a15a5451029098942e8c93adeaa1b42ff" title="flashRedLED" alt="" coords="124,917,221,944"/>
+<area shape="rect" id="node28" href="$_user_interface_8h.html#a8c483926268bba9b2588a89c5c147d42" title="getLeftSWcount" alt="" coords="115,968,230,995"/>
+<area shape="rect" id="node29" href="$_a_i_c_h_i_p_function_8h.html#a74ff919bbe2bc33306db409cd474705f" title="setSendDataEnable" alt="" coords="104,1019,241,1045"/>
+<area shape="rect" id="node30" href="$mode_select_8h.html#a002b78ca8b6ce5ef312b9412e2d8602a" title="modeSelect" alt="" coords="127,1069,218,1096"/>
+<area shape="rect" id="node3" href="$io_8h.html#ac3c73735519c0fbd83b55f44c3536b96" title="initIO" alt="" coords="337,259,389,285"/>
+<area shape="rect" id="node7" href="$usbhw_8h.html#a36bb0f21ba89a918181d3a837a319129" title="USBIOClkConfig" alt="" coords="304,360,421,387"/>
+<area shape="rect" id="node8" href="$timer_8h.html#a671f0649ffc60f98caf701551de8a18b" title="initTimer32_0" alt="" coords="313,411,412,437"/>
+<area shape="rect" id="node9" href="$timer_8h.html#a37e0ba7719329a1a2dc569c95c1b0d85" title="initTimer32_1" alt="" coords="313,461,412,488"/>
+<area shape="rect" id="node10" href="$ad_8h.html#a90c33533687a93e13644591640074888" title="Init_ad" alt="" coords="333,512,393,539"/>
+<area shape="rect" id="node11" href="$uart_8h.html#ae64bef5f9fbb35532c224933a52aec5c" title="UARTInit" alt="" coords="326,563,399,589"/>
+<area shape="rect" id="node12" href="$i2c_8h.html#a279d004d45293dff5260643be80c1319" title="I2CInit" alt="" coords="333,613,392,640"/>
+<area shape="rect" id="node13" href="$mpu9250_8h.html#af5ba140727514d78380957728fb85858" title="initMPU9250" alt="" coords="315,309,411,336"/>
+<area shape="rect" id="node17" href="$mpu9250_8h.html#a92d3fbffdf08a1e1f34704118cd70ad5" title="initAK8963" alt="" coords="320,765,405,792"/>
+<area shape="rect" id="node18" href="$mpu9250_8h.html#a4386bae09327c2cb7f91fe1a9bf066db" title="calibOmegaOffset" alt="" coords="300,715,425,741"/>
+<area shape="rect" id="node19" href="$mpu9250_8h.html#a497db0f06ddaa6cb49582485abfbb05b" title="initOffsetByEEPROM" alt="" coords="289,107,436,133"/>
+<area shape="rect" id="node22" href="$_user_interface_8h.html#a0e6a38adb3139816ca5ead4dfc842caa" title="initUI" alt="" coords="337,157,388,184"/>
+<area shape="rect" id="node24" href="$_a_i_c_h_i_p_function_8h.html#a6adc919a1cdcc648f73433f657d2272f" title="initAICHIP" alt="" coords="322,208,403,235"/>
+<area shape="rect" id="node14" href="$i2c_8h.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="893,309,975,336"/>
+<area shape="rect" id="node15" href="$i2c_8c.html#a7c87427cfa767315491db0a0c005ec59" title="I2CStart" alt="" coords="1023,284,1092,311"/>
+<area shape="rect" id="node16" href="$i2c_8c.html#a7b1d12f3a83330eda885db24a701e1b5" title="I2CStop" alt="" coords="1023,335,1091,361"/>
+<area shape="rect" id="node20" href="$mpu9250_8c.html#a0210711108d4042649f4fd338acac85e" title="readEEPROMOffsetAccInt" alt="" coords="484,107,659,133"/>
+<area shape="rect" id="node21" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a3c4f4e4eb64269a8b8d4c82bc475c57c" title="readNbyteEEPROM" alt="" coords="707,183,845,209"/>
+<area shape="rect" id="node23" href="$timer_8h.html#aa4de0ba8837a863b85d9cc26491d3a48" title="startTimer32_0" alt="" coords="517,157,625,184"/>
+<area shape="rect" id="node25" href="$timer_8h.html#a824037b66943b82834b0a5b889727bec" title="startTimer32_1" alt="" coords="517,208,625,235"/>
+</map>

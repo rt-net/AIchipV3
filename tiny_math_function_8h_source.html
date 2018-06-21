@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: inc/AICHIP/tinyMathFunction.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_66732bebd6e8d906bf079d84012861f0.html">AICHIP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">tinyMathFunction.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tiny_math_function_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TINYMATHFUNCTION_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define TINYMATHFUNCTION_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#a598a3330b3c21701223ee0ca14316eca">    4</a></span>&#160;<span class="preprocessor">#define PI (3.1415926f)</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">float</span> <a class="code" href="tiny_math_function_8h.html#a69b7824e362296dcc7d547597cde854e">tInvSqrt</a>(<span class="keywordtype">float</span> x);</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">float</span> <a class="code" href="tiny_math_function_8h.html#a61f9712d328cfc7164f4f93a3bf02d1d">tSqrt</a>(<span class="keywordtype">float</span> x);</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tiny_math_function_8h.html#aa9043655ce2582b275428e9230738a37">quickSort</a>(<span class="keywordtype">int</span> numbers[], <span class="keywordtype">int</span> left, <span class="keywordtype">int</span> right);</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#aa1b0d1b74ac0e60cf2905824ede83ce0">   12</a></span>&#160;<span class="preprocessor">#define ABS(IN) ((IN) &lt; 0 ? - (IN) : (IN))</span></div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">   13</a></span>&#160;<span class="preprocessor">#define MAX(a, b) ((a) &gt; (b) ? (a) : (b))</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">   14</a></span>&#160;<span class="preprocessor">#define MIN(a, b) ((a) &lt; (b) ? (a) : (b))</span></div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#aac9153aee4bdb92701df902e06a74eb3">   15</a></span>&#160;<span class="preprocessor">#define SWAP(a,b) ((a != b) &amp;&amp; (a += b,b = a - b,a -= b))</span></div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#a37c6d7fcb9c177c308ef38e1d51d35e3">   16</a></span>&#160;<span class="preprocessor">#define MAX3(a, b, c) ((a) &gt; (MAX(b, c)) ? (a) : (MAX(b, c)))</span></div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#acf9c1f64129f8817d22f83b96f6ed466">   17</a></span>&#160;<span class="preprocessor">#define MAX4(a, b, c, d) ((a) &gt; (MAX3(b, c, d)) ? (a) : (MAX3(b, c, d)))</span></div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#a4887ceeae88266064841cbbc11ef8b53">   18</a></span>&#160;<span class="preprocessor">#define MIN3(a, b, c) ((a) &lt; (MIN(b, c)) ? (a) : (MIN(b, c)))</span></div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#a14887613266c0eb0d399659af735f66f">   19</a></span>&#160;<span class="preprocessor">#define MIN4(a, b, c, d) ((a) &lt; (MIN3(b, c, d)) ? (a) : (MIN3(b, c, d)))</span></div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#a8c5ff70b6b28cd0157c50a22406f92c4">   20</a></span>&#160;<span class="preprocessor">#define SIGN(x) ((x&lt;0)?(-1):((x&gt;0)?1:0))</span></div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#aa3616a5af1a14b0a5a1b2f542066ae45">   21</a></span>&#160;<span class="preprocessor">#define DEG2RAD(deg) (((deg) * PI) / 180.0)</span></div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="tiny_math_function_8h.html#aacc958134b53425ec947541bb72ac8b1">   22</a></span>&#160;<span class="preprocessor">#define RAD2DEG(rad) (((rad) * 180.0) / 3.1415926535)</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="tiny_math_function_8h_html_a69b7824e362296dcc7d547597cde854e"><div class="ttname"><a href="tiny_math_function_8h.html#a69b7824e362296dcc7d547597cde854e">tInvSqrt</a></div><div class="ttdeci">float tInvSqrt(float x)</div><div class="ttdef"><b>Definition:</b> tinyMathFunctions.c:26</div></div>
+<div class="ttc" id="tiny_math_function_8h_html_aa9043655ce2582b275428e9230738a37"><div class="ttname"><a href="tiny_math_function_8h.html#aa9043655ce2582b275428e9230738a37">quickSort</a></div><div class="ttdeci">void quickSort(int numbers[], int left, int right)</div><div class="ttdef"><b>Definition:</b> tinyMathFunctions.c:80</div></div>
+<div class="ttc" id="tiny_math_function_8h_html_a61f9712d328cfc7164f4f93a3bf02d1d"><div class="ttname"><a href="tiny_math_function_8h.html#a61f9712d328cfc7164f4f93a3bf02d1d">tSqrt</a></div><div class="ttdeci">float tSqrt(float x)</div><div class="ttdef"><b>Definition:</b> tinyMathFunctions.c:48</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['rad2deg',['RAD2DEG',['../tiny_math_function_8h.html#aacc958134b53425ec947541bb72ac8b1',1,'tinyMathFunction.h']]],
+  ['rd_5fbit',['RD_BIT',['../i2c_8h.html#a1c2900d9cffda05067142c41966ac845',1,'i2c.h']]],
+  ['rdsr',['RDSR',['../ssp_8h.html#a899f71cf1ab9be6e8c8482e443558450',1,'ssp.h']]],
+  ['rdsr_5frdy',['RDSR_RDY',['../ssp_8h.html#a06db57e84056372cc97e6e746e11a44b',1,'ssp.h']]],
+  ['rdsr_5fwen',['RDSR_WEN',['../ssp_8h.html#aa64bdb94ed3cec7893c74e3c4e82702b',1,'ssp.h']]],
+  ['read',['READ',['../ssp_8h.html#ada74e7db007a68e763f20c17f2985356',1,'ssp.h']]],
+  ['read_5fwrite',['READ_WRITE',['../i2c_8h.html#af8c4f48aea422f196a7757a38a81e7e2',1,'i2c.h']]],
+  ['request_5fclass',['REQUEST_CLASS',['../usb_8h.html#afd24e03239e2df9e6d9c6cbcd53c1337',1,'usb.h']]],
+  ['request_5fdevice_5fto_5fhost',['REQUEST_DEVICE_TO_HOST',['../usb_8h.html#af8f8eae5ae324d7d3e1344e97e23b20f',1,'usb.h']]],
+  ['request_5fhost_5fto_5fdevice',['REQUEST_HOST_TO_DEVICE',['../usb_8h.html#a8d90abb0515c0c9cd7c80480f1ebe7d3',1,'usb.h']]],
+  ['request_5freserved',['REQUEST_RESERVED',['../usb_8h.html#a63cb1192a7cd205455bddd302f67c915',1,'usb.h']]],
+  ['request_5fstandard',['REQUEST_STANDARD',['../usb_8h.html#a1dd6ef57678e7af95d835049d5b355b9',1,'usb.h']]],
+  ['request_5fto_5fdevice',['REQUEST_TO_DEVICE',['../usb_8h.html#af89871a0b4aa9411e09a9961de76e76f',1,'usb.h']]],
+  ['request_5fto_5fendpoint',['REQUEST_TO_ENDPOINT',['../usb_8h.html#a4c4571ca0bf6b462bd8954a95456561c',1,'usb.h']]],
+  ['request_5fto_5finterface',['REQUEST_TO_INTERFACE',['../usb_8h.html#a0e5e473281fc9c1ee1ea446823c02623',1,'usb.h']]],
+  ['request_5fto_5fother',['REQUEST_TO_OTHER',['../usb_8h.html#ad1f005d9ae04da7324d465a86e489af5',1,'usb.h']]],
+  ['request_5fvendor',['REQUEST_VENDOR',['../usb_8h.html#a40131e4daec200a7d931c2b26e43d27f',1,'usb.h']]],
+  ['rs485_5faaden',['RS485_AADEN',['../uart_8h.html#a1b63fc40ac9dea74f6a3822c7e45a0b1',1,'uart.h']]],
+  ['rs485_5fdctrl',['RS485_DCTRL',['../uart_8h.html#ad273c8e4d740c13bd42b605f01c7602a',1,'uart.h']]],
+  ['rs485_5fenabled',['RS485_ENABLED',['../uart_8h.html#a020e12db5fc4e910104a31aba91aff4b',1,'uart.h']]],
+  ['rs485_5fnmmen',['RS485_NMMEN',['../uart_8h.html#a124bdfe48f8f5794d2ce15f7de7120ff',1,'uart.h']]],
+  ['rs485_5foinv',['RS485_OINV',['../uart_8h.html#a4067a15fda5fce2f25e4e722067d41d7',1,'uart.h']]],
+  ['rs485_5frxdis',['RS485_RXDIS',['../uart_8h.html#a6dd71ac874eee782a027c667162d2401',1,'uart.h']]],
+  ['rs485_5fsel',['RS485_SEL',['../uart_8h.html#aab560420636565a39ce5ddc3539438b3',1,'uart.h']]],
+  ['rxendpkt_5fint',['RxENDPKT_INT',['../usbreg_8h.html#a50d5bc9f5a5c29375180bc9c7fa959a0',1,'usbreg.h']]]
+];

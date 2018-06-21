@@ -1,0 +1,13 @@
+<map id="USB_IRQHandler" name="USB_IRQHandler">
+<area shape="rect" id="node2" href="$usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="216,5,283,32"/>
+<area shape="rect" id="node3" href="$usbhw_8c.html#a4b356b28b5665c9604fa6f0d2a42fba1" title="RdCmdDat" alt="" coords="207,56,292,83"/>
+<area shape="rect" id="node4" href="$usbhw_8c.html#abfc0896707a9437a0c3b0ac611da59aa" title="USB_Reset" alt="" coords="204,107,295,133"/>
+<area shape="rect" id="node5" href="$usbuser_8h.html#a81153c365777cdfe7d9e148c372c45b1" title="USB_Reset_Event" alt="" coords="185,157,314,184"/>
+<area shape="rect" id="node6" href="$usbuser_8h.html#ab07662af2ec7631b5e69e7f9fc73e7f4" title="USB_Power_Event" alt="" coords="184,208,315,235"/>
+<area shape="rect" id="node7" href="$usbhw_8c.html#a87b4006411b630cc848d30b3e8a53e34" title="USB_Suspend" alt="" coords="196,259,303,285"/>
+<area shape="rect" id="node8" href="$usbuser_8h.html#aebfd6340b5852fa5ff4d00487c6371e2" title="USB_Suspend_Event" alt="" coords="176,309,323,336"/>
+<area shape="rect" id="node9" href="$usbhw_8c.html#a690e53ae70763bf28c20fbf55b28b1c5" title="USB_Resume" alt="" coords="197,360,301,387"/>
+<area shape="rect" id="node10" href="$usbuser_8h.html#a1845c45a3015590b54446857bb30805d" title="USB_Resume_Event" alt="" coords="178,411,321,437"/>
+<area shape="rect" id="node11" href="$usbuser_8h.html#a43ab0480e52c19825f3f4fac2bee5e95" title="USB_SOF_Event" alt="" coords="188,461,311,488"/>
+<area shape="rect" id="node12" href="$usbuser_8h.html#adb3b19492f699baee67df339367515f8" title="USB_Error_Event" alt="" coords="188,512,311,539"/>
+</map>

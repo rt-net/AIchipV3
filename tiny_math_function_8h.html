@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: inc/AICHIP/tinyMathFunction.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_66732bebd6e8d906bf079d84012861f0.html">AICHIP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">tinyMathFunction.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="tiny_math_function_8h__dep__incl.png" border="0" usemap="#inc_2_a_i_c_h_i_p_2tiny_math_function_8hdep" alt=""/></div>
+<map name="inc_2_a_i_c_h_i_p_2tiny_math_function_8hdep" id="inc_2_a_i_c_h_i_p_2tiny_math_function_8hdep">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html" title="モーターの回転, 機体データの送信, コマンドの受信 &#160;&#160;10msec毎に割り込み関数で処理を実行 ..." alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="mpu9250_8c.html" title="MPU9250を使えるようにするための関数群 &#160;&#160;注1)mpu9150とmpu9250では地磁気センサの出力分解能が異なる &#160;&#160;本..." alt="" coords="223,80,378,107"/>
+<area shape="rect" id="node4" href="tiny_math_functions_8c.html" title="src/AICHIP/tinyMathFunctions.c" alt="" coords="402,80,610,107"/>
+</map>
+</div>
+</div>
+<p><a href="tiny_math_function_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:a598a3330b3c21701223ee0ca14316eca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>&#160;&#160;&#160;(3.1415926f)</td></tr>
+<tr class="separator:a598a3330b3c21701223ee0ca14316eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b0d1b74ac0e60cf2905824ede83ce0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#aa1b0d1b74ac0e60cf2905824ede83ce0">ABS</a>(IN)&#160;&#160;&#160;((IN) &lt; 0 ? - (IN) : (IN))</td></tr>
+<tr class="separator:aa1b0d1b74ac0e60cf2905824ede83ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(a,  b)&#160;&#160;&#160;((a) &gt; (b) ? (a) : (b))</td></tr>
+<tr class="separator:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(a,  b)&#160;&#160;&#160;((a) &lt; (b) ? (a) : (b))</td></tr>
+<tr class="separator:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9153aee4bdb92701df902e06a74eb3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#aac9153aee4bdb92701df902e06a74eb3">SWAP</a>(a,  b)&#160;&#160;&#160;((a != b) &amp;&amp; (a += b,b = a - b,a -= b))</td></tr>
+<tr class="separator:aac9153aee4bdb92701df902e06a74eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c6d7fcb9c177c308ef38e1d51d35e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a37c6d7fcb9c177c308ef38e1d51d35e3">MAX3</a>(a,  b,  c)&#160;&#160;&#160;((a) &gt; (<a class="el" href="tiny_math_function_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(b, c)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(b, c)))</td></tr>
+<tr class="separator:a37c6d7fcb9c177c308ef38e1d51d35e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9c1f64129f8817d22f83b96f6ed466"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#acf9c1f64129f8817d22f83b96f6ed466">MAX4</a>(a,  b,  c,  d)&#160;&#160;&#160;((a) &gt; (<a class="el" href="tiny_math_function_8h.html#a37c6d7fcb9c177c308ef38e1d51d35e3">MAX3</a>(b, c, d)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#a37c6d7fcb9c177c308ef38e1d51d35e3">MAX3</a>(b, c, d)))</td></tr>
+<tr class="separator:acf9c1f64129f8817d22f83b96f6ed466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4887ceeae88266064841cbbc11ef8b53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a4887ceeae88266064841cbbc11ef8b53">MIN3</a>(a,  b,  c)&#160;&#160;&#160;((a) &lt; (<a class="el" href="tiny_math_function_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(b, c)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(b, c)))</td></tr>
+<tr class="separator:a4887ceeae88266064841cbbc11ef8b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14887613266c0eb0d399659af735f66f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a14887613266c0eb0d399659af735f66f">MIN4</a>(a,  b,  c,  d)&#160;&#160;&#160;((a) &lt; (<a class="el" href="tiny_math_function_8h.html#a4887ceeae88266064841cbbc11ef8b53">MIN3</a>(b, c, d)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#a4887ceeae88266064841cbbc11ef8b53">MIN3</a>(b, c, d)))</td></tr>
+<tr class="separator:a14887613266c0eb0d399659af735f66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5ff70b6b28cd0157c50a22406f92c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a8c5ff70b6b28cd0157c50a22406f92c4">SIGN</a>(x)&#160;&#160;&#160;((x&lt;0)?(-1):((x&gt;0)?1:0))</td></tr>
+<tr class="separator:a8c5ff70b6b28cd0157c50a22406f92c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3616a5af1a14b0a5a1b2f542066ae45"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#aa3616a5af1a14b0a5a1b2f542066ae45">DEG2RAD</a>(deg)&#160;&#160;&#160;(((deg) * <a class="el" href="tiny_math_function_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>) / 180.0)</td></tr>
+<tr class="separator:aa3616a5af1a14b0a5a1b2f542066ae45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc958134b53425ec947541bb72ac8b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#aacc958134b53425ec947541bb72ac8b1">RAD2DEG</a>(rad)&#160;&#160;&#160;(((rad) * 180.0) / 3.1415926535)</td></tr>
+<tr class="separator:aacc958134b53425ec947541bb72ac8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a69b7824e362296dcc7d547597cde854e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a69b7824e362296dcc7d547597cde854e">tInvSqrt</a> (float x)</td></tr>
+<tr class="separator:a69b7824e362296dcc7d547597cde854e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61f9712d328cfc7164f4f93a3bf02d1d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#a61f9712d328cfc7164f4f93a3bf02d1d">tSqrt</a> (float x)</td></tr>
+<tr class="separator:a61f9712d328cfc7164f4f93a3bf02d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9043655ce2582b275428e9230738a37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_function_8h.html#aa9043655ce2582b275428e9230738a37">quickSort</a> (int numbers[], int left, int right)</td></tr>
+<tr class="separator:aa9043655ce2582b275428e9230738a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="aa1b0d1b74ac0e60cf2905824ede83ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b0d1b74ac0e60cf2905824ede83ce0">&#9670;&nbsp;</a></span>ABS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ABS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">IN</td><td>)</td>
+          <td>&#160;&#160;&#160;((IN) &lt; 0 ? - (IN) : (IN))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3616a5af1a14b0a5a1b2f542066ae45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3616a5af1a14b0a5a1b2f542066ae45">&#9670;&nbsp;</a></span>DEG2RAD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEG2RAD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">deg</td><td>)</td>
+          <td>&#160;&#160;&#160;(((deg) * <a class="el" href="tiny_math_function_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>) / 180.0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa99ec4acc4ecb2dc3c2d05da15d0e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa99ec4acc4ecb2dc3c2d05da15d0e3f">&#9670;&nbsp;</a></span>MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) &gt; (b) ? (a) : (b))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37c6d7fcb9c177c308ef38e1d51d35e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c6d7fcb9c177c308ef38e1d51d35e3">&#9670;&nbsp;</a></span>MAX3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX3</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) &gt; (<a class="el" href="tiny_math_function_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(b, c)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(b, c)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf9c1f64129f8817d22f83b96f6ed466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9c1f64129f8817d22f83b96f6ed466">&#9670;&nbsp;</a></span>MAX4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX4</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) &gt; (<a class="el" href="tiny_math_function_8h.html#a37c6d7fcb9c177c308ef38e1d51d35e3">MAX3</a>(b, c, d)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#a37c6d7fcb9c177c308ef38e1d51d35e3">MAX3</a>(b, c, d)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3acffbd305ee72dcd4593c0d8af64a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acffbd305ee72dcd4593c0d8af64a4f">&#9670;&nbsp;</a></span>MIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) &lt; (b) ? (a) : (b))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4887ceeae88266064841cbbc11ef8b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4887ceeae88266064841cbbc11ef8b53">&#9670;&nbsp;</a></span>MIN3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN3</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) &lt; (<a class="el" href="tiny_math_function_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(b, c)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(b, c)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14887613266c0eb0d399659af735f66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14887613266c0eb0d399659af735f66f">&#9670;&nbsp;</a></span>MIN4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN4</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">c, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a) &lt; (<a class="el" href="tiny_math_function_8h.html#a4887ceeae88266064841cbbc11ef8b53">MIN3</a>(b, c, d)) ? (a) : (<a class="el" href="tiny_math_function_8h.html#a4887ceeae88266064841cbbc11ef8b53">MIN3</a>(b, c, d)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a598a3330b3c21701223ee0ca14316eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a598a3330b3c21701223ee0ca14316eca">&#9670;&nbsp;</a></span>PI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PI&#160;&#160;&#160;(3.1415926f)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacc958134b53425ec947541bb72ac8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacc958134b53425ec947541bb72ac8b1">&#9670;&nbsp;</a></span>RAD2DEG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RAD2DEG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">rad</td><td>)</td>
+          <td>&#160;&#160;&#160;(((rad) * 180.0) / 3.1415926535)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c5ff70b6b28cd0157c50a22406f92c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c5ff70b6b28cd0157c50a22406f92c4">&#9670;&nbsp;</a></span>SIGN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SIGN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;((x&lt;0)?(-1):((x&gt;0)?1:0))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac9153aee4bdb92701df902e06a74eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9153aee4bdb92701df902e06a74eb3">&#9670;&nbsp;</a></span>SWAP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SWAP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">b&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((a != b) &amp;&amp; (a += b,b = a - b,a -= b))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="aa9043655ce2582b275428e9230738a37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9043655ce2582b275428e9230738a37">&#9670;&nbsp;</a></span>quickSort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void quickSort </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numbers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>クイックソートの実装 <br />
+ </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numbers[]</td><td>配列 </td></tr>
+    <tr><td class="paramname">left</td><td>クイックソートする区間の左端 </td></tr>
+    <tr><td class="paramname">right</td><td>クイックソートする区間の右端</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>acosの値 </dd></dl>
+
+</div>
+</div>
+<a id="a69b7824e362296dcc7d547597cde854e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b7824e362296dcc7d547597cde854e">&#9670;&nbsp;</a></span>tInvSqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float tInvSqrt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>高速なinvSqrt(x)の実装. <br />
+ ニュートン法を一回実行するごとにfloatの乗算が3回必要 <br />
+ INVSQRT_NEWTON_METHOD_NUMでニュートン法の適用回数を決める <br />
+ math.hのsqrt()に対して <br />
+ 0:誤差は ±0.05以下 <br />
+ 1:誤差は ±0.005以下 <br />
+ 2:誤差は ±0.000005以下 <br />
+ 3:誤差は ほぼなし <br />
+ </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>定義域は[-1.0,1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>acosの値 </dd></dl>
+
+</div>
+</div>
+<a id="a61f9712d328cfc7164f4f93a3bf02d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61f9712d328cfc7164f4f93a3bf02d1d">&#9670;&nbsp;</a></span>tSqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float tSqrt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>高速なsqrt(x)の実装. <br />
+ invSqrt(x)*xでsqrt(x)を計算 <br />
+ invSqrt(x)のニュートン法ステップ3回でほぼ誤差なしになる. <br />
+</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>定義域は[-1.0,1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>acosの値 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

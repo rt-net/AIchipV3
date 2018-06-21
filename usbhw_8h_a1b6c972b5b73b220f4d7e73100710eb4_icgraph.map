@@ -1,0 +1,5 @@
+<map id="USB_EnableEP" name="USB_EnableEP">
+<area shape="rect" id="node2" href="$usbcore_8c.html#a96ece75f573a7a04bccf13a0487e56e7" title="USB_ReqSetConfiguration" alt="" coords="168,5,343,32"/>
+<area shape="rect" id="node4" href="$usbcore_8c.html#a44eddaae107ee8ba7631f4ef4f3faef2" title="USB_ReqSetInterface" alt="" coords="181,56,329,83"/>
+<area shape="rect" id="node3" href="$usbcore_8c.html#ab4112b0375b0336fa4c3d873627c1697" title="USB_EndPoint0" alt="" coords="391,31,507,57"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="updateAK8963Data" name="updateAK8963Data">
+<area shape="rect" id="node2" href="$i2c_8h.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="221,31,303,57"/>
+<area shape="rect" id="node5" href="$mpu9250_8c.html#a3334fc81b1d803b2932a3c3bfffe44eb" title="concatenate2Byte_int" alt="" coords="188,81,336,108"/>
+<area shape="rect" id="node3" href="$i2c_8c.html#a7c87427cfa767315491db0a0c005ec59" title="I2CStart" alt="" coords="384,5,453,32"/>
+<area shape="rect" id="node4" href="$i2c_8c.html#a7b1d12f3a83330eda885db24a701e1b5" title="I2CStop" alt="" coords="385,56,453,83"/>
+</map>

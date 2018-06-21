@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: inc/PERIPHERAL/usbTransmission.h ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_465fd8e6a32cf7967e860f7de28a8bae.html">PERIPHERAL</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">データ構造</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">usbTransmission.h ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+被依存関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h__dep__incl.png" border="0" usemap="#inc_2_p_e_r_i_p_h_e_r_a_l_2usb_transmission_8hdep" alt=""/></div>
+<map name="inc_2_p_e_r_i_p_h_e_r_a_l_2usb_transmission_8hdep" id="inc_2_p_e_r_i_p_h_e_r_a_l_2usb_transmission_8hdep">
+<area shape="rect" id="node2" href="_a_i_c_h_i_p_function_8c.html" title="モーターの回転, 機体データの送信, コマンドの受信 &#160;&#160;10msec毎に割り込み関数で処理を実行 ..." alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="223,80,352,107"/>
+<area shape="rect" id="node4" href="mode_select_8c.html" title="src/MODE/modeSelect.c" alt="" coords="376,80,543,107"/>
+<area shape="rect" id="node5" href="debug_8c.html" title="src/PERIPHERAL/debug.c" alt="" coords="567,80,743,107"/>
+<area shape="rect" id="node6" href="usb_transmission_8c.html" title="src/PERIPHERAL/usbTransmission.c" alt="" coords="768,80,1007,107"/>
+</map>
+</div>
+</div>
+<p><a href="usb_transmission_8h_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+データ構造</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_g_e_t_d_a_t___t.html">GETDAT_T</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a2d6d7c05d91576af25410bb856740976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usb_transmission_8h.html#a2d6d7c05d91576af25410bb856740976">VCOM_SendData</a> (<a class="el" href="struct_g_e_t_d_a_t___t.html">GETDAT_T</a> dat)</td></tr>
+<tr class="separator:a2d6d7c05d91576af25410bb856740976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a2bacd9a23fff588cb7f5b6538e7b25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usb_transmission_8h.html#a4a2bacd9a23fff588cb7f5b6538e7b25">VCOM_CheckState</a> (void)</td></tr>
+<tr class="separator:a4a2bacd9a23fff588cb7f5b6538e7b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00ae3d2d42d3c1d67f8779c026b36ec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usb_transmission_8h.html#a00ae3d2d42d3c1d67f8779c026b36ec9">tryUSBConnect</a> (void)</td></tr>
+<tr class="separator:a00ae3d2d42d3c1d67f8779c026b36ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f8c90b14a22c852f931e269184e8ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usb_transmission_8h.html#a73f8c90b14a22c852f931e269184e8ad">isUSBConfig</a> (void)</td></tr>
+<tr class="separator:a73f8c90b14a22c852f931e269184e8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a73f8c90b14a22c852f931e269184e8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f8c90b14a22c852f931e269184e8ad">&#9670;&nbsp;</a></span>isUSBConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> isUSBConfig </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h_a73f8c90b14a22c852f931e269184e8ad_icgraph.png" border="0" usemap="#usb_transmission_8h_a73f8c90b14a22c852f931e269184e8ad_icgraph" alt=""/></div>
+<map name="usb_transmission_8h_a73f8c90b14a22c852f931e269184e8ad_icgraph" id="usb_transmission_8h_a73f8c90b14a22c852f931e269184e8ad_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="148,5,199,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a00ae3d2d42d3c1d67f8779c026b36ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00ae3d2d42d3c1d67f8779c026b36ec9">&#9670;&nbsp;</a></span>tryUSBConnect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> tryUSBConnect </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h_a00ae3d2d42d3c1d67f8779c026b36ec9_cgraph.png" border="0" usemap="#usb_transmission_8h_a00ae3d2d42d3c1d67f8779c026b36ec9_cgraph" alt=""/></div>
+<map name="usb_transmission_8h_a00ae3d2d42d3c1d67f8779c026b36ec9_cgraph" id="usb_transmission_8h_a00ae3d2d42d3c1d67f8779c026b36ec9_cgraph">
+<area shape="rect" id="node2" href="usbhw_8h.html#a7b4ca59fc7f1a1f0e83b84a225fbe16e" title="USB_Connect" alt="" coords="165,5,269,32"/>
+<area shape="rect" id="node5" href="_system_tick_timer_8h.html#a18af7476504a76def67727301e3968fb" title="wait1msec" alt="" coords="175,56,259,83"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#ae88115ba5c676e7d806a8062f981525a" title="WrCmdDat" alt="" coords="317,5,404,32"/>
+<area shape="rect" id="node4" href="usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="452,5,519,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4a2bacd9a23fff588cb7f5b6538e7b25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2bacd9a23fff588cb7f5b6538e7b25">&#9670;&nbsp;</a></span>VCOM_CheckState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VCOM_CheckState </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_cgraph.png" border="0" usemap="#usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_cgraph" alt=""/></div>
+<map name="usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_cgraph" id="usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_cgraph">
+<area shape="rect" id="node2" href="cdcuser_8h.html#a7ce873af21ad9bad0f156b742d60e7db" title="CDC_GetSerialState" alt="" coords="189,5,331,32"/>
+<area shape="rect" id="node4" href="cdcuser_8h.html#a514c6123d586172d406abff1940a0591" title="CDC_NotificationIn" alt="" coords="195,56,325,83"/>
+<area shape="rect" id="node3" href="serial_8h.html#a622ef81b7c41187c4a56acf8ad01a512" title="ser_LineState" alt="" coords="380,5,483,32"/>
+<area shape="rect" id="node5" href="usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="379,56,484,83"/>
+<area shape="rect" id="node6" href="usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="547,31,601,57"/>
+<area shape="rect" id="node7" href="usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="532,81,616,108"/>
+<area shape="rect" id="node8" href="usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="664,56,731,83"/>
+<area shape="rect" id="node9" href="usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="667,107,727,133"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_icgraph.png" border="0" usemap="#usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_icgraph" alt=""/></div>
+<map name="usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_icgraph" id="usb_transmission_8h_a4a2bacd9a23fff588cb7f5b6538e7b25_icgraph">
+<area shape="rect" id="node2" href="debug_8c.html#a1bd9f450dbe5f0e704bee6a2d945822f" title="myPrintfUSB" alt="" coords="189,56,287,83"/>
+<area shape="rect" id="node3" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="339,5,445,32"/>
+<area shape="rect" id="node5" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="358,56,426,83"/>
+<area shape="rect" id="node6" href="mpu9250_8c.html#a2c74a170b91fa6bef07054c2037490c5" title="debugMPU9250" alt="" coords="335,107,449,133"/>
+<area shape="rect" id="node4" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="501,5,590,32"/>
+<area shape="rect" id="node7" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="497,107,593,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2d6d7c05d91576af25410bb856740976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6d7c05d91576af25410bb856740976">&#9670;&nbsp;</a></span>VCOM_SendData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VCOM_SendData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_g_e_t_d_a_t___t.html">GETDAT_T</a>&#160;</td>
+          <td class="paramname"><em>dat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_cgraph.png" border="0" usemap="#usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_cgraph" alt=""/></div>
+<map name="usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_cgraph" id="usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_cgraph">
+<area shape="rect" id="node2" href="usbhw_8h.html#a36b8c7a6fd6052d4c52995d8553c0500" title="USB_WriteEP" alt="" coords="179,31,284,57"/>
+<area shape="rect" id="node3" href="usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb" title="delay" alt="" coords="347,5,401,32"/>
+<area shape="rect" id="node4" href="usbhw_8c.html#aff86a67a8cc3b52fae0e91e96557fc60" title="WrCmdEP" alt="" coords="332,56,416,83"/>
+<area shape="rect" id="node5" href="usbhw_8c.html#a43a57d8b8cb335d6c95b8517a46c244f" title="WrCmd" alt="" coords="464,31,531,57"/>
+<area shape="rect" id="node6" href="usbhw_8c.html#a1aecf030a0d76bccc83101a1cc0e870c" title="EPAdr" alt="" coords="467,81,527,108"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_icgraph.png" border="0" usemap="#usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_icgraph" alt=""/></div>
+<map name="usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_icgraph" id="usb_transmission_8h_a2d6d7c05d91576af25410bb856740976_icgraph">
+<area shape="rect" id="node2" href="debug_8c.html#a1bd9f450dbe5f0e704bee6a2d945822f" title="myPrintfUSB" alt="" coords="179,56,276,83"/>
+<area shape="rect" id="node3" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#a0dac41231c6f3c7b89e02d0a87ee8694" title="printBlockData" alt="" coords="328,5,435,32"/>
+<area shape="rect" id="node5" href="mpu9250_8c.html#a0a46669bada588b92e12a664eb056db5" title="whoAmI" alt="" coords="347,56,415,83"/>
+<area shape="rect" id="node6" href="mpu9250_8c.html#a2c74a170b91fa6bef07054c2037490c5" title="debugMPU9250" alt="" coords="324,107,439,133"/>
+<area shape="rect" id="node4" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8c.html#af875730fe74beebacc0b80bb5f398be7" title="printAllData" alt="" coords="490,5,579,32"/>
+<area shape="rect" id="node7" href="mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="487,107,583,133"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: src/USB/usbdesc.c ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_3a562169f315c80d2c1712637dd568c3.html">USB</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle">
+<div class="title">usbdesc.c ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="type_8h_source.html">type.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="usb_8h_source.html">usb.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cdc_8h_source.html">cdc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="usbcfg_8h_source.html">usbcfg.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="usbdesc_8h_source.html">usbdesc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="config_8h_source.html">config.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+usbdesc.c の依存先関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="usbdesc_8c__incl.png" border="0" usemap="#src_2_u_s_b_2usbdesc_8c" alt=""/></div>
+<map name="src_2_u_s_b_2usbdesc_8c" id="src_2_u_s_b_2usbdesc_8c">
+<area shape="rect" id="node2" href="type_8h.html" title="type.h" alt="" coords="5,80,64,107"/>
+<area shape="rect" id="node3" href="usb_8h.html" title="usb.h" alt="" coords="89,80,143,107"/>
+<area shape="rect" id="node4" href="cdc_8h.html" title="cdc.h" alt="" coords="167,80,222,107"/>
+<area shape="rect" id="node5" href="usbcfg_8h.html" title="usbcfg.h" alt="" coords="246,80,317,107"/>
+<area shape="rect" id="node6" href="usbdesc_8h.html" title="usbdesc.h" alt="" coords="341,80,424,107"/>
+<area shape="rect" id="node7" href="config_8h.html" title="config.h" alt="" coords="448,80,515,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:a6fdf9c1f707c6d4f4e0ca052068cd715"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbdesc_8c.html#a6fdf9c1f707c6d4f4e0ca052068cd715">USB_DeviceDescriptor</a> []</td></tr>
+<tr class="separator:a6fdf9c1f707c6d4f4e0ca052068cd715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d38d34cd2dbc0f1cb3e2e838d60324b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbdesc_8c.html#a1d38d34cd2dbc0f1cb3e2e838d60324b">USB_ConfigDescriptor</a> []</td></tr>
+<tr class="separator:a1d38d34cd2dbc0f1cb3e2e838d60324b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0342f0e15e2a96ecac5d16cde279b11"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="usbdesc_8c.html#aa0342f0e15e2a96ecac5d16cde279b11">USB_StringDescriptor</a> []</td></tr>
+<tr class="separator:aa0342f0e15e2a96ecac5d16cde279b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">変数詳解</h2>
+<a id="a1d38d34cd2dbc0f1cb3e2e838d60324b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d38d34cd2dbc0f1cb3e2e838d60324b">&#9670;&nbsp;</a></span>USB_ConfigDescriptor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> USB_ConfigDescriptor[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fdf9c1f707c6d4f4e0ca052068cd715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fdf9c1f707c6d4f4e0ca052068cd715">&#9670;&nbsp;</a></span>USB_DeviceDescriptor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> USB_DeviceDescriptor[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= {</div><div class="line">  <a class="code" href="usbdesc_8h.html#acd04660262562260957b6df8d5e482b3">USB_DEVICE_DESC_SIZE</a>,              </div><div class="line">  <a class="code" href="usb_8h.html#a722f2d6ee2892228b6708e8b9904c645">USB_DEVICE_DESCRIPTOR_TYPE</a>,        </div><div class="line">  <a class="code" href="usbdesc_8h.html#a018fc058eba40cffd92be1756a5d2b40">WBVAL</a>(0x0200),            </div><div class="line">  <a class="code" href="usb_8h.html#ab6fd7e18adf5c748a6b56391c1c2b819">USB_DEVICE_CLASS_COMMUNICATIONS</a>,   </div><div class="line">  0x00,                              </div><div class="line">  0x00,                              </div><div class="line">  <a class="code" href="usbcfg_8h.html#a4659143950f825db983fadc9a1b1df4e">USB_MAX_PACKET0</a>,                   </div><div class="line">  <a class="code" href="usbdesc_8h.html#a018fc058eba40cffd92be1756a5d2b40">WBVAL</a>(<a class="code" href="config_8h.html#ae506cafc7291dd06cd63c9ac87c9f130">USB_VENDOR_ID</a>),                     </div><div class="line">  <a class="code" href="usbdesc_8h.html#a018fc058eba40cffd92be1756a5d2b40">WBVAL</a>(<a class="code" href="config_8h.html#aedd6fd729658fc1d713a29bff8f62ea0">USB_PROD_ID</a>),                     </div><div class="line">  <a class="code" href="usbdesc_8h.html#a018fc058eba40cffd92be1756a5d2b40">WBVAL</a>(<a class="code" href="config_8h.html#ab7858cae755a8a410d6495765def4daa">USB_DEVICE</a>),           </div><div class="line">  0x01,                              </div><div class="line">  0x02,                              </div><div class="line">  0x03,                              </div><div class="line">  0x01                               </div><div class="line">}</div><div class="ttc" id="config_8h_html_aedd6fd729658fc1d713a29bff8f62ea0"><div class="ttname"><a href="config_8h.html#aedd6fd729658fc1d713a29bff8f62ea0">USB_PROD_ID</a></div><div class="ttdeci">#define USB_PROD_ID</div><div class="ttdef"><b>Definition:</b> config.h:32</div></div>
+<div class="ttc" id="config_8h_html_ab7858cae755a8a410d6495765def4daa"><div class="ttname"><a href="config_8h.html#ab7858cae755a8a410d6495765def4daa">USB_DEVICE</a></div><div class="ttdeci">#define USB_DEVICE</div><div class="ttdef"><b>Definition:</b> config.h:33</div></div>
+<div class="ttc" id="usbcfg_8h_html_a4659143950f825db983fadc9a1b1df4e"><div class="ttname"><a href="usbcfg_8h.html#a4659143950f825db983fadc9a1b1df4e">USB_MAX_PACKET0</a></div><div class="ttdeci">#define USB_MAX_PACKET0</div><div class="ttdef"><b>Definition:</b> usbcfg.h:60</div></div>
+<div class="ttc" id="usbdesc_8h_html_a018fc058eba40cffd92be1756a5d2b40"><div class="ttname"><a href="usbdesc_8h.html#a018fc058eba40cffd92be1756a5d2b40">WBVAL</a></div><div class="ttdeci">#define WBVAL(x)</div><div class="ttdef"><b>Definition:</b> usbdesc.h:23</div></div>
+<div class="ttc" id="usb_8h_html_ab6fd7e18adf5c748a6b56391c1c2b819"><div class="ttname"><a href="usb_8h.html#ab6fd7e18adf5c748a6b56391c1c2b819">USB_DEVICE_CLASS_COMMUNICATIONS</a></div><div class="ttdeci">#define USB_DEVICE_CLASS_COMMUNICATIONS</div><div class="ttdef"><b>Definition:</b> usb.h:106</div></div>
+<div class="ttc" id="usb_8h_html_a722f2d6ee2892228b6708e8b9904c645"><div class="ttname"><a href="usb_8h.html#a722f2d6ee2892228b6708e8b9904c645">USB_DEVICE_DESCRIPTOR_TYPE</a></div><div class="ttdeci">#define USB_DEVICE_DESCRIPTOR_TYPE</div><div class="ttdef"><b>Definition:</b> usb.h:91</div></div>
+<div class="ttc" id="config_8h_html_ae506cafc7291dd06cd63c9ac87c9f130"><div class="ttname"><a href="config_8h.html#ae506cafc7291dd06cd63c9ac87c9f130">USB_VENDOR_ID</a></div><div class="ttdeci">#define USB_VENDOR_ID</div><div class="ttdef"><b>Definition:</b> config.h:31</div></div>
+<div class="ttc" id="usbdesc_8h_html_acd04660262562260957b6df8d5e482b3"><div class="ttname"><a href="usbdesc_8h.html#acd04660262562260957b6df8d5e482b3">USB_DEVICE_DESC_SIZE</a></div><div class="ttdeci">#define USB_DEVICE_DESC_SIZE</div><div class="ttdef"><b>Definition:</b> usbdesc.h:25</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa0342f0e15e2a96ecac5d16cde279b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0342f0e15e2a96ecac5d16cde279b11">&#9670;&nbsp;</a></span>USB_StringDescriptor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> USB_StringDescriptor[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

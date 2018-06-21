@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: src/PERIPHERAL/ad.c ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_8eb6a8da60e90f3e532350c42093659e.html">PERIPHERAL</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">ad.c ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="timer_8h_source.html">timer.h</a>&quot;</code><br />
+<code>#include &quot;LPC13xx.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+ad.c の依存先関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="ad_8c__incl.png" border="0" usemap="#src_2_p_e_r_i_p_h_e_r_a_l_2ad_8c" alt=""/></div>
+<map name="src_2_p_e_r_i_p_h_e_r_a_l_2ad_8c" id="src_2_p_e_r_i_p_h_e_r_a_l_2ad_8c">
+<area shape="rect" id="node2" href="timer_8h.html" title="timer.h" alt="" coords="5,80,68,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a90c33533687a93e13644591640074888"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ad_8c.html#a90c33533687a93e13644591640074888">Init_ad</a> (void)</td></tr>
+<tr class="separator:a90c33533687a93e13644591640074888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99319e2aae81c8d3fa9907c643519f76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ad_8c.html#a99319e2aae81c8d3fa9907c643519f76">storeAD2Array</a> (<a class="el" href="type_8h.html#aa5ad9bec438b7cf669efb1ca064e79f5">int16_t</a> *ad_value)</td></tr>
+<tr class="separator:a99319e2aae81c8d3fa9907c643519f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数詳解</h2>
+<a id="a90c33533687a93e13644591640074888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90c33533687a93e13644591640074888">&#9670;&nbsp;</a></span>Init_ad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Init_ad </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="ad_8c_a90c33533687a93e13644591640074888_icgraph.png" border="0" usemap="#ad_8c_a90c33533687a93e13644591640074888_icgraph" alt=""/></div>
+<map name="ad_8c_a90c33533687a93e13644591640074888_icgraph" id="ad_8c_a90c33533687a93e13644591640074888_icgraph">
+<area shape="rect" id="node2" href="main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="113,5,152,32"/>
+<area shape="rect" id="node3" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="200,5,251,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a99319e2aae81c8d3fa9907c643519f76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99319e2aae81c8d3fa9907c643519f76">&#9670;&nbsp;</a></span>storeAD2Array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void storeAD2Array </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="type_8h.html#aa5ad9bec438b7cf669efb1ca064e79f5">int16_t</a> *&#160;</td>
+          <td class="paramname"><em>ad_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: src/AICHIP/tinyMathFunctions.c ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_95ee3d4ed234dd1221919408f66c24e5.html">AICHIP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">マクロ定義</a> &#124;
+<a href="#func-members">関数</a>  </div>
+  <div class="headertitle">
+<div class="title">tinyMathFunctions.c ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="type_8h_source.html">type.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tiny_math_function_8h_source.html">tinyMathFunction.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+tinyMathFunctions.c の依存先関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="tiny_math_functions_8c__incl.png" border="0" usemap="#src_2_a_i_c_h_i_p_2tiny_math_functions_8c" alt=""/></div>
+<map name="src_2_a_i_c_h_i_p_2tiny_math_functions_8c" id="src_2_a_i_c_h_i_p_2tiny_math_functions_8c">
+<area shape="rect" id="node2" href="type_8h.html" title="type.h" alt="" coords="20,80,79,107"/>
+<area shape="rect" id="node3" href="tiny_math_function_8h.html" title="tinyMathFunction.h" alt="" coords="103,80,236,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+マクロ定義</h2></td></tr>
+<tr class="memitem:aa50831efdea953c038bf8bda509def68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_functions_8c.html#aa50831efdea953c038bf8bda509def68">INVSQRT_NEWTON_METHOD_NUM</a>&#160;&#160;&#160;(2)</td></tr>
+<tr class="separator:aa50831efdea953c038bf8bda509def68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数</h2></td></tr>
+<tr class="memitem:a69b7824e362296dcc7d547597cde854e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_functions_8c.html#a69b7824e362296dcc7d547597cde854e">tInvSqrt</a> (float x)</td></tr>
+<tr class="separator:a69b7824e362296dcc7d547597cde854e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61f9712d328cfc7164f4f93a3bf02d1d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_functions_8c.html#a61f9712d328cfc7164f4f93a3bf02d1d">tSqrt</a> (float x)</td></tr>
+<tr class="separator:a61f9712d328cfc7164f4f93a3bf02d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9043655ce2582b275428e9230738a37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tiny_math_functions_8c.html#aa9043655ce2582b275428e9230738a37">quickSort</a> (int numbers[], int left, int right)</td></tr>
+<tr class="separator:aa9043655ce2582b275428e9230738a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">マクロ定義詳解</h2>
+<a id="aa50831efdea953c038bf8bda509def68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50831efdea953c038bf8bda509def68">&#9670;&nbsp;</a></span>INVSQRT_NEWTON_METHOD_NUM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INVSQRT_NEWTON_METHOD_NUM&#160;&#160;&#160;(2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a id="aa9043655ce2582b275428e9230738a37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9043655ce2582b275428e9230738a37">&#9670;&nbsp;</a></span>quickSort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void quickSort </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numbers</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>クイックソートの実装 <br />
+ </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numbers[]</td><td>配列 </td></tr>
+    <tr><td class="paramname">left</td><td>クイックソートする区間の左端 </td></tr>
+    <tr><td class="paramname">right</td><td>クイックソートする区間の右端</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>acosの値 </dd></dl>
+
+</div>
+</div>
+<a id="a69b7824e362296dcc7d547597cde854e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b7824e362296dcc7d547597cde854e">&#9670;&nbsp;</a></span>tInvSqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float tInvSqrt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>高速なinvSqrt(x)の実装. <br />
+ ニュートン法を一回実行するごとにfloatの乗算が3回必要 <br />
+ INVSQRT_NEWTON_METHOD_NUMでニュートン法の適用回数を決める <br />
+ math.hのsqrt()に対して <br />
+ 0:誤差は ±0.05以下 <br />
+ 1:誤差は ±0.005以下 <br />
+ 2:誤差は ±0.000005以下 <br />
+ 3:誤差は ほぼなし <br />
+ </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>定義域は[-1.0,1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>acosの値 </dd></dl>
+
+</div>
+</div>
+<a id="a61f9712d328cfc7164f4f93a3bf02d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61f9712d328cfc7164f4f93a3bf02d1d">&#9670;&nbsp;</a></span>tSqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float tSqrt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>高速なsqrt(x)の実装. <br />
+ invSqrt(x)*xでsqrt(x)を計算 <br />
+ invSqrt(x)のニュートン法ステップ3回でほぼ誤差なしになる. <br />
+</p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>定義域は[-1.0,1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>acosの値 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

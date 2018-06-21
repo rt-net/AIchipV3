@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-AICHIPV3-sample: inc/AICHIP/EEPROM_24LC16BT_I.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-AICHIPV3-sample
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="dir_66732bebd6e8d906bf079d84012861f0.html">AICHIP</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">EEPROM_24LC16BT_I.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef EEPROM_24LC16BT_I_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define EEPROM_24LC16BT_I_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a90dd5d92bd34934014799f84126177ac">write1byteEEPROM</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> block, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> address, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> write_data);</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#aa5c07faae59f35583ce95909dd2b01c1">read1byteEEPROM</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> block, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> adress);</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a07a4f170c5c5709a222b20947f186261">writeNbyteEEPROM</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> block, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> address, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *read_data_array, <a class="code" href="type_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a> length);</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a3c4f4e4eb64269a8b8d4c82bc475c57c">readNbyteEEPROM</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> block, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> address, <a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *read_data_array, <a class="code" href="type_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a> length);</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a0dac41231c6f3c7b89e02d0a87ee8694">printBlockData</a>(<a class="code" href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> block);</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#aeb0987bfce601ee2bacd0735d7f44fd2">printAllData</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="_e_e_p_r_o_m__24_l_c16_b_t___i_8h_html_aa5c07faae59f35583ce95909dd2b01c1"><div class="ttname"><a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#aa5c07faae59f35583ce95909dd2b01c1">read1byteEEPROM</a></div><div class="ttdeci">uint8_t read1byteEEPROM(uint8_t block, uint8_t adress)</div><div class="ttdef"><b>Definition:</b> EEPROM_24LC16BT_I.c:54</div></div>
+<div class="ttc" id="_e_e_p_r_o_m__24_l_c16_b_t___i_8h_html_aeb0987bfce601ee2bacd0735d7f44fd2"><div class="ttname"><a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#aeb0987bfce601ee2bacd0735d7f44fd2">printAllData</a></div><div class="ttdeci">void printAllData(void)</div><div class="ttdef"><b>Definition:</b> EEPROM_24LC16BT_I.c:144</div></div>
+<div class="ttc" id="_e_e_p_r_o_m__24_l_c16_b_t___i_8h_html_a07a4f170c5c5709a222b20947f186261"><div class="ttname"><a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a07a4f170c5c5709a222b20947f186261">writeNbyteEEPROM</a></div><div class="ttdeci">void writeNbyteEEPROM(uint8_t block, uint8_t address, uint8_t *read_data_array, uint16_t length)</div><div class="ttdef"><b>Definition:</b> EEPROM_24LC16BT_I.c:89</div></div>
+<div class="ttc" id="_e_e_p_r_o_m__24_l_c16_b_t___i_8h_html_a90dd5d92bd34934014799f84126177ac"><div class="ttname"><a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a90dd5d92bd34934014799f84126177ac">write1byteEEPROM</a></div><div class="ttdeci">void write1byteEEPROM(uint8_t block, uint8_t address, uint8_t write_data)</div><div class="ttdef"><b>Definition:</b> EEPROM_24LC16BT_I.c:36</div></div>
+<div class="ttc" id="_e_e_p_r_o_m__24_l_c16_b_t___i_8h_html_a3c4f4e4eb64269a8b8d4c82bc475c57c"><div class="ttname"><a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a3c4f4e4eb64269a8b8d4c82bc475c57c">readNbyteEEPROM</a></div><div class="ttdeci">void readNbyteEEPROM(uint8_t block, uint8_t address, uint8_t *read_data_array, uint16_t length)</div><div class="ttdef"><b>Definition:</b> EEPROM_24LC16BT_I.c:106</div></div>
+<div class="ttc" id="type_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="type_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition:</b> type.h:27</div></div>
+<div class="ttc" id="type_8h_html_adf4d876453337156dde61095e1f20223"><div class="ttname"><a href="type_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a></div><div class="ttdeci">unsigned short int uint16_t</div><div class="ttdef"><b>Definition:</b> type.h:28</div></div>
+<div class="ttc" id="_e_e_p_r_o_m__24_l_c16_b_t___i_8h_html_a0dac41231c6f3c7b89e02d0a87ee8694"><div class="ttname"><a href="_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a0dac41231c6f3c7b89e02d0a87ee8694">printBlockData</a></div><div class="ttdeci">void printBlockData(uint8_t block)</div><div class="ttdef"><b>Definition:</b> EEPROM_24LC16BT_I.c:128</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築: &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
