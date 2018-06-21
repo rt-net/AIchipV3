@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-4de9f97512b76d56c432a6ff9380fd376bdecb84.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-2384612b23155f7a95f7bda18cb55b7c95906f44.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-1050a2689b32fc72a7c58c61173648d78a3ed2b1.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-e1c8ccc5887d2e3a2aa93f0c37a1499898250429.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d71f465e6094cae72d47df869aba7b2c505ab259.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-bdee0177e800013777f58fac575891cc32d9621e.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="/Users/nakagawayuki/git/AIchip/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-16fd25960814e43e0c4c305c53427d03da565e04.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-5742a98db9529b6d84a40e1caac2233df1215c74.jar" />
+    </item>
+    <item
+        jar="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/nakagawayuki/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-6b44227f048e857cd04ace0e39f5ca8c23fb16f0.jar" />
+    </item>
+
+</items>
