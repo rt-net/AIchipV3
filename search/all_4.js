@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d',['d',['../struct_g_e_t_d_a_t___t.html#aabde1270b5393ab5bb3ee3dc5e657bba',1,'GETDAT_T']]],
+  ['d',['d',['../struct_g_e_t_d_a_t___t.html#af3d6b0a3500aff778731476afe910c6a',1,'GETDAT_T']]],
   ['dat_5fget_5fdev_5fstat',['DAT_GET_DEV_STAT',['../usbreg_8h.html#a220874da8f06a7285a4358e05799f7cb',1,'usbreg.h']]],
   ['dat_5fget_5ferr_5fcode',['DAT_GET_ERR_CODE',['../usbreg_8h.html#a85951c5fa9f668f6e0bf5782f31fc386',1,'usbreg.h']]],
   ['dat_5frd_5fchip_5fid',['DAT_RD_CHIP_ID',['../usbreg_8h.html#a12684bf8c3dd7658d66ba80936e8fb41',1,'usbreg.h']]],
@@ -9,11 +9,11 @@ var searchData=
   ['dat_5fsel_5fep',['DAT_SEL_EP',['../usbreg_8h.html#add06b18c986b802cd30817f231a325a3',1,'usbreg.h']]],
   ['dat_5fsel_5fep_5fclri',['DAT_SEL_EP_CLRI',['../usbreg_8h.html#a0623e4b4754784a8e2f756ca152de5e2',1,'usbreg.h']]],
   ['dat_5fwr_5fbyte',['DAT_WR_BYTE',['../usbreg_8h.html#a3bdce5cc0b05eaaebe27f3b9e7db47e6',1,'usbreg.h']]],
-  ['data',['data',['../struct_____s_e_r___b_u_f___t.html#afd5cf9a9de6fd83d992dd40c7fe9709f',1,'__SER_BUF_T::data()'],['../struct_____c_d_c___b_u_f___t.html#a8723dfe173e8474e3d6296a1a71111b9',1,'__CDC_BUF_T::data()']]],
+  ['data',['data',['../struct_____s_e_r___b_u_f___t.html#ad0f654f88289972c12d3b5d3fd5b4c90',1,'__SER_BUF_T::data()'],['../struct_____c_d_c___b_u_f___t.html#a955a4e90b7c5bdbb240ff0a324e71f36',1,'__CDC_BUF_T::data()']]],
   ['data_5fack',['DATA_ACK',['../i2c_8h.html#a87e3ba307cd7095fb53792ab5244165a',1,'i2c.h']]],
   ['data_5fnack',['DATA_NACK',['../i2c_8h.html#a41fefc2ef9cb237077bfe4b85066c8ea',1,'i2c.h']]],
-  ['dcrdr',['DCRDR',['../struct_core_debug___type.html#ab8f4bb076402b61f7be6308075a789c9',1,'CoreDebug_Type']]],
-  ['dcrsr',['DCRSR',['../struct_core_debug___type.html#afefa84bce7497652353a1b76d405d983',1,'CoreDebug_Type']]],
+  ['dcrdr',['DCRDR',['../struct_core_debug___type.html#a5bcffe99d1d5471d5e5befbc6272ebf0',1,'CoreDebug_Type']]],
+  ['dcrsr',['DCRSR',['../struct_core_debug___type.html#a7b49cb58573da77cc8a83a1b21262180',1,'CoreDebug_Type']]],
   ['debug_2ec',['debug.c',['../debug_8c.html',1,'']]],
   ['debug_2ed',['debug.d',['../debug_8d.html',1,'']]],
   ['debug_2eh',['debug.h',['../debug_8h.html',1,'']]],
@@ -24,7 +24,7 @@ var searchData=
   ['deg2rad',['DEG2RAD',['../tiny_math_function_8h.html#aa3616a5af1a14b0a5a1b2f542066ae45',1,'tinyMathFunction.h']]],
   ['delay',['delay',['../usbhw_8c.html#a4e23ac0156cf32b8055949e0c326adcb',1,'usbhw.c']]],
   ['delay_5fcount',['DELAY_COUNT',['../ssp_8h.html#a34a81baaf5d6dedb310130810ef8c565',1,'ssp.h']]],
-  ['demcr',['DEMCR',['../struct_core_debug___type.html#a5cdd51dbe3ebb7041880714430edd52d',1,'CoreDebug_Type']]],
+  ['demcr',['DEMCR',['../struct_core_debug___type.html#a6cdfc0a6ce3e988cc02c2d6e8107d193',1,'CoreDebug_Type']]],
   ['dev_5faddr_5fmask',['DEV_ADDR_MASK',['../usbreg_8h.html#afaa35ef822f5e9b18f9f5391335caf58',1,'usbreg.h']]],
   ['dev_5fcon',['DEV_CON',['../usbreg_8h.html#a5b6f5830c79daef183553eba90a74563',1,'usbreg.h']]],
   ['dev_5fcon_5fch',['DEV_CON_CH',['../usbreg_8h.html#a10e1a4e669ad2b4c70c64630ba1d5ded',1,'usbreg.h']]],
@@ -33,9 +33,9 @@ var searchData=
   ['dev_5fstat_5fint',['DEV_STAT_INT',['../usbreg_8h.html#af275198989acad4e8a4e2b7e59a09c8a',1,'usbreg.h']]],
   ['dev_5fsus',['DEV_SUS',['../usbreg_8h.html#acd7dfb56a185c8f760e5e57777295ed2',1,'usbreg.h']]],
   ['dev_5fsus_5fch',['DEV_SUS_CH',['../usbreg_8h.html#a08a297cb7ed647f49fb15ee8a1c2e7db',1,'usbreg.h']]],
-  ['dfr',['DFR',['../struct_s_c_b___type.html#a586a5225467262b378c0f231ccc77f86',1,'SCB_Type']]],
-  ['dfsr',['DFSR',['../struct_s_c_b___type.html#ad7d61d9525fa9162579c3da0b87bff8d',1,'SCB_Type']]],
-  ['dhcsr',['DHCSR',['../struct_core_debug___type.html#a25c14c022c73a725a1736e903431095d',1,'CoreDebug_Type']]],
-  ['dir',['Dir',['../struct___r_e_q_u_e_s_t___t_y_p_e_1_1___b_m.html#a2b987136ccec1e6d72d308ee19cb228b',1,'_REQUEST_TYPE::_BM::Dir()'],['../struct___b_m.html#aa34836a062f434426dbeb0ba9b135eb5',1,'_BM::Dir()'],['../usb_8h.html#ae74d69147f1b758208a15a51eccf2c3f',1,'Dir():&#160;usb.h']]],
-  ['dwdterate',['dwDTERate',['../struct___c_d_c___l_i_n_e___c_o_d_i_n_g.html#aeca9d053bfd185bc6b70911197442398',1,'_CDC_LINE_CODING::dwDTERate()'],['../cdc_8h.html#a1c7eaa2f09ca8253de1711d01e05e02c',1,'dwDTERate():&#160;cdc.h']]]
+  ['dfr',['DFR',['../struct_s_c_b___type.html#a1b9a71780ae327f1f337a2176b777618',1,'SCB_Type']]],
+  ['dfsr',['DFSR',['../struct_s_c_b___type.html#a415598d9009bb3ffe9f35e03e5a386fe',1,'SCB_Type']]],
+  ['dhcsr',['DHCSR',['../struct_core_debug___type.html#a39bc5e68dc6071187fbe2348891eabfa',1,'CoreDebug_Type']]],
+  ['dir',['Dir',['../struct___r_e_q_u_e_s_t___t_y_p_e_1_1___b_m.html#ae74d69147f1b758208a15a51eccf2c3f',1,'_REQUEST_TYPE::_BM::Dir()'],['../struct___b_m.html#ae74d69147f1b758208a15a51eccf2c3f',1,'_BM::Dir()'],['../usb_8h.html#ae74d69147f1b758208a15a51eccf2c3f',1,'Dir():&#160;usb.h']]],
+  ['dwdterate',['dwDTERate',['../struct___c_d_c___l_i_n_e___c_o_d_i_n_g.html#a1c7eaa2f09ca8253de1711d01e05e02c',1,'_CDC_LINE_CODING::dwDTERate()'],['../cdc_8h.html#a1c7eaa2f09ca8253de1711d01e05e02c',1,'dwDTERate():&#160;cdc.h']]]
 ];

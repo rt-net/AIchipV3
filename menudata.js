@@ -24,10 +24,10 @@ for the JavaScript code in this file
 var menudata={children:[
 {text:"総合概要",url:"index.html"},
 {text:"モジュール",url:"modules.html"},
-{text:"クラス",url:"annotated.html",children:[
-{text:"クラス一覧",url:"annotated.html"},
-{text:"クラス索引",url:"classes.html"},
-{text:"クラスメンバ",url:"functions.html",children:[
+{text:"データ構造",url:"annotated.html",children:[
+{text:"データ構造",url:"annotated.html"},
+{text:"データ構造索引",url:"classes.html"},
+{text:"データフィールド",url:"functions.html",children:[
 {text:"全て",url:"functions.html",children:[
 {text:"_",url:"functions.html#index__"},
 {text:"a",url:"functions.html#index_a"},
@@ -66,7 +66,7 @@ var menudata={children:[
 {text:"w",url:"functions_vars.html#index_w"}]}]}]},
 {text:"ファイル",url:"files.html",children:[
 {text:"ファイル一覧",url:"files.html"},
-{text:"ファイルメンバ",url:"globals.html",children:[
+{text:"大域各種",url:"globals.html",children:[
 {text:"全て",url:"globals.html",children:[
 {text:"_",url:"globals.html#index__"},
 {text:"a",url:"globals_a.html#index_a"},
