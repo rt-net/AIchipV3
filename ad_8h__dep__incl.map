@@ -1,5 +1,0 @@
-<map id="inc/PERIPHERAL/ad.h" name="inc/PERIPHERAL/ad.h">
-<area shape="rect" id="node2" href="$main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node3" href="$_user_interface_8c.html" title="LED,SW,電源電圧の監視等の機能の実装 &#160;&#160;" alt="" coords="159,80,336,107"/>
-<area shape="rect" id="node4" href="$mode__control_run_8c.html" title="コースの状況に応じてモーターのdutyを変えながら走るモード &#160;&#160;////操作//// &#160;右SW: スタート,ストップの切り替え &#160;左SW: 長押しでモード選択へ遷移 &#160;" alt="" coords="360,80,559,107"/>
-</map>

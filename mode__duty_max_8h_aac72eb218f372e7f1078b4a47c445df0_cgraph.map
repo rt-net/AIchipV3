@@ -1,9 +1,0 @@
-<map id="mode_dutyMax" name="mode_dutyMax">
-<area shape="rect" id="node2" href="$debug_8h.html#acb52286c12863b103cc835c3d8310773" title="myPrintfUART" alt="" coords="174,5,278,32"/>
-<area shape="rect" id="node4" href="$_system_tick_timer_8h.html#a18af7476504a76def67727301e3968fb" title="wait1msec" alt="" coords="184,56,268,83"/>
-<area shape="rect" id="node5" href="$_user_interface_8h.html#afddcda2cc345e2479db8d5eea0a1790e" title="getRightSWcount" alt="" coords="164,107,288,133"/>
-<area shape="rect" id="node6" href="$_user_interface_8h.html#a2ffa5149729f4001be7eaf84bc236470" title="turnGreenLED" alt="" coords="174,157,278,184"/>
-<area shape="rect" id="node7" href="$_a_i_c_h_i_p_function_8h.html#a16a8ac093266a9997a930691fccfc9bd" title="setDutyMotor" alt="" coords="176,208,276,235"/>
-<area shape="rect" id="node8" href="$_user_interface_8h.html#a8c483926268bba9b2588a89c5c147d42" title="getLeftSWcount" alt="" coords="169,259,283,285"/>
-<area shape="rect" id="node3" href="$uart_8h.html#ae8554b16d7597ea89092ecf98071508e" title="UARTSend" alt="" coords="336,5,423,32"/>
-</map>

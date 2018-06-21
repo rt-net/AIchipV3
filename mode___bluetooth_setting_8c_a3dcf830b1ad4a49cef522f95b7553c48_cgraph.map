@@ -1,8 +1,0 @@
-<map id="mode_BluetoothSetting" name="mode_BluetoothSetting">
-<area shape="rect" id="node2" href="$_user_interface_8h.html#a2ffa5149729f4001be7eaf84bc236470" title="turnGreenLED" alt="" coords="216,5,320,32"/>
-<area shape="rect" id="node3" href="$debug_8h.html#acb52286c12863b103cc835c3d8310773" title="myPrintfUART" alt="" coords="216,56,320,83"/>
-<area shape="rect" id="node5" href="$_system_tick_timer_8h.html#a18af7476504a76def67727301e3968fb" title="wait1msec" alt="" coords="226,107,310,133"/>
-<area shape="rect" id="node6" href="$_user_interface_8h.html#a8c483926268bba9b2588a89c5c147d42" title="getLeftSWcount" alt="" coords="211,157,325,184"/>
-<area shape="rect" id="node7" href="$_a_i_c_h_i_p_function_8h.html#a16a8ac093266a9997a930691fccfc9bd" title="setDutyMotor" alt="" coords="218,208,318,235"/>
-<area shape="rect" id="node4" href="$uart_8h.html#ae8554b16d7597ea89092ecf98071508e" title="UARTSend" alt="" coords="373,56,460,83"/>
-</map>

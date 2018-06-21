@@ -1,9 +1,0 @@
-<map id="src/MODE/mode_controlRun.c" name="src/MODE/mode_controlRun.c">
-<area shape="rect" id="node2" href="$mode__debug_8h.html" title="mode_Debug.h" alt="" coords="5,80,115,107"/>
-<area shape="rect" id="node3" href="$type_8h.html" title="type.h" alt="" coords="139,80,197,107"/>
-<area shape="rect" id="node4" href="$_a_i_c_h_i_p_function_8h.html" title="AICHIPFunction.h" alt="" coords="221,80,347,107"/>
-<area shape="rect" id="node5" href="$_user_interface_8h.html" title="UserInterface.h" alt="" coords="371,80,480,107"/>
-<area shape="rect" id="node6" href="$_system_tick_timer_8h.html" title="SystemTickTimer.h" alt="" coords="505,80,639,107"/>
-<area shape="rect" id="node7" href="$debug_8h.html" title="debug.h" alt="" coords="663,80,731,107"/>
-<area shape="rect" id="node8" href="$ad_8h.html" title="ad.h" alt="" coords="755,80,802,107"/>
-</map>

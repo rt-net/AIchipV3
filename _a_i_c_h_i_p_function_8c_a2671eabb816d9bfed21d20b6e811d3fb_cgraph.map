@@ -1,9 +1,0 @@
-<map id="debugAICHIP" name="debugAICHIP">
-<area shape="rect" id="node2" href="$debug_8h.html#acb52286c12863b103cc835c3d8310773" title="myPrintfUART" alt="" coords="152,5,256,32"/>
-<area shape="rect" id="node4" href="$_a_i_c_h_i_p_function_8c.html#a10b8de93cea8fa939e37425aeba9b359" title="getDutyMotor" alt="" coords="154,56,254,83"/>
-<area shape="rect" id="node5" href="$_a_i_c_h_i_p_function_8c.html#a5950f91900fdb042d2c1117d08fc896f" title="getDegree" alt="" coords="163,107,245,133"/>
-<area shape="rect" id="node6" href="$_a_i_c_h_i_p_function_8c.html#ad035ccd72a2ed5a3b9f0e74ac990de0a" title="isStop" alt="" coords="175,157,233,184"/>
-<area shape="rect" id="node7" href="$_a_i_c_h_i_p_function_8c.html#a7afd5477ecdbb4c1f8dc0ed7176895de" title="isCurve" alt="" coords="172,208,236,235"/>
-<area shape="rect" id="node8" href="$_a_i_c_h_i_p_function_8c.html#a11ac35fcddba4622c818c39a65d7b5a3" title="isSlope" alt="" coords="171,259,237,285"/>
-<area shape="rect" id="node3" href="$uart_8h.html#ae8554b16d7597ea89092ecf98071508e" title="UARTSend" alt="" coords="304,5,391,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="writeNbyteEEPROM" name="writeNbyteEEPROM">
-<area shape="rect" id="node2" href="$mpu9250_8c.html#ae614aca57612ac1158164a1ab6f73ca3" title="writeEEPROMOffsetAccInt" alt="" coords="203,5,380,32"/>
-<area shape="rect" id="node3" href="$mpu9250_8c.html#aba705c4f603e68a4b0a6763050f384a0" title="writeEEPROMOffsetOmegaInt" alt="" coords="193,56,389,83"/>
-<area shape="rect" id="node4" href="$mpu9250_8c.html#af1ca931e223bcce03fb992224fc18596" title="writeEEPROMOffsetMagInt" alt="" coords="202,107,381,133"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="readEEPROMOffsetAccInt" name="readEEPROMOffsetAccInt">
-<area shape="rect" id="node2" href="$mpu9250_8c.html#a497db0f06ddaa6cb49582485abfbb05b" title="initOffsetByEEPROM" alt="" coords="228,5,375,32"/>
-<area shape="rect" id="node3" href="$main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="423,5,461,32"/>
-<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="509,5,560,32"/>
-</map>

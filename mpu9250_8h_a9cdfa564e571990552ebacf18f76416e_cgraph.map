@@ -1,6 +1,0 @@
-<map id="readEEPROMOffsetMagInt" name="readEEPROMOffsetMagInt">
-<area shape="rect" id="node2" href="$_e_e_p_r_o_m__24_l_c16_b_t___i_8h.html#a3c4f4e4eb64269a8b8d4c82bc475c57c" title="readNbyteEEPROM" alt="" coords="231,31,369,57"/>
-<area shape="rect" id="node3" href="$i2c_8h.html#a0036f04c55d6d2118405ca42632bdbd4" title="I2CEngine" alt="" coords="417,31,499,57"/>
-<area shape="rect" id="node4" href="$i2c_8c.html#a7c87427cfa767315491db0a0c005ec59" title="I2CStart" alt="" coords="547,5,616,32"/>
-<area shape="rect" id="node5" href="$i2c_8c.html#a7b1d12f3a83330eda885db24a701e1b5" title="I2CStop" alt="" coords="547,56,615,83"/>
-</map>

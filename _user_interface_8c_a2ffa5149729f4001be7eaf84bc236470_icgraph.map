@@ -1,8 +1,0 @@
-<map id="turnGreenLED" name="turnGreenLED">
-<area shape="rect" id="node2" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="363,10,413,37"/>
-<area shape="rect" id="node3" href="$main_8c.html#a2858154e2009b0e6e616f313177762bc" title="init" alt="" coords="217,35,255,62"/>
-<area shape="rect" id="node4" href="$mode___bluetooth_setting_8c.html#a3dcf830b1ad4a49cef522f95b7553c48" title="mode_BluetoothSetting" alt="" coords="157,86,315,113"/>
-<area shape="rect" id="node5" href="$mode__control_run_8c.html#a29f463c22bc67d42c62f5bac44fad178" title="mode_controlRun" alt="" coords="175,137,297,163"/>
-<area shape="rect" id="node6" href="$mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="188,187,284,214"/>
-<area shape="rect" id="node7" href="$mode__duty_max_8c.html#aac72eb218f372e7f1078b4a47c445df0" title="mode_dutyMax" alt="" coords="181,238,291,265"/>
-</map>

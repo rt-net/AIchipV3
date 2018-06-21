@@ -1,6 +1,0 @@
-<map id="setDutyMotor" name="setDutyMotor">
-<area shape="rect" id="node2" href="$mode___bluetooth_setting_8c.html#a3dcf830b1ad4a49cef522f95b7553c48" title="mode_BluetoothSetting" alt="" coords="153,5,311,32"/>
-<area shape="rect" id="node3" href="$mode__control_run_8c.html#a29f463c22bc67d42c62f5bac44fad178" title="mode_controlRun" alt="" coords="171,56,293,83"/>
-<area shape="rect" id="node4" href="$mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="184,107,280,133"/>
-<area shape="rect" id="node5" href="$mode__duty_max_8c.html#aac72eb218f372e7f1078b4a47c445df0" title="mode_dutyMax" alt="" coords="177,157,287,184"/>
-</map>

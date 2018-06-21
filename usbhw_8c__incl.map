@@ -1,8 +1,0 @@
-<map id="src/USB/usbhw.c" name="src/USB/usbhw.c">
-<area shape="rect" id="node3" href="$usb_8h.html" title="usb.h" alt="" coords="116,80,171,107"/>
-<area shape="rect" id="node4" href="$usbcfg_8h.html" title="usbcfg.h" alt="" coords="195,80,265,107"/>
-<area shape="rect" id="node5" href="$usbreg_8h.html" title="usbreg.h" alt="" coords="290,80,362,107"/>
-<area shape="rect" id="node6" href="$usbhw_8h.html" title="usbhw.h" alt="" coords="387,80,457,107"/>
-<area shape="rect" id="node7" href="$usbcore_8h.html" title="usbcore.h" alt="" coords="481,80,560,107"/>
-<area shape="rect" id="node8" href="$usbuser_8h.html" title="usbuser.h" alt="" coords="584,80,663,107"/>
-</map>

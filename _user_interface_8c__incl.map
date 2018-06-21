@@ -1,8 +1,0 @@
-<map id="src/AICHIP/UserInterface.c" name="src/AICHIP/UserInterface.c">
-<area shape="rect" id="node3" href="$core__cm3_8h.html" title="CMSIS Cortex&#45;M3 Core Peripheral Access Layer Header File " alt="" coords="117,80,207,107"/>
-<area shape="rect" id="node5" href="$timer_8h.html" title="timer.h" alt="" coords="232,80,295,107"/>
-<area shape="rect" id="node6" href="$type_8h.html" title="type.h" alt="" coords="319,80,378,107"/>
-<area shape="rect" id="node7" href="$pwm_8h.html" title="pwm.h" alt="" coords="403,80,463,107"/>
-<area shape="rect" id="node8" href="$_user_interface_8h.html" title="UserInterface.h" alt="" coords="487,80,597,107"/>
-<area shape="rect" id="node9" href="$ad_8h.html" title="ad.h" alt="" coords="621,80,668,107"/>
-</map>

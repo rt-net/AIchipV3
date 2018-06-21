@@ -1,8 +1,0 @@
-<map id="getLeftSWcount" name="getLeftSWcount">
-<area shape="rect" id="node2" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="221,5,272,32"/>
-<area shape="rect" id="node3" href="$_user_interface_8c.html#a79d499af646fa4451b1edc01dac956d8" title="debugUI" alt="" coords="212,56,281,83"/>
-<area shape="rect" id="node4" href="$mode__debug_8c.html#ac22e22d84393eaec5e34c448eb663299" title="mode_debug" alt="" coords="373,81,469,108"/>
-<area shape="rect" id="node5" href="$mode___bluetooth_setting_8c.html#a3dcf830b1ad4a49cef522f95b7553c48" title="mode_BluetoothSetting" alt="" coords="168,157,325,184"/>
-<area shape="rect" id="node6" href="$mode__control_run_8c.html#a29f463c22bc67d42c62f5bac44fad178" title="mode_controlRun" alt="" coords="185,208,308,235"/>
-<area shape="rect" id="node7" href="$mode__duty_max_8c.html#aac72eb218f372e7f1078b4a47c445df0" title="mode_dutyMax" alt="" coords="191,259,302,285"/>
-</map>

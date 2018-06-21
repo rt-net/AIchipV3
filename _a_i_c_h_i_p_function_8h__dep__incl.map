@@ -1,9 +1,0 @@
-<map id="inc/AICHIP/AICHIPFunction.h" name="inc/AICHIP/AICHIPFunction.h">
-<area shape="rect" id="node2" href="$_a_i_c_h_i_p_function_8c.html" title="モーターの回転, 機体データの送信, コマンドの受信 &#160;&#160;10msec毎に割り込み関数で処理を実行 ..." alt="" coords="5,80,199,107"/>
-<area shape="rect" id="node3" href="$main_8c.html" title="RT&#45;AICHIPのサンプルプログラム &#160;" alt="" coords="223,80,352,107"/>
-<area shape="rect" id="node4" href="$mode___bluetooth_setting_8c.html" title="Bluetoothモジュールのボーレート等を設定する. &#160;//設定項目// &#160;Bluetoothデバイス名:RT&#45;AICHIP &#160;&#160;ボーレー�..." alt="" coords="376,80,609,107"/>
-<area shape="rect" id="node5" href="$mode__control_run_8c.html" title="コースの状況に応じてモーターのdutyを変えながら走るモード &#160;&#160;////操作//// &#160;右SW: スタート,ストップの切り替え &#160;左SW: 長押しでモード選択へ遷移 &#160;" alt="" coords="633,80,832,107"/>
-<area shape="rect" id="node6" href="$mode__debug_8c.html" title="デバッグ用モード. データを出力し続ける &#160;&#160;////操作//// &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="856,80,1028,107"/>
-<area shape="rect" id="node7" href="$mode__duty_max_8c.html" title="src/MODE/mode_dutyMax.c" alt="" coords="1053,80,1239,107"/>
-<area shape="rect" id="node8" href="$mode__select_duty_8c.html" title="dutyを選択して走るモード &#160;&#160;////操作//// &#160;右SW: dutyの変更 &#160;左SW: 長押しでモード選択へ遷移 &#160;..." alt="" coords="1264,80,1463,107"/>
-</map>
