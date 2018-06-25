@@ -55,7 +55,7 @@ processingの導入方法等についてはmanualフォルダ内のAI_CHIP_V3_ma
 
 ### アプリ機能
   
- * AIミニ四駆へ、複数のUIで命令が出せる  
+ * AIチップへ、複数のUIで命令が出せる  
  * モーター速度コントロール用シークバー  
  * モーターの前進、後進、停止ボタン  
  * LED点灯用ボタン  
@@ -72,7 +72,7 @@ processingの導入方法等についてはmanualフォルダ内のAI_CHIP_V3_ma
 
  * AI_CHIP_V3_manual.pdf
    * 製品ついての基本的な説明とprosessing, bluetoothモジュールに関する記述です.      
- * AIチップ配線マニュアルver1.0.pdf  
+ * AIチップV3配線マニュアルver1.0.pdf  
    * AIチップ制御ボードと電池, モーターの配線方法について記述です.
  * AIチップ_MCUXpresso環境構築方法.pdf  
    * AIチップ上のマイコンでプログラミングをする際に参照してください. 
