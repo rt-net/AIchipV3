@@ -38,6 +38,23 @@ AI Chipの回路図です.
 
 
 
+## manual  
+
+### 概要
+
+各種マニュアルです.  お使いになられる前にマニュアルを熟読してください.
+
+### ファイル内容
+
+ * AIChipV3_manual_20180717.pdf
+   * 製品ついての基本的な説明とprosessing等サンプルプログラムの使用方法に関する記述です.      
+ * AIChipV3_wiring-manual_20180717.pdf  
+   * AI Chip制御ボードと電池, モーターの配線方法について記述です. 
+ * AIChipV3_MCUXpresso_20180717.pdf  
+   * AI Chip上のマイコンでプログラミングをする際に参照してください. 
+
+
+
 ## Processing  
 
 ### 概要
