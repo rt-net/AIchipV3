@@ -1,23 +1,15 @@
 # AIchipV3
 
-本リポジトリはAIチップV3に関する資料およびサンプルプログラムを
+本リポジトリはAI Chip V3（以下AI Chip）に関する資料およびサンプルプログラムを
 まとめたものです.  各種ファイルの内容は以下になります.  
-
-## circuit  
-AIチップの回路図です.
-
-### ファイル内容
-
- * AIchipV3-MainBoard    メイン基板の回路図      
- * AIchipV3-MotorDriver  モータドライバモジュールの回路図
 
 
 ## MCUXpresso  
 
 ### 概要
 
-[MCUpresso](https://www.nxp.com/jp/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE) はAIチップボード上の制御マイコン(lpc1343)の統合開発環境です.     
-出荷時にAIチップには基本的な動作を実現するためのファームウェアが書き込まれています.  
+[MCUpresso](https://www.nxp.com/jp/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE) はAI Chipボード上の制御マイコン(lpc1343)の統合開発環境です.     
+出荷時にAI Chipには基本的な動作を実現するためのファームウェアが書き込まれています.  
 このファームウェアのプロジェクトファイルが本フォルダに入っています.
 本プロジェクトファイルのソースの関数などについては以下に記述があります.  
 <http://rt-net.github.io/AIchipV3/>   
@@ -31,8 +23,18 @@ AIチップの回路図です.
 
 ## firmware
 
-AIチップ上のマイコンに出荷時点で書き込まれている
+AI Chip上のマイコンに出荷時点で書き込まれている
 ファームウェアです.
+
+
+
+## circuit  
+AI Chipの回路図です.
+
+### ファイル内容
+
+ * AIchipV3-MainBoard    メイン基板の回路図      
+ * AIchipV3-MotorDriver  モータドライバモジュールの回路図
 
 
 
@@ -42,16 +44,15 @@ AIチップ上のマイコンに出荷時点で書き込まれている
 
 [processing](https://processing.org/)とはarudinoのようにC言語likeな文法で簡単なプログラミングができる言語です.   
 グラフィック等の表示が比較的に簡単にできるのでちょっとしたプログラミングに適しています.  
-AIチップのいくつかのサンプルはprocessingを用いて記述されています.  
-processingの導入方法等についてはmanualフォルダ内のAI_CHIP_V3_manual.pdfを参照してください.  
+AI Chipのいくつかのサンプルはprocessingを用いて記述されています.  .  
 
 
 ### ファイル内容
 
- * sample controller　Bluetooth経由でPCからAIチップの速度やLEDの点灯をコントロールするサンプル      
- * sample logger    　Bluetooth経由でPCからAIチップのデータをリアルタイムでグラフに表示するサンプル
- * sample App       　Bluetooth経由でPCからAIチップを動かす最小限のサンプル(矢印キーでモーターの速度変更)
- * sample recieve     Bluetooth経由でAIチップからデータを受信する際の最低限のサンプル
+ * sample controller　Bluetooth経由でPCからAI Chipの速度やLEDの点灯をコントロールするサンプル      
+ * sample logger    　Bluetooth経由でPCからAI Chipのデータをリアルタイムでグラフに表示するサンプル
+ * sample App       　Bluetooth経由でPCからAI Chipを動かす最小限のサンプル(矢印キーでモーターの速度変更)
+ * sample recieve     Bluetooth経由でAI Chipからデータを受信する際の最低限のサンプル
 
 
 
@@ -60,12 +61,12 @@ processingの導入方法等についてはmanualフォルダ内のAI_CHIP_V3_ma
 
 ### 概要
 
-　Bluetooth経由でAndoroid端末からAIチップをコントロールするサンプルプログラムです.  
+　Bluetooth経由でAndoroid端末からAI Chipをコントロールするサンプルプログラムです.  
 　このサンプルプログラムはAndroid Studio(統合開発環境)用です.
 
 ### アプリ機能
   
- * AIチップへ、複数のUIで命令が出せる  
+ * AI Chipへ、複数のUIで命令が出せる  
  * モーター速度コントロール用シークバー  
  * モーターの前進、後進、停止ボタン  
  * LED点灯用ボタン  
