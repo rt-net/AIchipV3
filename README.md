@@ -29,6 +29,13 @@ AIチップの回路図です.
 
 
 
+## firmware
+
+AIチップ上のマイコンに出荷時点で書き込まれている
+ファームウェアです.
+
+
+
 ## Processing  
 
 ### 概要
@@ -46,11 +53,6 @@ processingの導入方法等についてはmanualフォルダ内のAI_CHIP_V3_ma
  * sample App       　Bluetooth経由でPCからAIチップを動かす最小限のサンプル(矢印キーでモーターの速度変更)
  * sample recieve     Bluetooth経由でAIチップからデータを受信する際の最低限のサンプル
 
-
-## firmware
-
-AIチップ上のマイコンに出荷時点で書き込まれている
-ファームウェアです.
 
 
 
