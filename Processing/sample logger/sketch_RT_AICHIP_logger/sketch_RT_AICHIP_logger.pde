@@ -28,7 +28,6 @@ Range range;
 
 boolean flag_DISCONNECT_button_created = false;
 boolean flag_CONNECT_button_created    = false;
-boolean flag_CLEAR_button_created = false;
 String com_port;  
 
 //各種グラフ

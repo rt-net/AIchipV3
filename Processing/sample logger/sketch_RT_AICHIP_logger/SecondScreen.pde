@@ -33,56 +33,14 @@ int[] inByte  = new int[100];
 
     background(0);
     noStroke();
-    comp  = new ComPortConnection(20, 20, "COM4", cp5);
+    comp  = new ComPortConnection(20, 20, "COM21", cp5);
     mta1  = new myTextarea(20, 230, 200, 200, cp5, "mta1" );
     mta2  = new myTextarea(230, 230, 200, 200, cp5, "mta2" );
     
     mta1.println("Hello !");
     mta1.println("Here is Aprication console. ");
     mta2.println("Hello !!");
-
-
-    range = cp5.addRange("RANGEGRAPH")
-      .setBroadcast(false) 
-        .setPosition(20, 140)
-          .setSize(400, 20)
-            .setHandleSize(20)
-              .setRange(0, 1800)
-                .setRangeValues(0, 30)
-                  .setBroadcast(true)
-                    .setColorForeground(color(255, 40))
-                      .setColorBackground(color(255, 40))  
-                        .setHandleSize(0)
-                          ;
-                          
-   cp5.addButton("CLEAR")
-      .setValue(1)
-        .setPosition(20, 180)
-          .setSize(200, 40)
-            ;
-            
-   cp5.getController("CLEAR")
-      .getCaptionLabel()
-        .setFont(font)
-          .toUpperCase(false)
-            .setSize(24)
-              ;       
-            
-   cp5.addButton("SAVE as csv")
-      .setValue(1)
-        .setPosition(230, 180)
-          .setSize(200, 40)
-            ;
-            
-   cp5.getController("SAVE as csv")
-      .getCaptionLabel()
-        .setFont(font)
-          .toUpperCase(false)
-            .setSize(24)
-              ;               
-            
-            
-                          
+                 
   }
 
   public void draw() {
@@ -94,19 +52,15 @@ int[] inByte  = new int[100];
     
   }
   
-
-
-
-
-  public void controlEvent(ControlEvent theEvent) {
-
+    public void controlEvent(ControlEvent theEvent) {
+  
     println(theEvent.getController().getName());
-
+  
     if (theEvent.getController().getName() == "CONNECT"  )
     {
       if (flag_CONNECT_button_created == true) {
         mta1.println("Now connecting ...");
-
+  
         try {
           port = new Serial(this, com_port, 115200);  // select port
           mta1.println("Connection is successful");
@@ -117,13 +71,13 @@ int[] inByte  = new int[100];
           comp.changeBoxColor(color(0, 155, 255, 50));
         }
       }
-
+  
       if (flag_CONNECT_button_created == false) flag_CONNECT_button_created = true;
     }
-
+  
     if (theEvent.getController().getName() == "DISCONNECT" )
     {
-
+  
       if (flag_DISCONNECT_button_created == true) {
         try {
           port.stop();
@@ -135,70 +89,10 @@ int[] inByte  = new int[100];
           comp.changeBoxColor(color(0, 155, 255, 50));
         }
       }
-
+  
       if (flag_DISCONNECT_button_created == false) flag_DISCONNECT_button_created = true;
     }
-
-  if (theEvent.getController().getName() == "CLEAR" )
-    {
-
-      if (flag_CLEAR_button_created == true) {
-        try {
-          mta1.println("Buffer is cleared.");
-          gyro_graph.clear();
-          acc_graph.clear();
-          mag_graph.clear();
-          state_graph.clear();
-          deg_graph.clear();
-          duty_graph.clear();
-          voltage_graph.clear();
-          temp_graph.clear();
-          
-        }
-        catch (NullPointerException e) {
-          mta1.println("buffer clearing is fail.");
-          
-        }
-      }
-
-      if (flag_CLEAR_button_created == false) flag_CLEAR_button_created = true;
-    }
-
-
-
-
-    if (theEvent.getController().getName() == "RANGEGRAPH" ) {
-
-      gyro_graph.range_L = range.getLowValue();
-      gyro_graph.range_H = range.getHighValue();
-
-      acc_graph.range_L = range.getLowValue();
-      acc_graph.range_H = range.getHighValue();
-
-      mag_graph.range_L = range.getLowValue();
-      mag_graph.range_H = range.getHighValue();
-
-      state_graph.range_L = range.getLowValue();
-      state_graph.range_H = range.getHighValue();
-
-      deg_graph.range_L = range.getLowValue();
-      deg_graph.range_H = range.getHighValue();
-
-      duty_graph.range_L = range.getLowValue();
-      duty_graph.range_H = range.getHighValue();
-
-      voltage_graph.range_L = range.getLowValue();
-      voltage_graph.range_H = range.getHighValue();
-
-      temp_graph.range_L = range.getLowValue();
-      temp_graph.range_H = range.getHighValue();
-    }
   }
-
-
-
-
-
 
   int concatenate2Byte_int(int H_byte, int L_byte) {
     int con; 
