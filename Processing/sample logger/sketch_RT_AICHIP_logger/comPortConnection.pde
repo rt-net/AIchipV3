@@ -48,7 +48,7 @@ class ComPortConnection {
           .setFont(createFont("arial", 20))
             .setAutoClear(false)
               .setCaptionLabel("");
-    ;
+                ;
     tf.setText(default_comPort);
  
   }

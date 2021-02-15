@@ -7,6 +7,7 @@ public class PFrame extends JFrame {
     setBounds(100, 100, width, height);
     setLocationRelativeTo(null);
     s = new SecondApplet();
+    s.setframesize(width,height);
     add(s);
 
     s.init();
@@ -20,7 +21,9 @@ public class SecondApplet extends PApplet {
   myTextarea mta1, mta2;
   
   int[] buf     = new int[100];
-int[] inByte  = new int[100];
+  int[] inByte  = new int[100];
+  int width;
+  int height;
 //int[] ad_new  = new int[100];
 //int[] ad_base = new int[100];
 
@@ -29,11 +32,12 @@ int[] inByte  = new int[100];
     ControlFont font = new ControlFont(pfont, 241);
 
   public void setup() {
+    size(width,height);
     cp5 = new ControlP5(this);
-
+    
     background(0);
     noStroke();
-    comp  = new ComPortConnection(20, 20, "COM21", cp5);
+    comp  = new ComPortConnection(20, 20, "COM28", cp5);
     mta1  = new myTextarea(20, 230, 200, 200, cp5, "mta1" );
     mta2  = new myTextarea(230, 230, 200, 200, cp5, "mta2" );
     
@@ -45,14 +49,19 @@ int[] inByte  = new int[100];
 
   public void draw() {
     background(0);
-
+    
     mta1.update();
     mta2.update();
     comp.drawUI();
     
   }
   
-    public void controlEvent(ControlEvent theEvent) {
+  public void setframesize(int wid,int hei){
+    width = wid;
+    height = hei; 
+  }
+  
+  public void controlEvent(ControlEvent theEvent) {
   
     println(theEvent.getController().getName());
   
@@ -76,8 +85,8 @@ int[] inByte  = new int[100];
     }
   
     if (theEvent.getController().getName() == "DISCONNECT" )
-    {
-  
+    {  
+
       if (flag_DISCONNECT_button_created == true) {
         try {
           port.stop();
@@ -194,67 +203,5 @@ int[] inByte  = new int[100];
     
   }
    
-  
-  /**
-   * キーボードを押したときに呼ばれる関数
-   * 右キー,左キーでグラフの描画領域をx方向にシフトさせる
-   * @param event
-   * @return void
-   */
-  void keyPressed() {
-    println(str(key));
-    if (keyCode == LEFT) {
-
-      gyro_graph.range_L -= 0.05; 
-      gyro_graph.range_H -= 0.05;
-
-      acc_graph.range_L -= 0.05;
-      acc_graph.range_H -= 0.05;
-
-      mag_graph.range_L -= 0.05;
-      mag_graph.range_H -= 0.05;
-
-      state_graph.range_L -= 0.05;
-      state_graph.range_H -= 0.05;
-
-      deg_graph.range_L -= 0.05;
-      deg_graph.range_H -= 0.05;
-
-      duty_graph.range_L -= 0.05;
-      duty_graph.range_H -= 0.05;
-
-      voltage_graph.range_L -= 0.05;
-      voltage_graph.range_H -= 0.05;
-
-      temp_graph.range_L -= 0.05;
-      temp_graph.range_H -= 0.05;
-    }
-
-    if (keyCode == RIGHT) {
-      gyro_graph.range_L += 0.05; 
-      gyro_graph.range_H += 0.05;
-
-      acc_graph.range_L += 0.05;
-      acc_graph.range_H += 0.05;
-
-      mag_graph.range_L += 0.05;
-      mag_graph.range_H += 0.05;
-
-      state_graph.range_L += 0.05;
-      state_graph.range_H += 0.05;
-
-      deg_graph.range_L += 0.05;
-      deg_graph.range_H += 0.05;
-
-      duty_graph.range_L += 0.05;
-      duty_graph.range_H += 0.05;
-
-      voltage_graph.range_L += 0.05;
-      voltage_graph.range_H += 0.05;
-
-      temp_graph.range_L += 0.05;
-      temp_graph.range_H += 0.05;
-    }
-  }
 }
 

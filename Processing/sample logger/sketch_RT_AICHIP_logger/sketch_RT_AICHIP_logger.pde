@@ -88,12 +88,7 @@ int default_height = 1000;
  * @return void
  */
 void setup() 
-{
-  //2画面にするための処理
-  f = new PFrame(500, 500);
-  f.setTitle("control window");
-  
-  
+{  
   //ボタン等のUIを使用するためのクラス
   ControlP5 cp5 = new ControlP5(this);
   
@@ -101,7 +96,7 @@ void setup()
   scale_change = (displayWidth * 0.9) /default_width;
   int wid = (int)(displayWidth * 0.9);
   int hei = (int)(default_height*scale_change  );
-  
+ 
   if(hei < displayHeight *0.9){
     size(wid,hei); 
   }
@@ -111,12 +106,16 @@ void setup()
     hei = (int)( (float)default_height * scale_change);
     size(wid,hei); 
   }
-  
+
   //画面等の初期化
   background(0);
   frameRate(60);
   PFont  myfont = createFont( "Arial" , 30 );
   textFont( myfont );
+  
+  //2画面にするための処理
+  f = new PFrame(500, 500);
+  f.setTitle("control window");
   
   //各種グラフをframeに追加
   
